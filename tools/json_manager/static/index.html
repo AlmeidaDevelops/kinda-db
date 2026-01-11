@@ -78,7 +78,15 @@
               📝 Importar descripciones como sinopsis (más lento pero incluye sinopsis automáticas)
             </label>
           </div>
-          <div id="importPreview"></div>
+          <div id="importProgress" class="progress-container" style="display: none; margin-top: 1rem;">
+            <div class="progress-bar">
+                <div id="importProgressBar" class="progress-fill" style="width: 0%"></div>
+            </div>
+            <p id="importProgressText" style="margin-top: 0.5rem; font-size: 0.9rem; color: var(--text-secondary);">
+                Iniciando importación...
+            </p>
+          </div>
+          <div id="importPreview" style="margin-top: 1rem;"></div>
         </div>
         <div class="modal-footer">
           <button class="btn btn-secondary" onclick="previewPlaylist()">

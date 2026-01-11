@@ -3,11 +3,12 @@ Series JSON Manager - Backend Flask
 Herramienta visual para gestionar series_es.json
 """
 
-from flask import Flask, jsonify, request, send_from_directory
+from flask import Flask, jsonify, request, send_from_directory, Response
 import json
 import os
 import subprocess
 import re
+import sys
 
 app = Flask(__name__, static_folder='static')
 
@@ -22,9 +23,36 @@ def load_series():
 
 
 def save_series(data):
-    """Guarda el archivo JSON de series"""
+    """Guarda el archivo JSON de series con las claves ordenadas (temporadas al final)"""
+    key_order = ['id', 'title', 'original_title', 'studio', 'release_year', 'genres', 'values', 'synopsis', 'images', 'seasons']
+    
+    if 'series' in data:
+        new_series_list = []
+        for s in data['series']:
+            ordered_s = {}
+            # Agregar claves en el orden preferido
+            for key in key_order:
+                if key in s:
+                    ordered_s[key] = s[key]
+            # Agregar cualquier otra clave que no esté en la lista
+            for key in s:
+                if key not in ordered_s:
+                    ordered_s[key] = s[key]
+            new_series_list.append(ordered_s)
+        data['series'] = new_series_list
+
     with open(SERIES_JSON_PATH, 'w', encoding='utf-8') as f:
         json.dump(data, f, ensure_ascii=False, indent=4)
+
+
+def get_yt_dlp_path():
+    """Busca la ruta de yt-dlp, priorizando el entorno virtual"""
+    # Intentar buscar en la misma carpeta que el ejecutable de python (venv)
+    venv_bin = os.path.dirname(sys.executable)
+    local_yt_dlp = os.path.join(venv_bin, 'yt-dlp')
+    if os.path.isfile(local_yt_dlp) and os.access(local_yt_dlp, os.X_OK):
+        return local_yt_dlp
+    return 'yt-dlp'  # Fallback al PATH del sistema
 
 
 def clean_title(text):
@@ -67,64 +95,69 @@ def clean_title(text):
     return ' '.join(result)
 
 
+def get_youtube_data_stream(url, get_descriptions=False):
+    """Generador que usa yt-dlp para extraer datos de YouTube con progreso"""
+    yt_dl_cmd = get_yt_dlp_path()
+    
+    # 1. Obtener el conteo total primero (rápido)
+    try:
+        cmd_count = [yt_dl_cmd, '--flat-playlist', '--dump-single-json', url]
+        result = subprocess.run(cmd_count, capture_output=True, text=True, timeout=30)
+        playlist_info = json.loads(result.stdout)
+        total_videos = playlist_info.get('playlist_count') or len(playlist_info.get('entries', []))
+        yield json.dumps({'type': 'count', 'total': total_videos}) + '\n'
+    except Exception as e:
+        print(f"Error getting count: {e}")
+        # Si falla el conteo, seguimos sin él
+
+    # 2. Extraer videos uno a uno
+    cmd = [
+        yt_dl_cmd, '--dump-json', '--no-download',
+        '--no-warnings', '--ignore-errors', url
+    ]
+    if not get_descriptions:
+        cmd.append('--flat-playlist')
+
+    process = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
+    
+    videos = []
+    for line in process.stdout:
+        if line.strip():
+            try:
+                data = json.loads(line)
+                video = {
+                    'title': data.get('title', ''),
+                    'id': data.get('id', ''),
+                    'url': f"https://www.youtube.com/watch?v={data.get('id', '')}",
+                    'duration': data.get('duration', 0),
+                    'thumbnail': f"https://i.ytimg.com/vi/{data.get('id', '')}/hqdefault.jpg",
+                    'description': data.get('description', '') if get_descriptions else ''
+                }
+                videos.append(video)
+                yield json.dumps({'type': 'video', 'video': video, 'current': len(videos)}) + '\n'
+            except json.JSONDecodeError:
+                continue
+
+    process.wait()
+    yield json.dumps({'type': 'done', 'videos': videos}) + '\n'
+
+
 def get_youtube_data(url, is_playlist=False, get_descriptions=False):
-    """Usa yt-dlp para extraer datos de YouTube"""
+    """Usa yt-dlp para extraer datos de YouTube (Sincrónico)"""
+    yt_dlp_cmd = get_yt_dlp_path()
     try:
         if is_playlist:
-            if get_descriptions:
-                # Extracción completa para obtener descripciones (más lento)
-                cmd = [
-                    'yt-dlp', '--dump-json', '--no-download',
-                    '--no-warnings', '--ignore-errors', url
-                ]
-                result = subprocess.run(cmd, capture_output=True, text=True, timeout=300)
-                
-                videos = []
-                for line in result.stdout.strip().split('\n'):
-                    if line:
-                        try:
-                            data = json.loads(line)
-                            videos.append({
-                                'title': data.get('title', ''),
-                                'id': data.get('id', ''),
-                                'url': f"https://www.youtube.com/watch?v={data.get('id', '')}",
-                                'duration': data.get('duration', 0),
-                                'thumbnail': f"https://i.ytimg.com/vi/{data.get('id', '')}/hqdefault.jpg",
-                                'description': data.get('description', '')
-                            })
-                        except json.JSONDecodeError:
-                            continue
-                
-                return {'videos': videos}
-            else:
-                # Extracción rápida sin descripciones
-                cmd = [
-                    'yt-dlp', '--flat-playlist', '-j',
-                    '--no-warnings', url
-                ]
-                result = subprocess.run(cmd, capture_output=True, text=True, timeout=60)
-                
-                videos = []
-                for line in result.stdout.strip().split('\n'):
-                    if line:
-                        try:
-                            data = json.loads(line)
-                            videos.append({
-                                'title': data.get('title', ''),
-                                'id': data.get('id', ''),
-                                'url': f"https://www.youtube.com/watch?v={data.get('id', '')}", 
-                                'duration': data.get('duration', 0),
-                                'thumbnail': f"https://i.ytimg.com/vi/{data.get('id', '')}/hqdefault.jpg",
-                                'description': ''
-                            })
-                        except json.JSONDecodeError:
-                            continue
-                
-                return {'videos': videos}
+            # Reutilizamos el stream pero lo consumimos sincrónicamente
+            videos = []
+            for item in get_youtube_data_stream(url, get_descriptions):
+                data = json.loads(item)
+                if data['type'] == 'done':
+                    return {'videos': data['videos']}
+            return {'videos': []}
         else:
             # Extraer info del canal
             cmd = [
-                'yt-dlp', '--dump-single-json', '--playlist-items', '0',
+                yt_dlp_cmd, '--dump-single-json', '--playlist-items', '0',
                 '--no-warnings', url
             ]
             result = subprocess.run(cmd, capture_output=True, text=True, timeout=30)
@@ -193,6 +226,18 @@ def import_playlist():
     
     result = get_youtube_data(url, is_playlist=True, get_descriptions=get_descriptions)
     return jsonify(result)
+
+
+@app.route('/api/import/playlist/stream', methods=['POST'])
+def import_playlist_stream():
+    """Importar videos de una playlist de YouTube con streaming de progreso"""
+    url = request.json.get('url', '')
+    get_descriptions = request.json.get('get_descriptions', False)
+    
+    if not url:
+        return jsonify({'error': 'URL requerida'}), 400
+    
+    return Response(get_youtube_data_stream(url, get_descriptions), mimetype='application/x-ndjson')
 
 
 @app.route('/api/import/channel', methods=['POST'])

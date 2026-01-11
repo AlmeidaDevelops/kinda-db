@@ -5,6 +5,7 @@
 let seriesData = { series: [] };
 let currentSeries = null;
 let currentEditEpisode = null;
+let openSeasons = new Set();
 
 // === Initialization ===
 
@@ -17,6 +18,22 @@ async function loadSeriesData() {
         const response = await fetch('/api/series');
         seriesData = await response.json();
         renderSeriesList();
+        
+        // Restore state from localStorage
+        const savedSeriesId = localStorage.getItem('currentSeriesId');
+        if (savedSeriesId) {
+            const series = seriesData.series.find(s => s.id === savedSeriesId);
+            if (series) {
+                currentSeries = series;
+                const savedOpenSeasons = localStorage.getItem(`openSeasons_${savedSeriesId}`);
+                if (savedOpenSeasons) {
+                    openSeasons = new Set(JSON.parse(savedOpenSeasons));
+                }
+                renderSeriesList();
+                renderSeriesContent();
+            }
+        }
+        
         showToast('Datos cargados correctamente');
     } catch (error) {
         showToast('Error al cargar datos: ' + error.message, true);
@@ -48,6 +65,12 @@ function renderSeriesList() {
 
 function selectSeries(seriesId) {
     currentSeries = seriesData.series.find(s => s.id === seriesId);
+    
+    // Manage state
+    localStorage.setItem('currentSeriesId', seriesId);
+    const savedOpenSeasons = localStorage.getItem(`openSeasons_${seriesId}`);
+    openSeasons = savedOpenSeasons ? new Set(JSON.parse(savedOpenSeasons)) : new Set();
+    
     renderSeriesList();
     renderSeriesContent();
 }
@@ -119,27 +142,30 @@ function renderSeasons() {
         return '<div class="empty-state"><p>No hay temporadas. Importa una playlist para agregar una.</p></div>';
     }
 
-    return currentSeries.seasons.map((season, seasonIndex) => `
-        <div class="season" id="season-${seasonIndex}">
-            <div class="season-header" onclick="toggleSeason(${seasonIndex})">
-                <h3>
-                    <span contenteditable="true" 
-                          class="editable"
-                          onclick="event.stopPropagation()"
-                          onblur="updateSeasonTitle(${seasonIndex}, this.textContent)">${season.title}</span>
-                    <span class="episode-count">${season.episodes?.length || 0} episodios</span>
-                </h3>
-                <span class="chevron">▼</span>
+    return currentSeries.seasons.map((season, seasonIndex) => {
+        const isOpen = openSeasons.has(seasonIndex);
+        return `
+            <div class="season ${isOpen ? 'open' : ''}" id="season-${seasonIndex}">
+                <div class="season-header" onclick="toggleSeason(${seasonIndex})">
+                    <h3>
+                        <span contenteditable="true" 
+                              class="editable"
+                              onclick="event.stopPropagation()"
+                              onblur="updateSeasonTitle(${seasonIndex}, this.textContent)">${season.title}</span>
+                        <span class="episode-count">${season.episodes?.length || 0} episodios</span>
+                    </h3>
+                    <span class="chevron">▼</span>
+                </div>
+                <div class="episodes-list">
+                    ${renderEpisodes(season.episodes, seasonIndex)}
+                    <button class="btn btn-secondary btn-small" style="margin-top: 1rem;" 
+                            onclick="cleanAllTitles(${seasonIndex})">
+                        🧹 Limpiar todos los títulos
+                    </button>
+                </div>
             </div>
-            <div class="episodes-list">
-                ${renderEpisodes(season.episodes, seasonIndex)}
-                <button class="btn btn-secondary btn-small" style="margin-top: 1rem;" 
-                        onclick="cleanAllTitles(${seasonIndex})">
-                    🧹 Limpiar todos los títulos
-                </button>
-            </div>
-        </div>
-    `).join('');
+        `;
+    }).join('');
 }
 
 function renderEpisodes(episodes, seasonIndex) {
@@ -172,7 +198,18 @@ function renderEpisodes(episodes, seasonIndex) {
 
 function toggleSeason(index) {
     const seasonEl = document.getElementById(`season-${index}`);
-    seasonEl.classList.toggle('open');
+    const isOpen = seasonEl.classList.toggle('open');
+    
+    if (isOpen) {
+        openSeasons.add(index);
+    } else {
+        openSeasons.delete(index);
+    }
+    
+    // Save state
+    if (currentSeries) {
+        localStorage.setItem(`openSeasons_${currentSeries.id}`, JSON.stringify(Array.from(openSeasons)));
+    }
 }
 
 function updateSeriesField(field, value) {
@@ -305,56 +342,112 @@ async function importPlaylist() {
         return;
     }
 
-    showToast(getDescriptions ? 'Importando playlist con descripciones (esto puede tardar)...' : 'Importando playlist...');
+    const progressContainer = document.getElementById('importProgress');
+    const progressBar = document.getElementById('importProgressBar');
+    const progressText = document.getElementById('importProgressText');
+    const preview = document.getElementById('importPreview');
+
+    progressContainer.style.display = 'block';
+    preview.style.display = 'none';
+    progressBar.style.width = '0%';
+    progressText.textContent = 'Iniciando conexión...';
+
+    const videos = [];
+    let totalVideos = 0;
 
     try {
-        const response = await fetch('/api/import/playlist', {
+        const response = await fetch('/api/import/playlist/stream', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({ url, get_descriptions: getDescriptions })
         });
-        const data = await response.json();
 
-        if (data.error) {
-            showToast('Error: ' + data.error, true);
+        const reader = response.body.getReader();
+        const decoder = new TextDecoder();
+        let buffer = '';
+
+        while (true) {
+            const { value, done } = await reader.read();
+            if (done) break;
+
+            buffer += decoder.decode(value, { stream: true });
+            const lines = buffer.split('\n');
+            buffer = lines.pop();
+
+            for (const line of lines) {
+                if (!line.trim()) continue;
+                try {
+                    const data = JSON.parse(line);
+                    if (data.type === 'count') {
+                        totalVideos = data.total;
+                        progressText.textContent = `Encontrados ${totalVideos} videos. Extrayendo datos...`;
+                    } else if (data.type === 'video') {
+                        videos.push(data.video);
+                        const percent = totalVideos ? (videos.length / totalVideos) * 100 : 0;
+                        progressBar.style.width = `${percent}%`;
+                        progressText.textContent = `Importando video ${videos.length}${totalVideos ? ` de ${totalVideos}` : ''}: ${data.video.title}`;
+                    } else if (data.type === 'done') {
+                        // The final videos list is in data.videos
+                        finalizeImport(seriesId, seasonNumber, data.videos, getDescriptions);
+                        return;
+                    }
+                } catch (e) {
+                    console.error('Error parsing streaming line:', e, line);
+                }
+            }
+        }
+    } catch (error) {
+        showToast('Error en la importación: ' + error.message, true);
+        progressContainer.style.display = 'none';
+    }
+}
+
+function finalizeImport(seriesId, seasonNumber, videoData, getDescriptions) {
+    // Find target series
+    const targetSeries = seriesData.series.find(s => s.id === seriesId);
+    if (!targetSeries) return;
+
+    // Create new season
+    const newSeason = {
+        season_number: seasonNumber,
+        title: `Temporada ${seasonNumber}`,
+        episode_count: videoData.length,
+        episodes: videoData.map((video, idx) => ({
+            episode_number: idx + 1,
+            title: video.title,
+            duration: Math.round((video.duration || 0) / 60),
+            thumbnail: video.thumbnail,
+            sources: [{
+                type: 'youtube',
+                id: video.id,
+                url: video.url
+            }],
+            synopsis: video.description || ''
+        }))
+    };
+
+    if (!targetSeries.seasons) {
+        targetSeries.seasons = [];
+    }
+    
+    // Check if season already exists
+    const existingIndex = targetSeries.seasons.findIndex(s => s.season_number === seasonNumber);
+    if (existingIndex >= 0) {
+        if (confirm(`La temporada ${seasonNumber} ya existe. ¿Deseas reemplazarla?`)) {
+            targetSeries.seasons[existingIndex] = newSeason;
+        } else {
             return;
         }
-
-        // Find target series
-        const targetSeries = seriesData.series.find(s => s.id === seriesId);
-        if (!targetSeries) return;
-
-        // Create new season
-        const newSeason = {
-            season_number: seasonNumber,
-            title: `Temporada ${seasonNumber}`,
-            episode_count: data.videos.length,
-            episodes: data.videos.map((video, idx) => ({
-                episode_number: idx + 1,
-                title: video.title,
-                duration: Math.round((video.duration || 0) / 60),
-                thumbnail: video.thumbnail,
-                sources: [{
-                    type: 'youtube',
-                    id: video.id,
-                    url: video.url
-                }],
-                synopsis: video.description || ''
-            }))
-        };
-
-        if (!targetSeries.seasons) {
-            targetSeries.seasons = [];
-        }
+    } else {
         targetSeries.seasons.push(newSeason);
-
-        closeModal('importModal');
-        selectSeries(seriesId);
-        showToast(`Temporada importada: ${data.videos.length} episodios${getDescriptions ? ' con sinopsis' : ''}`);
-
-    } catch (error) {
-        showToast('Error: ' + error.message, true);
     }
+
+    // Reset UI
+    document.getElementById('importProgress').style.display = 'none';
+    document.getElementById('importPreview').style.display = 'block';
+    closeModal('importModal');
+    selectSeries(seriesId);
+    showToast(`Temporada importada: ${videoData.length} episodios${getDescriptions ? ' con sinopsis' : ''}`);
 }
 
 // === Channel Import ===

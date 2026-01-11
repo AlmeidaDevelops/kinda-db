@@ -25,1082 +25,2013 @@
             },
             "seasons": [
                 {
-                    "season_number": 1,
-                    "title": "Temporada 1",
                     "episode_count": 51,
                     "episodes": [
                         {
-                            "episode_number": 2,
-                            "title": "La fiesta de Mina",
                             "duration": 12,
-                            "thumbnail": "https://i.ytimg.com/vi/ACB9_cWZiBY/hqdefault.jpg",
+                            "episode_number": 2,
                             "sources": [
                                 {
-                                    "type": "youtube",
                                     "id": "ACB9_cWZiBY",
+                                    "type": "youtube",
                                     "url": "https://www.youtube.com/watch?v=ACB9_cWZiBY"
                                 }
                             ],
-                            "synopsis": "Mina quiere ser la chica más divertida y decide organizar la mejor fiesta de la historia de Jammbo. Inventa los Cuatro Divertidas Pasos para alcanzar la Máxima Diversión, pero su plan falla.  Tras esto Mina se relaja y descubre nuevas maneras de pasarlo bien dejando que las cosas sigan su curso."
+                            "synopsis": "Mina quiere ser la chica más divertida y decide organizar la mejor fiesta de la historia de Jammbo. Inventa los Cuatro Divertidas Pasos para alcanzar la Máxima Diversión, pero su plan falla.  Tras esto Mina se relaja y descubre nuevas maneras de pasarlo bien dejando que las cosas sigan su curso.",
+                            "thumbnail": "https://i.ytimg.com/vi/ACB9_cWZiBY/hqdefault.jpg",
+                            "title": "La fiesta de Mina"
                         },
                         {
-                            "episode_number": 3,
-                            "title": "Mamá Mina",
                             "duration": 12,
-                            "thumbnail": "https://i.ytimg.com/vi/yO_RuuzTHOw/hqdefault.jpg",
+                            "episode_number": 3,
                             "sources": [
                                 {
-                                    "type": "youtube",
                                     "id": "yO_RuuzTHOw",
+                                    "type": "youtube",
                                     "url": "https://www.youtube.com/watch?v=yO_RuuzTHOw"
                                 }
                             ],
-                            "synopsis": "Mina y Rita tienen que ayudar a un Dodo perdido. Rita, que dice ser una experta en Dodos, trata de ayudar pero sólo consigue complicar más las cosas. Mina y Rita recorren Jammbo sin éxito pero un un experimento fallido de Mina reúne al pequeño Dodo con sus padres. Aunque el Dodo vuelve a su hogar Mina ha logrado hacer un nuevo y pequeño amigo."
+                            "synopsis": "Mina y Rita tienen que ayudar a un Dodo perdido. Rita, que dice ser una experta en Dodos, trata de ayudar pero sólo consigue complicar más las cosas. Mina y Rita recorren Jammbo sin éxito pero un un experimento fallido de Mina reúne al pequeño Dodo con sus padres. Aunque el Dodo vuelve a su hogar Mina ha logrado hacer un nuevo y pequeño amigo.",
+                            "thumbnail": "https://i.ytimg.com/vi/yO_RuuzTHOw/hqdefault.jpg",
+                            "title": "Mamá Mina"
                         },
                         {
-                            "episode_number": 4,
-                            "title": "Promesas, promesas",
                             "duration": 12,
-                            "thumbnail": "https://i.ytimg.com/vi/V3wPbLXRUz8/hqdefault.jpg",
+                            "episode_number": 4,
                             "sources": [
                                 {
-                                    "type": "youtube",
                                     "id": "V3wPbLXRUz8",
+                                    "type": "youtube",
                                     "url": "https://www.youtube.com/watch?v=V3wPbLXRUz8"
                                 }
                             ],
-                            "synopsis": "Bello y Goomo prometen a Rita que cuidarán de su muñeca Princesa mientras ella se va con los dodos. Pero Bello y Goomo se olvidan de ella mientras juegan a la pelota. El Rey descubre a Princesa abandonada, la toma por una princesa de visita y la lleva al castillo. Los niños deberán asediar el castillo para recuperar a Princesa antes de que Rita regrese."
+                            "synopsis": "Bello y Goomo prometen a Rita que cuidarán de su muñeca Princesa mientras ella se va con los dodos. Pero Bello y Goomo se olvidan de ella mientras juegan a la pelota. El Rey descubre a Princesa abandonada, la toma por una princesa de visita y la lleva al castillo. Los niños deberán asediar el castillo para recuperar a Princesa antes de que Rita regrese.",
+                            "thumbnail": "https://i.ytimg.com/vi/V3wPbLXRUz8/hqdefault.jpg",
+                            "title": "Promesas, promesas"
                         },
                         {
-                            "episode_number": 5,
-                            "title": "La liga Jelly Jamm",
                             "duration": 11,
-                            "thumbnail": "https://i.ytimg.com/vi/4GqLNFwLzJk/hqdefault.jpg",
+                            "episode_number": 5,
                             "sources": [
                                 {
-                                    "type": "youtube",
                                     "id": "4GqLNFwLzJk",
+                                    "type": "youtube",
                                     "url": "https://www.youtube.com/watch?v=4GqLNFwLzJk"
                                 }
                             ],
-                            "synopsis": "Bello y Goomo disfrazados de Jammboman y Sidekickman inventan aventuras como superhéroes en Jammbo. Mina y Ongo se unen a ellos y al poco todos acaban discutiendo sobre las reglas del juego. Pero de pronto los pequeños héroes encuentran una aventura de verdad: salvar a Rita que está atrapada en el acantilado de Jammbo."
+                            "synopsis": "Bello y Goomo disfrazados de Jammboman y Sidekickman inventan aventuras como superhéroes en Jammbo. Mina y Ongo se unen a ellos y al poco todos acaban discutiendo sobre las reglas del juego. Pero de pronto los pequeños héroes encuentran una aventura de verdad: salvar a Rita que está atrapada en el acantilado de Jammbo.",
+                            "thumbnail": "https://i.ytimg.com/vi/4GqLNFwLzJk/hqdefault.jpg",
+                            "title": "La liga Jelly Jamm"
                         },
                         {
-                            "episode_number": 6,
-                            "title": "Mejores amigos",
                             "duration": 12,
-                            "thumbnail": "https://i.ytimg.com/vi/gZlrcVQ6cPI/hqdefault.jpg",
+                            "episode_number": 6,
                             "sources": [
                                 {
-                                    "type": "youtube",
                                     "id": "gZlrcVQ6cPI",
+                                    "type": "youtube",
                                     "url": "https://www.youtube.com/watch?v=gZlrcVQ6cPI"
                                 }
                             ],
-                            "synopsis": "Goomo piensa que Bello es su mejor amigo. Pero ¿siente Bello lo mismo por él? Para asegurarse Goomo decide poner a prueba su amistad. Pero la insistencia de Goomo provoca el efecto contrario. Bello y él se enfadan y deciden relacionarse con sus otros amigos. Pero descubren que nadie es tan divertido ni te entiende como tu Mejor Mejor Amigo."
+                            "synopsis": "Goomo piensa que Bello es su mejor amigo. Pero ¿siente Bello lo mismo por él? Para asegurarse Goomo decide poner a prueba su amistad. Pero la insistencia de Goomo provoca el efecto contrario. Bello y él se enfadan y deciden relacionarse con sus otros amigos. Pero descubren que nadie es tan divertido ni te entiende como tu Mejor Mejor Amigo.",
+                            "thumbnail": "https://i.ytimg.com/vi/gZlrcVQ6cPI/hqdefault.jpg",
+                            "title": "Mejores amigos"
                         },
                         {
-                            "episode_number": 7,
-                            "title": "El Rey y Rita",
                             "duration": 11,
-                            "thumbnail": "https://i.ytimg.com/vi/AXD7yHTqOLw/hqdefault.jpg",
+                            "episode_number": 7,
                             "sources": [
                                 {
-                                    "type": "youtube",
                                     "id": "AXD7yHTqOLw",
+                                    "type": "youtube",
                                     "url": "https://www.youtube.com/watch?v=AXD7yHTqOLw"
                                 }
                             ],
-                            "synopsis": "El Rey juega con su muñeco preferido cuando Rita le pide que se lo preste. Al Rey le gusta compartir así que no se lo deja sin dudar. Pero Rita se aprovecha de su generosidad y le quita todos los juguetes al Rey. Rita se siente genial, pero la felicidad le dura poco. Rita deberá hacer un descubrimiento sobre los juguetes: son más divertidos si los compartes."
+                            "synopsis": "El Rey juega con su muñeco preferido cuando Rita le pide que se lo preste. Al Rey le gusta compartir así que no se lo deja sin dudar. Pero Rita se aprovecha de su generosidad y le quita todos los juguetes al Rey. Rita se siente genial, pero la felicidad le dura poco. Rita deberá hacer un descubrimiento sobre los juguetes: son más divertidos si los compartes.",
+                            "thumbnail": "https://i.ytimg.com/vi/AXD7yHTqOLw/hqdefault.jpg",
+                            "title": "El Rey y Rita"
                         },
                         {
-                            "episode_number": 8,
-                            "title": "El Dodo de Rita",
                             "duration": 11,
-                            "thumbnail": "https://i.ytimg.com/vi/3esm2bVwOFo/hqdefault.jpg",
+                            "episode_number": 8,
                             "sources": [
                                 {
-                                    "type": "youtube",
                                     "id": "3esm2bVwOFo",
+                                    "type": "youtube",
                                     "url": "https://www.youtube.com/watch?v=3esm2bVwOFo"
                                 }
                             ],
-                            "synopsis": "Rita por fin logra acariciar a un dodo, pero sólo porque el animalito tiene una herida en el pie. Rita lleva al Dodo a su casa para cuidarlo y darle mucho cariño y demasiada comida. El Dodo engorda demasiado y necesita ejercicio urgentemente. Rita aprende que para cuidar a otros hay que pensar en ellos y no en uno mismo. Y haciéndolo ganará un nuevo amigo."
+                            "synopsis": "Rita por fin logra acariciar a un dodo, pero sólo porque el animalito tiene una herida en el pie. Rita lleva al Dodo a su casa para cuidarlo y darle mucho cariño y demasiada comida. El Dodo engorda demasiado y necesita ejercicio urgentemente. Rita aprende que para cuidar a otros hay que pensar en ellos y no en uno mismo. Y haciéndolo ganará un nuevo amigo.",
+                            "thumbnail": "https://i.ytimg.com/vi/3esm2bVwOFo/hqdefault.jpg",
+                            "title": "El Dodo de Rita"
                         },
                         {
-                            "episode_number": 9,
-                            "title": "¿Dónde está la música",
                             "duration": 12,
-                            "thumbnail": "https://i.ytimg.com/vi/_KZYIZPhopQ/hqdefault.jpg",
+                            "episode_number": 9,
                             "sources": [
                                 {
-                                    "type": "youtube",
                                     "id": "_KZYIZPhopQ",
+                                    "type": "youtube",
                                     "url": "https://www.youtube.com/watch?v=_KZYIZPhopQ"
                                 }
                             ],
-                            "synopsis": "Parece ser un día normal y Goomo se prepara para salir a correr, pero entonces se da cuenta de que ocurre algo raro en Jammbo. ¡Todo está paralizado! No hay música, los dodos están congelados en el aire y sus amigos están quietos como estatuas. Goomo debe descubrir qué ha pasado y encontrar una manera para que Jammbo vuelva a la normalidad."
+                            "synopsis": "Parece ser un día normal y Goomo se prepara para salir a correr, pero entonces se da cuenta de que ocurre algo raro en Jammbo. ¡Todo está paralizado! No hay música, los dodos están congelados en el aire y sus amigos están quietos como estatuas. Goomo debe descubrir qué ha pasado y encontrar una manera para que Jammbo vuelva a la normalidad.",
+                            "thumbnail": "https://i.ytimg.com/vi/_KZYIZPhopQ/hqdefault.jpg",
+                            "title": "¿Dónde está la música"
                         },
                         {
-                            "episode_number": 10,
-                            "title": "Miedo a las flores",
                             "duration": 11,
-                            "thumbnail": "https://i.ytimg.com/vi/V4dxFIU5SJY/hqdefault.jpg",
+                            "episode_number": 10,
                             "sources": [
                                 {
-                                    "type": "youtube",
                                     "id": "V4dxFIU5SJY",
+                                    "type": "youtube",
                                     "url": "https://www.youtube.com/watch?v=V4dxFIU5SJY"
                                 }
                             ],
-                            "synopsis": "Mientras explora la Primavera Musical de Jammbo, Goomo descubre que siente mucho miedo por las Flores Sonajero. Buscando una cura Mina realiza varios experimentos para ayudar a Goomo a combatir su miedo a las flores cantarinas. Por fin Goomo comprende que cuando entiendes tus miedos no hay nada que te asuste."
+                            "synopsis": "Mientras explora la Primavera Musical de Jammbo, Goomo descubre que siente mucho miedo por las Flores Sonajero. Buscando una cura Mina realiza varios experimentos para ayudar a Goomo a combatir su miedo a las flores cantarinas. Por fin Goomo comprende que cuando entiendes tus miedos no hay nada que te asuste.",
+                            "thumbnail": "https://i.ytimg.com/vi/V4dxFIU5SJY/hqdefault.jpg",
+                            "title": "Miedo a las flores"
                         },
                         {
-                            "episode_number": 11,
-                            "title": "A bailar",
                             "duration": 12,
-                            "thumbnail": "https://i.ytimg.com/vi/gCtPWlaT0VU/hqdefault.jpg",
+                            "episode_number": 11,
                             "sources": [
                                 {
-                                    "type": "youtube",
                                     "id": "gCtPWlaT0VU",
+                                    "type": "youtube",
                                     "url": "https://www.youtube.com/watch?v=gCtPWlaT0VU"
                                 }
                             ],
-                            "synopsis": "Goomo encuentra una caja musical que suena con ¡música heavy!, a él le encanta pero la música molesta a todo Jammbo. Bello hace desaparecer la caja con un truco y la paz vuelve al planeta. Pero Goomo se entristece y sus amigos ven lo importante que la música era para Goomo. Bello le devuelve la caja a y Para celebrarlo Goomo organiza una fiesta con una música que gusta a todos."
+                            "synopsis": "Goomo encuentra una caja musical que suena con ¡música heavy!, a él le encanta pero la música molesta a todo Jammbo. Bello hace desaparecer la caja con un truco y la paz vuelve al planeta. Pero Goomo se entristece y sus amigos ven lo importante que la música era para Goomo. Bello le devuelve la caja a y Para celebrarlo Goomo organiza una fiesta con una música que gusta a todos.",
+                            "thumbnail": "https://i.ytimg.com/vi/gCtPWlaT0VU/hqdefault.jpg",
+                            "title": "A bailar"
                         },
                         {
-                            "episode_number": 12,
-                            "title": "Visita real",
                             "duration": 14,
-                            "thumbnail": "https://i.ytimg.com/vi/3w-Rkw8JCBo/hqdefault.jpg",
+                            "episode_number": 12,
                             "sources": [
                                 {
-                                    "type": "youtube",
                                     "id": "3w-Rkw8JCBo",
+                                    "type": "youtube",
                                     "url": "https://www.youtube.com/watch?v=3w-Rkw8JCBo"
                                 }
                             ],
-                            "synopsis": "El Rey decide pasar la noche fuera del castillo para demostrar que no tiene miedo a la oscuridad. Pero la noche de Jammbo le asusta tanto que se refugia en casa de Bello. Allí el miedo y las manías del Rey vuelven loco a Bello hasta que el Rey confiesa que la noche le asusta. Bello ayudará al Rey a superar su miedo y disfrutar de la noche de Jammbo."
+                            "synopsis": "El Rey decide pasar la noche fuera del castillo para demostrar que no tiene miedo a la oscuridad. Pero la noche de Jammbo le asusta tanto que se refugia en casa de Bello. Allí el miedo y las manías del Rey vuelven loco a Bello hasta que el Rey confiesa que la noche le asusta. Bello ayudará al Rey a superar su miedo y disfrutar de la noche de Jammbo.",
+                            "thumbnail": "https://i.ytimg.com/vi/3w-Rkw8JCBo/hqdefault.jpg",
+                            "title": "Visita real"
                         },
                         {
-                            "episode_number": 13,
-                            "title": "El misterio de los árboles",
                             "duration": 11,
-                            "thumbnail": "https://i.ytimg.com/vi/auvUWfbI5OQ/hqdefault.jpg",
+                            "episode_number": 13,
                             "sources": [
                                 {
-                                    "type": "youtube",
                                     "id": "auvUWfbI5OQ",
+                                    "type": "youtube",
                                     "url": "https://www.youtube.com/watch?v=auvUWfbI5OQ"
                                 }
                             ],
-                            "synopsis": "Goomo duerme en el bosque de Whistle Nuts. Cerca de allí el Rey trata de abrir una botella de refresco con una enorme máquina y termina derribando los árboles. Cuando Goomo despierta cree que ha sido culpa suya. Goomo corre a la Reina para confesar lo que ha hecho pero cuando menos se lo esperan el Rey decide asumir la responsabilidad de lo que ha hecho."
+                            "synopsis": "Goomo duerme en el bosque de Whistle Nuts. Cerca de allí el Rey trata de abrir una botella de refresco con una enorme máquina y termina derribando los árboles. Cuando Goomo despierta cree que ha sido culpa suya. Goomo corre a la Reina para confesar lo que ha hecho pero cuando menos se lo esperan el Rey decide asumir la responsabilidad de lo que ha hecho.",
+                            "thumbnail": "https://i.ytimg.com/vi/auvUWfbI5OQ/hqdefault.jpg",
+                            "title": "El misterio de los árboles"
                         },
                         {
-                            "episode_number": 14,
-                            "title": "El inventor",
                             "duration": 11,
-                            "thumbnail": "https://i.ytimg.com/vi/cZMyEcnIDK4/hqdefault.jpg",
+                            "episode_number": 14,
                             "sources": [
                                 {
-                                    "type": "youtube",
                                     "id": "cZMyEcnIDK4",
+                                    "type": "youtube",
                                     "url": "https://www.youtube.com/watch?v=cZMyEcnIDK4"
                                 }
                             ],
-                            "synopsis": "Mina crea un Robot gigante y Bello piensa que es el mejor invento que ha hecho nunca... pero se puede mejorar. Sin permiso de Mina, Bello decide hacer unos cambios en el robot para transformarlo en Jammbobot, el robot gigante de Jammboman. Pero sus arreglos hacen que el robot quede fuera de control y sólo la intervención de Mina podrá devolverlo a la normalidad."
+                            "synopsis": "Mina crea un Robot gigante y Bello piensa que es el mejor invento que ha hecho nunca... pero se puede mejorar. Sin permiso de Mina, Bello decide hacer unos cambios en el robot para transformarlo en Jammbobot, el robot gigante de Jammboman. Pero sus arreglos hacen que el robot quede fuera de control y sólo la intervención de Mina podrá devolverlo a la normalidad.",
+                            "thumbnail": "https://i.ytimg.com/vi/cZMyEcnIDK4/hqdefault.jpg",
+                            "title": "El inventor"
                         },
                         {
-                            "episode_number": 15,
-                            "title": "Detectives en acción",
                             "duration": 13,
-                            "thumbnail": "https://i.ytimg.com/vi/EdFMrKPyTzg/hqdefault.jpg",
+                            "episode_number": 15,
                             "sources": [
                                 {
-                                    "type": "youtube",
                                     "id": "EdFMrKPyTzg",
+                                    "type": "youtube",
                                     "url": "https://www.youtube.com/watch?v=EdFMrKPyTzg"
                                 }
                             ],
-                            "synopsis": "Alguien está robando las Frutas Musicales del Jardín de la Reina. Bello decide investigar el caso y para ello actuará como Jammboman, super detective, y contará con la ayuda de Sidekickman, su super ayudante. Jammboman usará todas sus habilidades para investigar a los sospechosos y dar con el ladrón. Su identidad será una sorpresa para todo, incluso para él."
+                            "synopsis": "Alguien está robando las Frutas Musicales del Jardín de la Reina. Bello decide investigar el caso y para ello actuará como Jammboman, super detective, y contará con la ayuda de Sidekickman, su super ayudante. Jammboman usará todas sus habilidades para investigar a los sospechosos y dar con el ladrón. Su identidad será una sorpresa para todo, incluso para él.",
+                            "thumbnail": "https://i.ytimg.com/vi/EdFMrKPyTzg/hqdefault.jpg",
+                            "title": "Detectives en acción"
                         },
                         {
-                            "episode_number": 16,
-                            "title": "Princesa está perdida",
                             "duration": 11,
-                            "thumbnail": "https://i.ytimg.com/vi/eqtwsuzeAAs/hqdefault.jpg",
+                            "episode_number": 16,
                             "sources": [
                                 {
-                                    "type": "youtube",
                                     "id": "eqtwsuzeAAs",
+                                    "type": "youtube",
                                     "url": "https://www.youtube.com/watch?v=eqtwsuzeAAs"
                                 }
                             ],
-                            "synopsis": "Rita y Princesa toman el té pero cuando Rita vuelve de buscar una galletitas Princesa ha desaparecido. Muy preocupada Rita recorre todo Jammbo en su busca sin encontrarla. Bello encuentra a Rita muy triste y le promete hacerle reír tanto que se olvidará de Princesa... y lo consigue. Pero cuando Rita encuentre a su muñeca ¿Será Bello el que se quede solo?"
+                            "synopsis": "Rita y Princesa toman el té pero cuando Rita vuelve de buscar una galletitas Princesa ha desaparecido. Muy preocupada Rita recorre todo Jammbo en su busca sin encontrarla. Bello encuentra a Rita muy triste y le promete hacerle reír tanto que se olvidará de Princesa... y lo consigue. Pero cuando Rita encuentre a su muñeca ¿Será Bello el que se quede solo?",
+                            "thumbnail": "https://i.ytimg.com/vi/eqtwsuzeAAs/hqdefault.jpg",
+                            "title": "Princesa está perdida"
                         },
                         {
-                            "episode_number": 17,
-                            "title": "La reina Rita",
                             "duration": 12,
-                            "thumbnail": "https://i.ytimg.com/vi/b8nEHbwVL5E/hqdefault.jpg",
+                            "episode_number": 17,
                             "sources": [
                                 {
-                                    "type": "youtube",
                                     "id": "b8nEHbwVL5E",
+                                    "type": "youtube",
                                     "url": "https://www.youtube.com/watch?v=b8nEHbwVL5E"
                                 }
                             ],
-                            "synopsis": "La Reina se va de vacaciones y déja al Rey con montón de tareas. Sin perder un segundo el Rey encuentra a alguien que se haga cargo... ¡Rita! La pequeña sólo pide ser Reina de Jammbo y el Rey se lo concede. Los niños están muy contentos por ella, pero pronto el poder se le sube a la cabeza a la pequeña Rita y sus amigos tendrán que hacerle ver lo mandona que se ha vuelto."
+                            "synopsis": "La Reina se va de vacaciones y déja al Rey con montón de tareas. Sin perder un segundo el Rey encuentra a alguien que se haga cargo... ¡Rita! La pequeña sólo pide ser Reina de Jammbo y el Rey se lo concede. Los niños están muy contentos por ella, pero pronto el poder se le sube a la cabeza a la pequeña Rita y sus amigos tendrán que hacerle ver lo mandona que se ha vuelto.",
+                            "thumbnail": "https://i.ytimg.com/vi/b8nEHbwVL5E/hqdefault.jpg",
+                            "title": "La reina Rita"
                         },
                         {
-                            "episode_number": 18,
-                            "title": "Cuentos de miedo",
                             "duration": 11,
-                            "thumbnail": "https://i.ytimg.com/vi/91TB-1W1k6Y/hqdefault.jpg",
+                            "episode_number": 18,
                             "sources": [
                                 {
-                                    "type": "youtube",
                                     "id": "91TB-1W1k6Y",
+                                    "type": "youtube",
                                     "url": "https://www.youtube.com/watch?v=91TB-1W1k6Y"
                                 }
                             ],
-                            "synopsis": "Los chicos se van de acampada y por la noche deciden contar historias de miedo. La de Goomo es la más terrorífica de todas... y deja a sus amigos temblando mientras él se va a por una manzana. De pronto la noche se llena de sombras y ruidos extraños y los niños creen que la historia de Goomo se está haciendo realidad. ."
+                            "synopsis": "Los chicos se van de acampada y por la noche deciden contar historias de miedo. La de Goomo es la más terrorífica de todas... y deja a sus amigos temblando mientras él se va a por una manzana. De pronto la noche se llena de sombras y ruidos extraños y los niños creen que la historia de Goomo se está haciendo realidad. .",
+                            "thumbnail": "https://i.ytimg.com/vi/91TB-1W1k6Y/hqdefault.jpg",
+                            "title": "Cuentos de miedo"
                         },
                         {
-                            "episode_number": 19,
-                            "title": "No despiertes al Dodo",
                             "duration": 12,
-                            "thumbnail": "https://i.ytimg.com/vi/6Yeg93xONC0/hqdefault.jpg",
+                            "episode_number": 19,
                             "sources": [
                                 {
-                                    "type": "youtube",
                                     "id": "6Yeg93xONC0",
+                                    "type": "youtube",
                                     "url": "https://www.youtube.com/watch?v=6Yeg93xONC0"
                                 }
                             ],
-                            "synopsis": "Tras cometer un error Bello se escuda en una historia muy poco verosimil. Mina, enfadada con él, le someterá a una dura prueba: El Caramelo De La Verdad. Un caramelo que hace flotar a aquel que miente. Bello no puede negarse y se toma el caramelo, momento a partir del cual el chico entrará en una espiral de mentiras y vertiginosas alturas."
+                            "synopsis": "Tras cometer un error Bello se escuda en una historia muy poco verosimil. Mina, enfadada con él, le someterá a una dura prueba: El Caramelo De La Verdad. Un caramelo que hace flotar a aquel que miente. Bello no puede negarse y se toma el caramelo, momento a partir del cual el chico entrará en una espiral de mentiras y vertiginosas alturas.",
+                            "thumbnail": "https://i.ytimg.com/vi/6Yeg93xONC0/hqdefault.jpg",
+                            "title": "No despiertes al Dodo"
                         },
                         {
-                            "episode_number": 20,
-                            "title": "El columpio de Mina",
                             "duration": 11,
-                            "thumbnail": "https://i.ytimg.com/vi/cgsDys27rHk/hqdefault.jpg",
+                            "episode_number": 20,
                             "sources": [
                                 {
-                                    "type": "youtube",
                                     "id": "cgsDys27rHk",
+                                    "type": "youtube",
                                     "url": "https://www.youtube.com/watch?v=cgsDys27rHk"
                                 }
                             ],
-                            "synopsis": "Mina intenta contentar al Rey fabricando el columpio más asombroso que se ha visto en la historia de Jammbo. Por desgracia la pequeña científica descubrirá demasiado tarde que la tecnología, por muy avanzada que sea, no puede sustituir la fuerza del trabajo en equipo y la amistad."
+                            "synopsis": "Mina intenta contentar al Rey fabricando el columpio más asombroso que se ha visto en la historia de Jammbo. Por desgracia la pequeña científica descubrirá demasiado tarde que la tecnología, por muy avanzada que sea, no puede sustituir la fuerza del trabajo en equipo y la amistad.",
+                            "thumbnail": "https://i.ytimg.com/vi/cgsDys27rHk/hqdefault.jpg",
+                            "title": "El columpio de Mina"
                         },
                         {
-                            "episode_number": 21,
-                            "title": "El aprendiz",
                             "duration": 11,
-                            "thumbnail": "https://i.ytimg.com/vi/M7xxazTnPf4/hqdefault.jpg",
+                            "episode_number": 21,
                             "sources": [
                                 {
-                                    "type": "youtube",
                                     "id": "M7xxazTnPf4",
+                                    "type": "youtube",
                                     "url": "https://www.youtube.com/watch?v=M7xxazTnPf4"
                                 }
                             ],
-                            "synopsis": "¡Bello tiene que dirigir la Factoría Musical! La Reina le presta el manual de instrucciones, pero Bello lo ignora y todo se pone fuera de control. Los Dodos intentan arreglar las cosas pero sin un jefe que conozca la Factoría el desastre es imparable. Bello debe aprender, y rápido, que la preparación es clave para hacer tu trabajo correctamente."
+                            "synopsis": "¡Bello tiene que dirigir la Factoría Musical! La Reina le presta el manual de instrucciones, pero Bello lo ignora y todo se pone fuera de control. Los Dodos intentan arreglar las cosas pero sin un jefe que conozca la Factoría el desastre es imparable. Bello debe aprender, y rápido, que la preparación es clave para hacer tu trabajo correctamente.",
+                            "thumbnail": "https://i.ytimg.com/vi/M7xxazTnPf4/hqdefault.jpg",
+                            "title": "El aprendiz"
                         },
                         {
-                            "episode_number": 22,
-                            "title": "Rita siempre gana",
                             "duration": 11,
-                            "thumbnail": "https://i.ytimg.com/vi/-I9RXqgVXvE/hqdefault.jpg",
+                            "episode_number": 22,
                             "sources": [
                                 {
-                                    "type": "youtube",
                                     "id": "-I9RXqgVXvE",
+                                    "type": "youtube",
                                     "url": "https://www.youtube.com/watch?v=-I9RXqgVXvE"
                                 }
                             ],
-                            "synopsis": "Rita está cansada de perder a todos los juegos, de modo que se alía con unas pulseras un tanto mezquinas que la ayudarán a salir victoriosa de cualquier desafío. A pesar de su felicidad inicial Rita descubrirá que ha caído en una trampa muy peligrosa y de la que difícilmente resultará ganadora."
+                            "synopsis": "Rita está cansada de perder a todos los juegos, de modo que se alía con unas pulseras un tanto mezquinas que la ayudarán a salir victoriosa de cualquier desafío. A pesar de su felicidad inicial Rita descubrirá que ha caído en una trampa muy peligrosa y de la que difícilmente resultará ganadora.",
+                            "thumbnail": "https://i.ytimg.com/vi/-I9RXqgVXvE/hqdefault.jpg",
+                            "title": "Rita siempre gana"
                         },
                         {
-                            "episode_number": 23,
-                            "title": "El rescate de Jammbo",
                             "duration": 11,
-                            "thumbnail": "https://i.ytimg.com/vi/kMqI5smt8PA/hqdefault.jpg",
+                            "episode_number": 23,
                             "sources": [
                                 {
-                                    "type": "youtube",
                                     "id": "kMqI5smt8PA",
+                                    "type": "youtube",
                                     "url": "https://www.youtube.com/watch?v=kMqI5smt8PA"
                                 }
                             ],
-                            "synopsis": "¡Jammbo está en problemas!, las burbujas musicales están llenas de una masa viscosa. Los chicos investigan el planeta y descubren que la causa es su propia basura. Todos juntos limpian el planeta para devolver Jammbo a la normalidad. En el proceso aprenderán a ser más responsables y a reciclar su basura para hacer algo que todos puedan disfrutar."
+                            "synopsis": "¡Jammbo está en problemas!, las burbujas musicales están llenas de una masa viscosa. Los chicos investigan el planeta y descubren que la causa es su propia basura. Todos juntos limpian el planeta para devolver Jammbo a la normalidad. En el proceso aprenderán a ser más responsables y a reciclar su basura para hacer algo que todos puedan disfrutar.",
+                            "thumbnail": "https://i.ytimg.com/vi/kMqI5smt8PA/hqdefault.jpg",
+                            "title": "El rescate de Jammbo"
                         },
                         {
-                            "episode_number": 24,
-                            "title": "Mina es invisible",
                             "duration": 11,
-                            "thumbnail": "https://i.ytimg.com/vi/VZdhH035om4/hqdefault.jpg",
+                            "episode_number": 24,
                             "sources": [
                                 {
-                                    "type": "youtube",
                                     "id": "VZdhH035om4",
+                                    "type": "youtube",
                                     "url": "https://www.youtube.com/watch?v=VZdhH035om4"
                                 }
                             ],
-                            "synopsis": "Gracias a lo último en tecnología Mina descubre cómo hacer invisibles los objetos... ¡y a sí misma! Mina no puede evitar probar su descubrimiento con sus amigos. Tras todo un día de extraños sucesos los chicos descubren que Mina está detrás de todo. Todos juntos deciden demostrar a Mina que no debe usarlos como material de sus experimentos."
+                            "synopsis": "Gracias a lo último en tecnología Mina descubre cómo hacer invisibles los objetos... ¡y a sí misma! Mina no puede evitar probar su descubrimiento con sus amigos. Tras todo un día de extraños sucesos los chicos descubren que Mina está detrás de todo. Todos juntos deciden demostrar a Mina que no debe usarlos como material de sus experimentos.",
+                            "thumbnail": "https://i.ytimg.com/vi/VZdhH035om4/hqdefault.jpg",
+                            "title": "Mina es invisible"
                         },
                         {
-                            "episode_number": 25,
-                            "title": "El viaje de aurora",
                             "duration": 11,
-                            "thumbnail": "https://i.ytimg.com/vi/MX6JNxkOgiA/hqdefault.jpg",
+                            "episode_number": 25,
                             "sources": [
                                 {
-                                    "type": "youtube",
                                     "id": "MX6JNxkOgiA",
+                                    "type": "youtube",
                                     "url": "https://www.youtube.com/watch?v=MX6JNxkOgiA"
                                 }
                             ],
-                            "synopsis": "Se avecina uno de los más asombrosos acontecimientos que se pueden vivir en Jammbo y Goomo no quiere perdérselo por nada del mundo. Por eso cuando descubre que sufre Jelly-Sarampión intentará ocultárselo a sus amigos. Desafortunadamente el Jelly-Sarampión está plagado de llamativos síntomas muy difíciles de disimular."
+                            "synopsis": "Se avecina uno de los más asombrosos acontecimientos que se pueden vivir en Jammbo y Goomo no quiere perdérselo por nada del mundo. Por eso cuando descubre que sufre Jelly-Sarampión intentará ocultárselo a sus amigos. Desafortunadamente el Jelly-Sarampión está plagado de llamativos síntomas muy difíciles de disimular.",
+                            "thumbnail": "https://i.ytimg.com/vi/MX6JNxkOgiA/hqdefault.jpg",
+                            "title": "El viaje de aurora"
                         },
                         {
-                            "episode_number": 26,
-                            "title": "El castillo embrujado",
                             "duration": 11,
-                            "thumbnail": "https://i.ytimg.com/vi/dpq4POXJkQ0/hqdefault.jpg",
+                            "episode_number": 26,
                             "sources": [
                                 {
-                                    "type": "youtube",
                                     "id": "dpq4POXJkQ0",
+                                    "type": "youtube",
                                     "url": "https://www.youtube.com/watch?v=dpq4POXJkQ0"
                                 }
                             ],
-                            "synopsis": "Bello y Goomo se refugian de una tormenta en el Palacio Real. Allí descubren algo mucho más terrorífico que los truenos... un fantasma tiene asustados a los dodos y no les deja trabajar en la fábrica. ¡Si los Dodos no vuelven a fabricar burbujas el planeta se congelará! Los niños deberán encontrar el fantasma, detenerlo y salvar el planeta."
+                            "synopsis": "Bello y Goomo se refugian de una tormenta en el Palacio Real. Allí descubren algo mucho más terrorífico que los truenos... un fantasma tiene asustados a los dodos y no les deja trabajar en la fábrica. ¡Si los Dodos no vuelven a fabricar burbujas el planeta se congelará! Los niños deberán encontrar el fantasma, detenerlo y salvar el planeta.",
+                            "thumbnail": "https://i.ytimg.com/vi/dpq4POXJkQ0/hqdefault.jpg",
+                            "title": "El castillo embrujado"
                         },
                         {
-                            "episode_number": 27,
-                            "title": "El juguete del rey",
                             "duration": 14,
-                            "thumbnail": "https://i.ytimg.com/vi/YT__5yXyW5c/hqdefault.jpg",
+                            "episode_number": 27,
                             "sources": [
                                 {
-                                    "type": "youtube",
                                     "id": "YT__5yXyW5c",
+                                    "type": "youtube",
                                     "url": "https://www.youtube.com/watch?v=YT__5yXyW5c"
                                 }
                             ],
-                            "synopsis": "El Rey no quiere compartir su nuevo cohete-patín, de modo que lo esconderá en el interior de una caja mágica. Goomo y Bello, decididos a hacerse con el preciado juguete, desafiarán la prohibición del Rey y se sumergirán en un mundo nuevo mucho más grande, divertido y... peligroso."
+                            "synopsis": "El Rey no quiere compartir su nuevo cohete-patín, de modo que lo esconderá en el interior de una caja mágica. Goomo y Bello, decididos a hacerse con el preciado juguete, desafiarán la prohibición del Rey y se sumergirán en un mundo nuevo mucho más grande, divertido y... peligroso.",
+                            "thumbnail": "https://i.ytimg.com/vi/YT__5yXyW5c/hqdefault.jpg",
+                            "title": "El juguete del rey"
                         },
                         {
-                            "episode_number": 28,
-                            "title": "El cumpleaños de la reina",
                             "duration": 11,
-                            "thumbnail": "https://i.ytimg.com/vi/-kXyMiutYE8/hqdefault.jpg",
+                            "episode_number": 28,
                             "sources": [
                                 {
-                                    "type": "youtube",
                                     "id": "-kXyMiutYE8",
+                                    "type": "youtube",
                                     "url": "https://www.youtube.com/watch?v=-kXyMiutYE8"
                                 }
                             ],
-                            "synopsis": "La Reina está triste y tanto el Rey como los niños están de acuerdo en organizar para ella el más asombroso de los cumpleaños. Por desgracia cada uno de los participantes tiene una visión muy particular sobre cómo organizar la fiesta. El éxito dependerá de su capacidad por ponerse en el lugar de los demás y en especial... de la Reina."
+                            "synopsis": "La Reina está triste y tanto el Rey como los niños están de acuerdo en organizar para ella el más asombroso de los cumpleaños. Por desgracia cada uno de los participantes tiene una visión muy particular sobre cómo organizar la fiesta. El éxito dependerá de su capacidad por ponerse en el lugar de los demás y en especial... de la Reina.",
+                            "thumbnail": "https://i.ytimg.com/vi/-kXyMiutYE8/hqdefault.jpg",
+                            "title": "El cumpleaños de la reina"
                         },
                         {
-                            "episode_number": 29,
-                            "title": "Mi pequeña reina",
                             "duration": 11,
-                            "thumbnail": "https://i.ytimg.com/vi/4uwZTsPvtVc/hqdefault.jpg",
+                            "episode_number": 29,
                             "sources": [
                                 {
-                                    "type": "youtube",
                                     "id": "4uwZTsPvtVc",
+                                    "type": "youtube",
                                     "url": "https://www.youtube.com/watch?v=4uwZTsPvtVc"
                                 }
                             ],
-                            "synopsis": "Bello está cansado de que la Reina arruine todas sus aventuras y juegos. Durante una lluvia de estrellas Bello desea que la Reina vuelva a ser niña para que le deje hacer todo lo que quiera. Cuando el deseo de Bello se cumple Bello tendrá que ejercer de hermano mayor de una reina alocada y eso puede ser difícil, agotador e incluso peligroso."
+                            "synopsis": "Bello está cansado de que la Reina arruine todas sus aventuras y juegos. Durante una lluvia de estrellas Bello desea que la Reina vuelva a ser niña para que le deje hacer todo lo que quiera. Cuando el deseo de Bello se cumple Bello tendrá que ejercer de hermano mayor de una reina alocada y eso puede ser difícil, agotador e incluso peligroso.",
+                            "thumbnail": "https://i.ytimg.com/vi/4uwZTsPvtVc/hqdefault.jpg",
+                            "title": "Mi pequeña reina"
                         },
                         {
-                            "episode_number": 30,
-                            "title": "La fiesta sorpresa",
                             "duration": 12,
-                            "thumbnail": "https://i.ytimg.com/vi/iGnGIUnU2sc/hqdefault.jpg",
+                            "episode_number": 30,
                             "sources": [
                                 {
-                                    "type": "youtube",
                                     "id": "iGnGIUnU2sc",
+                                    "type": "youtube",
                                     "url": "https://www.youtube.com/watch?v=iGnGIUnU2sc"
                                 }
                             ],
-                            "synopsis": "¡Es el cumpleaños de Goomo! Pero nadie parece acordarse. Además, su casco ha desaparecido y sus amigos no lo han visto, ¡es terrible!. Debería ser el mejor día del año pero a Goomo le gustaría que todo volviese a la normalidad. ¿Habrá alguna manera de arreglarlo todo?"
+                            "synopsis": "¡Es el cumpleaños de Goomo! Pero nadie parece acordarse. Además, su casco ha desaparecido y sus amigos no lo han visto, ¡es terrible!. Debería ser el mejor día del año pero a Goomo le gustaría que todo volviese a la normalidad. ¿Habrá alguna manera de arreglarlo todo?",
+                            "thumbnail": "https://i.ytimg.com/vi/iGnGIUnU2sc/hqdefault.jpg",
+                            "title": "La fiesta sorpresa"
                         },
                         {
-                            "episode_number": 31,
-                            "title": "La mejor aventura",
                             "duration": 11,
-                            "thumbnail": "https://i.ytimg.com/vi/H4GyAdkUczQ/hqdefault.jpg",
+                            "episode_number": 31,
                             "sources": [
                                 {
-                                    "type": "youtube",
                                     "id": "H4GyAdkUczQ",
+                                    "type": "youtube",
                                     "url": "https://www.youtube.com/watch?v=H4GyAdkUczQ"
                                 }
                             ],
-                            "synopsis": "Ongo se ha hecho daño mientras jugaba con Bello y Goomo y debe quedarse unos días en casa. Bello se siente culpable y decide irse a vivir con Ongo para ayudarle y entretenerle mientras se mejora. Sus dos formas de ver el mundo se unirán y ambos descubrirán que todo, incluso lo más trivial, se puede disfrutar si se mira con nuevos ojos."
+                            "synopsis": "Ongo se ha hecho daño mientras jugaba con Bello y Goomo y debe quedarse unos días en casa. Bello se siente culpable y decide irse a vivir con Ongo para ayudarle y entretenerle mientras se mejora. Sus dos formas de ver el mundo se unirán y ambos descubrirán que todo, incluso lo más trivial, se puede disfrutar si se mira con nuevos ojos.",
+                            "thumbnail": "https://i.ytimg.com/vi/H4GyAdkUczQ/hqdefault.jpg",
+                            "title": "La mejor aventura"
                         },
                         {
-                            "episode_number": 32,
-                            "title": "La fórmula de Rita",
                             "duration": 11,
-                            "thumbnail": "https://i.ytimg.com/vi/POX503MYqAg/hqdefault.jpg",
+                            "episode_number": 32,
                             "sources": [
                                 {
-                                    "type": "youtube",
                                     "id": "POX503MYqAg",
+                                    "type": "youtube",
                                     "url": "https://www.youtube.com/watch?v=POX503MYqAg"
                                 }
                             ],
-                            "synopsis": "Rita intenta hacer sus propios experimentos en el laboratorio de Mina. Pronto descubrirá que manejar esos productos sin el suficiente conocimiento puede acarrearle consecuencias... gigantescas."
+                            "synopsis": "Rita intenta hacer sus propios experimentos en el laboratorio de Mina. Pronto descubrirá que manejar esos productos sin el suficiente conocimiento puede acarrearle consecuencias... gigantescas.",
+                            "thumbnail": "https://i.ytimg.com/vi/POX503MYqAg/hqdefault.jpg",
+                            "title": "La fórmula de Rita"
                         },
                         {
-                            "episode_number": 33,
-                            "title": "El pianista",
                             "duration": 14,
-                            "thumbnail": "https://i.ytimg.com/vi/0ozRR1PQ4OE/hqdefault.jpg",
+                            "episode_number": 33,
                             "sources": [
                                 {
-                                    "type": "youtube",
                                     "id": "0ozRR1PQ4OE",
+                                    "type": "youtube",
                                     "url": "https://www.youtube.com/watch?v=0ozRR1PQ4OE"
                                 }
                             ],
-                            "synopsis": "Bello descubre que su mejor amigo tiene un talento innato para la música. Desde ese momento intentará que Goomo comparta su don con el resto del grupo, pero Goomo es demasiado tímido. Bello no se resignará a que ese talento siga siendo secreto."
+                            "synopsis": "Bello descubre que su mejor amigo tiene un talento innato para la música. Desde ese momento intentará que Goomo comparta su don con el resto del grupo, pero Goomo es demasiado tímido. Bello no se resignará a que ese talento siga siendo secreto.",
+                            "thumbnail": "https://i.ytimg.com/vi/0ozRR1PQ4OE/hqdefault.jpg",
+                            "title": "El pianista"
                         },
                         {
-                            "episode_number": 34,
-                            "title": "El superhéroe",
                             "duration": 11,
-                            "thumbnail": "https://i.ytimg.com/vi/-wKo-_Cs6bg/hqdefault.jpg",
+                            "episode_number": 34,
                             "sources": [
                                 {
-                                    "type": "youtube",
                                     "id": "-wKo-_Cs6bg",
+                                    "type": "youtube",
                                     "url": "https://www.youtube.com/watch?v=-wKo-_Cs6bg"
                                 }
                             ],
-                            "synopsis": "Goomo ha perdido sus gafas y sin ellas no puede jugar con Bello a Jammboman y Cascokid. Bello y Goomo descubren que un Dodo cegato lleva puestas las gafas y éstas son lo único que le permite ver y jugar con los demás Dodos. ¿Le regalará Goomo las gafas al dodo o las recuperará para convertirse en super héroe?"
+                            "synopsis": "Goomo ha perdido sus gafas y sin ellas no puede jugar con Bello a Jammboman y Cascokid. Bello y Goomo descubren que un Dodo cegato lleva puestas las gafas y éstas son lo único que le permite ver y jugar con los demás Dodos. ¿Le regalará Goomo las gafas al dodo o las recuperará para convertirse en super héroe?",
+                            "thumbnail": "https://i.ytimg.com/vi/-wKo-_Cs6bg/hqdefault.jpg",
+                            "title": "El superhéroe"
                         },
                         {
-                            "episode_number": 35,
-                            "title": "Un mundo color de rosa",
                             "duration": 11,
-                            "thumbnail": "https://i.ytimg.com/vi/qzsX6wcJwgA/hqdefault.jpg",
+                            "episode_number": 35,
                             "sources": [
                                 {
-                                    "type": "youtube",
                                     "id": "qzsX6wcJwgA",
+                                    "type": "youtube",
                                     "url": "https://www.youtube.com/watch?v=qzsX6wcJwgA"
                                 }
                             ],
-                            "synopsis": "Rita y Princesa han organizado un picnic,  hay servilletas rosa, platos rosa, vasos rosa... ¡El rosa es su color favorito! De hecho quiere que todo Jammbo sea rosa. Visitan la Factoría Musical y consigue que produzca sólo burbujas rosas. Esto provocará terribles problemas y los niños deberán colaborar para recuperar el equilibrio y los colores del planeta."
+                            "synopsis": "Rita y Princesa han organizado un picnic,  hay servilletas rosa, platos rosa, vasos rosa... ¡El rosa es su color favorito! De hecho quiere que todo Jammbo sea rosa. Visitan la Factoría Musical y consigue que produzca sólo burbujas rosas. Esto provocará terribles problemas y los niños deberán colaborar para recuperar el equilibrio y los colores del planeta.",
+                            "thumbnail": "https://i.ytimg.com/vi/qzsX6wcJwgA/hqdefault.jpg",
+                            "title": "Un mundo color de rosa"
                         },
                         {
-                            "episode_number": 36,
-                            "title": "Naturaleza Salvaje",
                             "duration": 11,
-                            "thumbnail": "https://i.ytimg.com/vi/niIzQfUpUNg/hqdefault.jpg",
+                            "episode_number": 36,
                             "sources": [
                                 {
-                                    "type": "youtube",
                                     "id": "niIzQfUpUNg",
+                                    "type": "youtube",
                                     "url": "https://www.youtube.com/watch?v=niIzQfUpUNg"
                                 }
                             ],
-                            "synopsis": "Qué es el Medio Ambiente, Por qué debemos cuidar de él. En este episodio, Rita y Goomo junto a los simpáticos dodos enseñarán a los niños la importancia de cuidar y respetar el Medio Ambiente."
+                            "synopsis": "Qué es el Medio Ambiente, Por qué debemos cuidar de él. En este episodio, Rita y Goomo junto a los simpáticos dodos enseñarán a los niños la importancia de cuidar y respetar el Medio Ambiente.",
+                            "thumbnail": "https://i.ytimg.com/vi/niIzQfUpUNg/hqdefault.jpg",
+                            "title": "Naturaleza Salvaje"
                         },
                         {
-                            "episode_number": 37,
-                            "title": "Sonidos Divertidos",
                             "duration": 11,
-                            "thumbnail": "https://i.ytimg.com/vi/zPxbLI4ieKs/hqdefault.jpg",
+                            "episode_number": 37,
                             "sources": [
                                 {
-                                    "type": "youtube",
                                     "id": "zPxbLI4ieKs",
+                                    "type": "youtube",
                                     "url": "https://www.youtube.com/watch?v=zPxbLI4ieKs"
                                 }
                             ],
-                            "synopsis": "Todos los sonidos de Jammbo han cambiado de lugar, Bello y Rita deberán descubrir cómo devolver cada sonido a su origen."
+                            "synopsis": "Todos los sonidos de Jammbo han cambiado de lugar, Bello y Rita deberán descubrir cómo devolver cada sonido a su origen.",
+                            "thumbnail": "https://i.ytimg.com/vi/zPxbLI4ieKs/hqdefault.jpg",
+                            "title": "Sonidos Divertidos"
                         },
                         {
-                            "episode_number": 38,
-                            "title": "El parche pirata",
                             "duration": 11,
-                            "thumbnail": "https://i.ytimg.com/vi/2856rM7dbRg/hqdefault.jpg",
+                            "episode_number": 38,
                             "sources": [
                                 {
-                                    "type": "youtube",
                                     "id": "2856rM7dbRg",
+                                    "type": "youtube",
                                     "url": "https://www.youtube.com/watch?v=2856rM7dbRg"
                                 }
                             ],
-                            "synopsis": "Bello se ve obligado a llevar un parche. Se siente incómodo y desanimado por culpa de su nuevo aspecto. Por suerte sus amigos están ahí para demostrarle que, gracias a la sabiduría de una canción, cualquier problema puede convertirse en algo divertido."
+                            "synopsis": "Bello se ve obligado a llevar un parche. Se siente incómodo y desanimado por culpa de su nuevo aspecto. Por suerte sus amigos están ahí para demostrarle que, gracias a la sabiduría de una canción, cualquier problema puede convertirse en algo divertido.",
+                            "thumbnail": "https://i.ytimg.com/vi/2856rM7dbRg/hqdefault.jpg",
+                            "title": "El parche pirata"
                         },
                         {
-                            "episode_number": 39,
-                            "title": "Los zapatos Magicos",
                             "duration": 12,
-                            "thumbnail": "https://i.ytimg.com/vi/gazqAGJH1TI/hqdefault.jpg",
+                            "episode_number": 39,
                             "sources": [
                                 {
-                                    "type": "youtube",
                                     "id": "gazqAGJH1TI",
+                                    "type": "youtube",
                                     "url": "https://www.youtube.com/watch?v=gazqAGJH1TI"
                                 }
                             ],
-                            "synopsis": "Goomo está decidido a correr 100.000 pasos con unas zapatillas mágicas que le conducirán a un tesoro maravilloso. O eso cree él, porque para sus amigos todo el asunto no es más que una locura. ¿Quien tendrá razón?"
+                            "synopsis": "Goomo está decidido a correr 100.000 pasos con unas zapatillas mágicas que le conducirán a un tesoro maravilloso. O eso cree él, porque para sus amigos todo el asunto no es más que una locura. ¿Quien tendrá razón?",
+                            "thumbnail": "https://i.ytimg.com/vi/gazqAGJH1TI/hqdefault.jpg",
+                            "title": "Los zapatos Magicos"
                         },
                         {
-                            "episode_number": 40,
-                            "title": "Agente Mina",
                             "duration": 12,
-                            "thumbnail": "https://i.ytimg.com/vi/bYTa_yhSZek/hqdefault.jpg",
+                            "episode_number": 40,
                             "sources": [
                                 {
-                                    "type": "youtube",
                                     "id": "bYTa_yhSZek",
+                                    "type": "youtube",
                                     "url": "https://www.youtube.com/watch?v=bYTa_yhSZek"
                                 }
                             ],
-                            "synopsis": "Durante un juego Mina demostrará a sus amigos que la ciencia puede ser el mejor recurso de un espía."
+                            "synopsis": "Durante un juego Mina demostrará a sus amigos que la ciencia puede ser el mejor recurso de un espía.",
+                            "thumbnail": "https://i.ytimg.com/vi/bYTa_yhSZek/hqdefault.jpg",
+                            "title": "Agente Mina"
                         },
                         {
-                            "episode_number": 41,
-                            "title": "Colores Divertidos",
                             "duration": 11,
-                            "thumbnail": "https://i.ytimg.com/vi/5tT7QZRAkwI/hqdefault.jpg",
+                            "episode_number": 41,
                             "sources": [
                                 {
-                                    "type": "youtube",
                                     "id": "5tT7QZRAkwI",
+                                    "type": "youtube",
                                     "url": "https://www.youtube.com/watch?v=5tT7QZRAkwI"
                                 }
                             ],
-                            "synopsis": "Un divertido juego se transforma en un problema cuando las rivalidades de los niños se acrecientan... ¿quién lo arreglará?"
+                            "synopsis": "Un divertido juego se transforma en un problema cuando las rivalidades de los niños se acrecientan... ¿quién lo arreglará?",
+                            "thumbnail": "https://i.ytimg.com/vi/5tT7QZRAkwI/hqdefault.jpg",
+                            "title": "Colores Divertidos"
                         },
                         {
-                            "episode_number": 42,
-                            "title": "La bañera voladora",
                             "duration": 12,
-                            "thumbnail": "https://i.ytimg.com/vi/WTBPrR5l_Nc/hqdefault.jpg",
+                            "episode_number": 42,
                             "sources": [
                                 {
-                                    "type": "youtube",
                                     "id": "WTBPrR5l_Nc",
+                                    "type": "youtube",
                                     "url": "https://www.youtube.com/watch?v=WTBPrR5l_Nc"
                                 }
                             ],
-                            "synopsis": "Mina y Bello descubren la Bañera Voladora del Rey. Salen a probarla pero se pierden, para volver a casa tendrán que aprender a colaborar."
+                            "synopsis": "Mina y Bello descubren la Bañera Voladora del Rey. Salen a probarla pero se pierden, para volver a casa tendrán que aprender a colaborar.",
+                            "thumbnail": "https://i.ytimg.com/vi/WTBPrR5l_Nc/hqdefault.jpg",
+                            "title": "La bañera voladora"
                         },
                         {
-                            "episode_number": 43,
-                            "title": "El alguacil regañón",
                             "duration": 12,
-                            "thumbnail": "https://i.ytimg.com/vi/42Wkyqm9uss/hqdefault.jpg",
+                            "episode_number": 43,
                             "sources": [
                                 {
-                                    "type": "youtube",
                                     "id": "42Wkyqm9uss",
+                                    "type": "youtube",
                                     "url": "https://www.youtube.com/watch?v=42Wkyqm9uss"
                                 }
                             ],
-                            "synopsis": "Bello consigue un objeto mágico con el que consigue todo lo que quiere. Todo parece ir bien hasta que uno de sus deseos provoca un tremendo problema."
+                            "synopsis": "Bello consigue un objeto mágico con el que consigue todo lo que quiere. Todo parece ir bien hasta que uno de sus deseos provoca un tremendo problema.",
+                            "thumbnail": "https://i.ytimg.com/vi/42Wkyqm9uss/hqdefault.jpg",
+                            "title": "El alguacil regañón"
                         },
                         {
-                            "episode_number": 44,
-                            "title": "El rey está herido",
                             "duration": 11,
-                            "thumbnail": "https://i.ytimg.com/vi/GW-lPFCVQnQ/hqdefault.jpg",
+                            "episode_number": 44,
                             "sources": [
                                 {
-                                    "type": "youtube",
                                     "id": "GW-lPFCVQnQ",
+                                    "type": "youtube",
                                     "url": "https://www.youtube.com/watch?v=GW-lPFCVQnQ"
                                 }
                             ],
-                            "synopsis": "El Rey se ha hecho daño en la espalda. Los niños tratan de ayudarle pero nada resulta... ¿cómo solucionarán la situación?"
+                            "synopsis": "El Rey se ha hecho daño en la espalda. Los niños tratan de ayudarle pero nada resulta... ¿cómo solucionarán la situación?",
+                            "thumbnail": "https://i.ytimg.com/vi/GW-lPFCVQnQ/hqdefault.jpg",
+                            "title": "El rey está herido"
                         },
                         {
-                            "episode_number": 45,
-                            "title": "El concurso de baile",
                             "duration": 12,
-                            "thumbnail": "https://i.ytimg.com/vi/jIVcgC5ojPU/hqdefault.jpg",
+                            "episode_number": 45,
                             "sources": [
                                 {
-                                    "type": "youtube",
                                     "id": "jIVcgC5ojPU",
+                                    "type": "youtube",
                                     "url": "https://www.youtube.com/watch?v=jIVcgC5ojPU"
                                 }
                             ],
-                            "synopsis": "Goomo tiene que elegir al ganador de un concurso de baile... pero también tiene que decidir quién pierde ¿Será capaz de tomar esa decisión?"
+                            "synopsis": "Goomo tiene que elegir al ganador de un concurso de baile... pero también tiene que decidir quién pierde ¿Será capaz de tomar esa decisión?",
+                            "thumbnail": "https://i.ytimg.com/vi/jIVcgC5ojPU/hqdefault.jpg",
+                            "title": "El concurso de baile"
                         },
                         {
-                            "episode_number": 46,
-                            "title": "El dibujo de Rita",
                             "duration": 12,
-                            "thumbnail": "https://i.ytimg.com/vi/VLDMe89dQ5Q/hqdefault.jpg",
+                            "episode_number": 46,
                             "sources": [
                                 {
-                                    "type": "youtube",
                                     "id": "VLDMe89dQ5Q",
+                                    "type": "youtube",
                                     "url": "https://www.youtube.com/watch?v=VLDMe89dQ5Q"
                                 }
                             ],
-                            "synopsis": "Hace un día estupendo para dibujar y todos los niños se ponen a ello con ilusión. Bello, que sabe que sus dibujos son los más apreciados por la Reina, no puede esperar para mostrarle a esta su último dibujo. Por desgracia la Reina apenas puede prestarle atención porque está ocupada enseñando a Rita. Algo que a Bello le parece muy injusto."
+                            "synopsis": "Hace un día estupendo para dibujar y todos los niños se ponen a ello con ilusión. Bello, que sabe que sus dibujos son los más apreciados por la Reina, no puede esperar para mostrarle a esta su último dibujo. Por desgracia la Reina apenas puede prestarle atención porque está ocupada enseñando a Rita. Algo que a Bello le parece muy injusto.",
+                            "thumbnail": "https://i.ytimg.com/vi/VLDMe89dQ5Q/hqdefault.jpg",
+                            "title": "El dibujo de Rita"
                         },
                         {
-                            "episode_number": 47,
-                            "title": "El dodo blanco",
                             "duration": 12,
-                            "thumbnail": "https://i.ytimg.com/vi/yeKlApo63Vo/hqdefault.jpg",
+                            "episode_number": 47,
                             "sources": [
                                 {
-                                    "type": "youtube",
                                     "id": "yeKlApo63Vo",
+                                    "type": "youtube",
                                     "url": "https://www.youtube.com/watch?v=yeKlApo63Vo"
                                 }
                             ],
-                            "synopsis": "El más misterioso de los dodos, el dodo blanco, visita Jammbo. Los niños se divertirán mucho, en especial Ongo, y les costará despedirse de él."
+                            "synopsis": "El más misterioso de los dodos, el dodo blanco, visita Jammbo. Los niños se divertirán mucho, en especial Ongo, y les costará despedirse de él.",
+                            "thumbnail": "https://i.ytimg.com/vi/yeKlApo63Vo/hqdefault.jpg",
+                            "title": "El dodo blanco"
                         },
                         {
-                            "episode_number": 48,
-                            "title": "Preguntas, Preguntas",
                             "duration": 11,
-                            "thumbnail": "https://i.ytimg.com/vi/lMlTUG1rxbs/hqdefault.jpg",
+                            "episode_number": 48,
                             "sources": [
                                 {
-                                    "type": "youtube",
                                     "id": "lMlTUG1rxbs",
+                                    "type": "youtube",
                                     "url": "https://www.youtube.com/watch?v=lMlTUG1rxbs"
                                 }
                             ],
-                            "synopsis": "A Mina le cuesta mucho admitir que hay cosas que no sabe. Con muchos juegos sus amigos le demostrarán lo bueno que es preguntar lo que no sabes."
+                            "synopsis": "A Mina le cuesta mucho admitir que hay cosas que no sabe. Con muchos juegos sus amigos le demostrarán lo bueno que es preguntar lo que no sabes.",
+                            "thumbnail": "https://i.ytimg.com/vi/lMlTUG1rxbs/hqdefault.jpg",
+                            "title": "Preguntas, Preguntas"
                         },
                         {
-                            "episode_number": 49,
-                            "title": "Super Velocidad",
                             "duration": 12,
-                            "thumbnail": "https://i.ytimg.com/vi/S5XTkN4TfBk/hqdefault.jpg",
+                            "episode_number": 49,
                             "sources": [
                                 {
-                                    "type": "youtube",
                                     "id": "S5XTkN4TfBk",
+                                    "type": "youtube",
                                     "url": "https://www.youtube.com/watch?v=S5XTkN4TfBk"
                                 }
                             ],
-                            "synopsis": "En este episodio Bello y Goomo se esfuerzan para llegar a ser superhéroes con el duro entrenamiento de Mina... pero a Bello le parece demasiado esfuerzo. ¿Terminará el entrenamiento y llegará a ser un superhéroe?"
+                            "synopsis": "En este episodio Bello y Goomo se esfuerzan para llegar a ser superhéroes con el duro entrenamiento de Mina... pero a Bello le parece demasiado esfuerzo. ¿Terminará el entrenamiento y llegará a ser un superhéroe?",
+                            "thumbnail": "https://i.ytimg.com/vi/S5XTkN4TfBk/hqdefault.jpg",
+                            "title": "Super Velocidad"
                         },
                         {
-                            "episode_number": 50,
-                            "title": "¡Miradme!",
                             "duration": 11,
-                            "thumbnail": "https://i.ytimg.com/vi/MIkwIVmJ_nY/hqdefault.jpg",
+                            "episode_number": 50,
                             "sources": [
                                 {
-                                    "type": "youtube",
                                     "id": "MIkwIVmJ_nY",
+                                    "type": "youtube",
                                     "url": "https://www.youtube.com/watch?v=MIkwIVmJ_nY"
                                 }
                             ],
-                            "synopsis": "Bello estropea una fiesta de sus amigos. Cuando consigue entender en qué se ha equivocado inventará un plan para compensarles."
+                            "synopsis": "Bello estropea una fiesta de sus amigos. Cuando consigue entender en qué se ha equivocado inventará un plan para compensarles.",
+                            "thumbnail": "https://i.ytimg.com/vi/MIkwIVmJ_nY/hqdefault.jpg",
+                            "title": "¡Miradme!"
                         },
                         {
-                            "episode_number": 51,
-                            "title": "La Sorpresa",
                             "duration": 11,
-                            "thumbnail": "https://i.ytimg.com/vi/WDrqqF25H-E/hqdefault.jpg",
+                            "episode_number": 51,
                             "sources": [
                                 {
-                                    "type": "youtube",
                                     "id": "WDrqqF25H-E",
+                                    "type": "youtube",
                                     "url": "https://www.youtube.com/watch?v=WDrqqF25H-E"
                                 }
                             ],
-                            "synopsis": "El Rey ha guardado todos los juguetes para ordenar el Castillo pero Bello y Goomo no pueden resistir la tentación lo desordenan todo."
+                            "synopsis": "El Rey ha guardado todos los juguetes para ordenar el Castillo pero Bello y Goomo no pueden resistir la tentación lo desordenan todo.",
+                            "thumbnail": "https://i.ytimg.com/vi/WDrqqF25H-E/hqdefault.jpg",
+                            "title": "La Sorpresa"
                         },
                         {
-                            "episode_number": 52,
-                            "title": "La clase de baile",
                             "duration": 14,
-                            "thumbnail": "https://i.ytimg.com/vi/Y87vvSMqQwE/hqdefault.jpg",
+                            "episode_number": 52,
                             "sources": [
                                 {
-                                    "type": "youtube",
                                     "id": "Y87vvSMqQwE",
+                                    "type": "youtube",
                                     "url": "https://www.youtube.com/watch?v=Y87vvSMqQwE"
                                 }
                             ],
-                            "synopsis": "Hoy es un día especial, los niños de Jammbo quieren enseñarnos un nuevo baile, ¿estáis listos? Sólo tenéis que ver el episodio y seguir las instrucciones de Bello y los demás chicos para aprender a bailar al estilo Jammbo."
+                            "synopsis": "Hoy es un día especial, los niños de Jammbo quieren enseñarnos un nuevo baile, ¿estáis listos? Sólo tenéis que ver el episodio y seguir las instrucciones de Bello y los demás chicos para aprender a bailar al estilo Jammbo.",
+                            "thumbnail": "https://i.ytimg.com/vi/Y87vvSMqQwE/hqdefault.jpg",
+                            "title": "La clase de baile"
                         }
-                    ]
+                    ],
+                    "season_number": 1,
+                    "title": "Temporada 1"
                 },
                 {
-                    "season_number": 2,
-                    "title": "Temporada 2",
                     "episode_count": 25,
                     "episodes": [
                         {
-                            "episode_number": 1,
-                            "title": "Todos los Clones del Rey",
                             "duration": 11,
-                            "thumbnail": "https://i.ytimg.com/vi/R4dG8fypF1U/hqdefault.jpg",
+                            "episode_number": 1,
                             "sources": [
                                 {
-                                    "type": "youtube",
                                     "id": "R4dG8fypF1U",
+                                    "type": "youtube",
                                     "url": "https://www.youtube.com/watch?v=R4dG8fypF1U"
                                 }
                             ],
-                            "synopsis": "El Rey crea varios clones para que hagan su trabajo. Pero estos, tan vagos como el rey, suponen un nuevo y creciente problema. Rita tendrá que ayudar al Rey a deshacerse de ellos."
+                            "synopsis": "El Rey crea varios clones para que hagan su trabajo. Pero estos, tan vagos como el rey, suponen un nuevo y creciente problema. Rita tendrá que ayudar al Rey a deshacerse de ellos.",
+                            "thumbnail": "https://i.ytimg.com/vi/R4dG8fypF1U/hqdefault.jpg",
+                            "title": "Todos los Clones del Rey"
                         },
                         {
-                            "episode_number": 2,
-                            "title": "El Abuelo Dodo",
                             "duration": 11,
-                            "thumbnail": "https://i.ytimg.com/vi/Vyd8ZRLL0f4/hqdefault.jpg",
+                            "episode_number": 2,
                             "sources": [
                                 {
-                                    "type": "youtube",
                                     "id": "Vyd8ZRLL0f4",
+                                    "type": "youtube",
                                     "url": "https://www.youtube.com/watch?v=Vyd8ZRLL0f4"
                                 }
                             ],
-                            "synopsis": "Es el Festival del Trébol y cada niño debe traer el más grande que pueda encontrar. Ayudado por un Dodo viejo y gruñón, Bello dará con el trébol más grande que jamás ha visto."
+                            "synopsis": "Es el Festival del Trébol y cada niño debe traer el más grande que pueda encontrar. Ayudado por un Dodo viejo y gruñón, Bello dará con el trébol más grande que jamás ha visto.",
+                            "thumbnail": "https://i.ytimg.com/vi/Vyd8ZRLL0f4/hqdefault.jpg",
+                            "title": "El Abuelo Dodo"
                         },
                         {
-                            "episode_number": 3,
-                            "title": "Un Día en las Carreras",
                             "duration": 11,
-                            "thumbnail": "https://i.ytimg.com/vi/2mQzsQgrJzQ/hqdefault.jpg",
+                            "episode_number": 3,
                             "sources": [
                                 {
-                                    "type": "youtube",
                                     "id": "2mQzsQgrJzQ",
+                                    "type": "youtube",
                                     "url": "https://www.youtube.com/watch?v=2mQzsQgrJzQ"
                                 }
                             ],
-                            "synopsis": "El Rey ha mejorado su coche y organiza una carrera para probarlo. Durante la carrera, el Rey da rienda suelta a su chulería, lo que hace que los niños unan sus fuerzas para vencerle."
+                            "synopsis": "El Rey ha mejorado su coche y organiza una carrera para probarlo. Durante la carrera, el Rey da rienda suelta a su chulería, lo que hace que los niños unan sus fuerzas para vencerle.",
+                            "thumbnail": "https://i.ytimg.com/vi/2mQzsQgrJzQ/hqdefault.jpg",
+                            "title": "Un Día en las Carreras"
                         },
                         {
-                            "episode_number": 4,
-                            "title": "Las Zapatillas Blancas",
                             "duration": 11,
-                            "thumbnail": "https://i.ytimg.com/vi/vCZhZ42ZsI0/hqdefault.jpg",
+                            "episode_number": 4,
                             "sources": [
                                 {
-                                    "type": "youtube",
                                     "id": "vCZhZ42ZsI0",
+                                    "type": "youtube",
                                     "url": "https://www.youtube.com/watch?v=vCZhZ42ZsI0"
                                 }
                             ],
-                            "synopsis": "Cuando las zapatillas de Goomo se rompen, la Reina le regala unas nuevas y relucientes. Goomo no quiere hacer nada que pueda empañar la hipnótica blancura de sus zapatillas."
+                            "synopsis": "Cuando las zapatillas de Goomo se rompen, la Reina le regala unas nuevas y relucientes. Goomo no quiere hacer nada que pueda empañar la hipnótica blancura de sus zapatillas.",
+                            "thumbnail": "https://i.ytimg.com/vi/vCZhZ42ZsI0/hqdefault.jpg",
+                            "title": "Las Zapatillas Blancas"
                         },
                         {
-                            "episode_number": 5,
-                            "title": "El Dodo Perdido",
                             "duration": 11,
-                            "thumbnail": "https://i.ytimg.com/vi/LQ7EKx_F_AE/hqdefault.jpg",
+                            "episode_number": 5,
                             "sources": [
                                 {
-                                    "type": "youtube",
                                     "id": "LQ7EKx_F_AE",
+                                    "type": "youtube",
                                     "url": "https://www.youtube.com/watch?v=LQ7EKx_F_AE"
                                 }
                             ],
-                            "synopsis": "La Reina y Rita buscan a una cría de Dodo que se ha perdido en el bosque. Durante la búsqueda Rita también se pierde, y tendrá que usar toda su astucia para reunirse con sus amigos."
+                            "synopsis": "La Reina y Rita buscan a una cría de Dodo que se ha perdido en el bosque. Durante la búsqueda Rita también se pierde, y tendrá que usar toda su astucia para reunirse con sus amigos.",
+                            "thumbnail": "https://i.ytimg.com/vi/LQ7EKx_F_AE/hqdefault.jpg",
+                            "title": "El Dodo Perdido"
                         },
                         {
-                            "episode_number": 6,
-                            "title": "El Dodo Mariposa",
                             "duration": 11,
-                            "thumbnail": "https://i.ytimg.com/vi/QC7HdVtKi1c/hqdefault.jpg",
+                            "episode_number": 6,
                             "sources": [
                                 {
-                                    "type": "youtube",
                                     "id": "QC7HdVtKi1c",
+                                    "type": "youtube",
                                     "url": "https://www.youtube.com/watch?v=QC7HdVtKi1c"
                                 }
                             ],
-                            "synopsis": "Por accidente Mina hace gigante a una Dodo-Mariposa. Al principio el animal asusta a los habitantes de Jammbo, pero pronto todos cambiarán el miedo por una bonita amistad."
+                            "synopsis": "Por accidente Mina hace gigante a una Dodo-Mariposa. Al principio el animal asusta a los habitantes de Jammbo, pero pronto todos cambiarán el miedo por una bonita amistad.",
+                            "thumbnail": "https://i.ytimg.com/vi/QC7HdVtKi1c/hqdefault.jpg",
+                            "title": "El Dodo Mariposa"
                         },
                         {
-                            "episode_number": 7,
-                            "title": "El Cuento",
                             "duration": 11,
-                            "thumbnail": "https://i.ytimg.com/vi/G9GKMM3tt40/hqdefault.jpg",
+                            "episode_number": 7,
                             "sources": [
                                 {
-                                    "type": "youtube",
                                     "id": "G9GKMM3tt40",
+                                    "type": "youtube",
                                     "url": "https://www.youtube.com/watch?v=G9GKMM3tt40"
                                 }
                             ],
-                            "synopsis": "Rita es incapaz de esperar a la noche para leer el siguiente capítulo de un cuento que la Reina tiene guardado. La niña intentará por todos los medios saber como acaba el libro."
+                            "synopsis": "Rita es incapaz de esperar a la noche para leer el siguiente capítulo de un cuento que la Reina tiene guardado. La niña intentará por todos los medios saber como acaba el libro.",
+                            "thumbnail": "https://i.ytimg.com/vi/G9GKMM3tt40/hqdefault.jpg",
+                            "title": "El Cuento"
                         },
                         {
-                            "episode_number": 8,
-                            "title": "Hogar Rodante Hogar",
                             "duration": 11,
-                            "thumbnail": "https://i.ytimg.com/vi/6kho9cSskqw/hqdefault.jpg",
+                            "episode_number": 8,
                             "sources": [
                                 {
-                                    "type": "youtube",
                                     "id": "6kho9cSskqw",
+                                    "type": "youtube",
                                     "url": "https://www.youtube.com/watch?v=6kho9cSskqw"
                                 }
                             ],
-                            "synopsis": "Mina pierde su casa por culpa de Rita, así que esta le ofrece a su amiga vivir juntas. Esta experiencia, al principio tan divertida, acabará siendo todo un desafío para su amistad."
+                            "synopsis": "Mina pierde su casa por culpa de Rita, así que esta le ofrece a su amiga vivir juntas. Esta experiencia, al principio tan divertida, acabará siendo todo un desafío para su amistad.",
+                            "thumbnail": "https://i.ytimg.com/vi/6kho9cSskqw/hqdefault.jpg",
+                            "title": "Hogar Rodante Hogar"
                         },
                         {
-                            "episode_number": 9,
-                            "title": "El Hombre que Podía Reinar",
                             "duration": 12,
-                            "thumbnail": "https://i.ytimg.com/vi/Lj7CsgpGvxY/hqdefault.jpg",
+                            "episode_number": 9,
                             "sources": [
                                 {
-                                    "type": "youtube",
                                     "id": "Lj7CsgpGvxY",
+                                    "type": "youtube",
                                     "url": "https://www.youtube.com/watch?v=Lj7CsgpGvxY"
                                 }
                             ],
-                            "synopsis": "Es cada vez más evidente que el Rey depende demasiado de los Dodos. Por eso, cuando la Reina manifiesta sus dudas, el Rey se ve obligado a demostrar que él es alguien capaz de reinar."
+                            "synopsis": "Es cada vez más evidente que el Rey depende demasiado de los Dodos. Por eso, cuando la Reina manifiesta sus dudas, el Rey se ve obligado a demostrar que él es alguien capaz de reinar.",
+                            "thumbnail": "https://i.ytimg.com/vi/Lj7CsgpGvxY/hqdefault.jpg",
+                            "title": "El Hombre que Podía Reinar"
                         },
                         {
-                            "episode_number": 10,
-                            "title": "El Monstruo del Aburrimiento",
                             "duration": 11,
-                            "thumbnail": "https://i.ytimg.com/vi/jCSAI_MvMKs/hqdefault.jpg",
+                            "episode_number": 10,
                             "sources": [
                                 {
-                                    "type": "youtube",
                                     "id": "jCSAI_MvMKs",
+                                    "type": "youtube",
                                     "url": "https://www.youtube.com/watch?v=jCSAI_MvMKs"
                                 }
                             ],
-                            "synopsis": "Es una tarde lluviosa y los niños no pueden salir. El Rey propone un juego: Contar un cuento por turnos. Así crearán una historia que les transformará en… monstruos!"
+                            "synopsis": "Es una tarde lluviosa y los niños no pueden salir. El Rey propone un juego: Contar un cuento por turnos. Así crearán una historia que les transformará en… monstruos!",
+                            "thumbnail": "https://i.ytimg.com/vi/jCSAI_MvMKs/hqdefault.jpg",
+                            "title": "El Monstruo del Aburrimiento"
                         },
                         {
-                            "episode_number": 11,
-                            "title": "El Regalo es el Regalo",
                             "duration": 11,
-                            "thumbnail": "https://i.ytimg.com/vi/978dQekHP-I/hqdefault.jpg",
+                            "episode_number": 11,
                             "sources": [
                                 {
-                                    "type": "youtube",
                                     "id": "978dQekHP-I",
+                                    "type": "youtube",
                                     "url": "https://www.youtube.com/watch?v=978dQekHP-I"
                                 }
                             ],
-                            "synopsis": "Bello se sorprende al escuchar al Rey decir que hacer regalos es mejor que recibirlos. Bello hará lo posible por comprobar esa teoría y Goomo pagará las consecuencias."
+                            "synopsis": "Bello se sorprende al escuchar al Rey decir que hacer regalos es mejor que recibirlos. Bello hará lo posible por comprobar esa teoría y Goomo pagará las consecuencias.",
+                            "thumbnail": "https://i.ytimg.com/vi/978dQekHP-I/hqdefault.jpg",
+                            "title": "El Regalo es el Regalo"
                         },
                         {
-                            "episode_number": 12,
-                            "title": "Doble Bello",
                             "duration": 10,
-                            "thumbnail": "https://i.ytimg.com/vi/RBh8opBIyco/hqdefault.jpg",
+                            "episode_number": 12,
                             "sources": [
                                 {
-                                    "type": "youtube",
                                     "id": "RBh8opBIyco",
+                                    "type": "youtube",
                                     "url": "https://www.youtube.com/watch?v=RBh8opBIyco"
                                 }
                             ],
-                            "synopsis": "¿Quién dice que no se pueden hacer dos cosas a la vez? Para demostrar que es posible, Bello intentará estar con el Rey al mismo tiempo que celebra un cumpleaños. ¿Lo conseguirá?"
+                            "synopsis": "¿Quién dice que no se pueden hacer dos cosas a la vez? Para demostrar que es posible, Bello intentará estar con el Rey al mismo tiempo que celebra un cumpleaños. ¿Lo conseguirá?",
+                            "thumbnail": "https://i.ytimg.com/vi/RBh8opBIyco/hqdefault.jpg",
+                            "title": "Doble Bello"
                         },
                         {
-                            "episode_number": 13,
-                            "title": "La Caída del Hombre Jammbo",
                             "duration": 11,
-                            "thumbnail": "https://i.ytimg.com/vi/RnTMtgNF88U/hqdefault.jpg",
+                            "episode_number": 13,
                             "sources": [
                                 {
-                                    "type": "youtube",
                                     "id": "RnTMtgNF88U",
+                                    "type": "youtube",
                                     "url": "https://www.youtube.com/watch?v=RnTMtgNF88U"
                                 }
                             ],
-                            "synopsis": "Sidekick-Man se da cuenta de que para Jammbo-Man él solo es un ayudante sin demasiada importancia, no le tiene en cuenta y siempre se atribuye todos los méritos. Estos desplantes harán que Sidekick-Man se replantee sus lealtades y adopte una nueva y terrible personalidad. Se convertirá en… ¡El Archienemigo! ¿Conseguirá derrotar a Jammbo-Man?"
+                            "synopsis": "Sidekick-Man se da cuenta de que para Jammbo-Man él solo es un ayudante sin demasiada importancia, no le tiene en cuenta y siempre se atribuye todos los méritos. Estos desplantes harán que Sidekick-Man se replantee sus lealtades y adopte una nueva y terrible personalidad. Se convertirá en… ¡El Archienemigo! ¿Conseguirá derrotar a Jammbo-Man?",
+                            "thumbnail": "https://i.ytimg.com/vi/RnTMtgNF88U/hqdefault.jpg",
+                            "title": "La Caída del Hombre Jammbo"
                         },
                         {
-                            "episode_number": 14,
-                            "title": "El Señor Profesor",
                             "duration": 12,
-                            "thumbnail": "https://i.ytimg.com/vi/gv-t3rnKp_0/hqdefault.jpg",
+                            "episode_number": 14,
                             "sources": [
                                 {
-                                    "type": "youtube",
                                     "id": "gv-t3rnKp_0",
+                                    "type": "youtube",
                                     "url": "https://www.youtube.com/watch?v=gv-t3rnKp_0"
                                 }
                             ],
-                            "synopsis": "Bello está aburrido porque Goomo es incapaz de aprender juegos nuevos, así que consigue que Mina usando uno de sus inventos, le convierta en un Goomo más listo. El problema es que ahora es Goomo el que se aburre participando en los juegos que le gustan a Bello."
+                            "synopsis": "Bello está aburrido porque Goomo es incapaz de aprender juegos nuevos, así que consigue que Mina usando uno de sus inventos, le convierta en un Goomo más listo. El problema es que ahora es Goomo el que se aburre participando en los juegos que le gustan a Bello.",
+                            "thumbnail": "https://i.ytimg.com/vi/gv-t3rnKp_0/hqdefault.jpg",
+                            "title": "El Señor Profesor"
                         },
                         {
-                            "episode_number": 15,
-                            "title": "La Sonrisa de Princesa",
                             "duration": 11,
-                            "thumbnail": "https://i.ytimg.com/vi/6xY7BbprToM/hqdefault.jpg",
+                            "episode_number": 15,
                             "sources": [
                                 {
-                                    "type": "youtube",
                                     "id": "6xY7BbprToM",
+                                    "type": "youtube",
                                     "url": "https://www.youtube.com/watch?v=6xY7BbprToM"
                                 }
                             ],
-                            "synopsis": "Un accidente con un cepillo de dientes provoca que Princesa pierda su sonrisa. Rita se sentirá tan triste que promete no volver a cepillarse los dientes nunca más. El resto del grupo hará lo posible para evitar que esto ocurra y, de paso, lograr que la muñeca recupere su sonrisa."
+                            "synopsis": "Un accidente con un cepillo de dientes provoca que Princesa pierda su sonrisa. Rita se sentirá tan triste que promete no volver a cepillarse los dientes nunca más. El resto del grupo hará lo posible para evitar que esto ocurra y, de paso, lograr que la muñeca recupere su sonrisa.",
+                            "thumbnail": "https://i.ytimg.com/vi/6xY7BbprToM/hqdefault.jpg",
+                            "title": "La Sonrisa de Princesa"
                         },
                         {
-                            "episode_number": 16,
-                            "title": "La Pegatina",
                             "duration": 11,
-                            "thumbnail": "https://i.ytimg.com/vi/5f9KSE9Ugmc/hqdefault.jpg",
+                            "episode_number": 16,
                             "sources": [
                                 {
-                                    "type": "youtube",
                                     "id": "5f9KSE9Ugmc",
+                                    "type": "youtube",
                                     "url": "https://www.youtube.com/watch?v=5f9KSE9Ugmc"
                                 }
                             ],
-                            "synopsis": "El Rey encuentra dentro de un viejo libro unas pegamedallas, que son pegatinas que sirven para condecorar a quien muestre un talento especial. Bello hará lo imposible por conseguir una algunas de ellas pero, desafortunadamente, las cosas no acabarán como él imaginaba. O tal vez sí…"
+                            "synopsis": "El Rey encuentra dentro de un viejo libro unas pegamedallas, que son pegatinas que sirven para condecorar a quien muestre un talento especial. Bello hará lo imposible por conseguir una algunas de ellas pero, desafortunadamente, las cosas no acabarán como él imaginaba. O tal vez sí…",
+                            "thumbnail": "https://i.ytimg.com/vi/5f9KSE9Ugmc/hqdefault.jpg",
+                            "title": "La Pegatina"
                         },
                         {
-                            "episode_number": 17,
-                            "title": "Abuelo Ayudante",
                             "duration": 11,
-                            "thumbnail": "https://i.ytimg.com/vi/0FUjH9ZItP4/hqdefault.jpg",
+                            "episode_number": 17,
                             "sources": [
                                 {
-                                    "type": "youtube",
                                     "id": "0FUjH9ZItP4",
+                                    "type": "youtube",
                                     "url": "https://www.youtube.com/watch?v=0FUjH9ZItP4"
                                 }
                             ],
-                            "synopsis": "El Abuelo-Dodo siempre está ahí cuando se le necesita. El problema es que, una vez que los niños se dan cuenta de ello… empiezan a necesitarle hasta para las cosas más triviales!"
+                            "synopsis": "El Abuelo-Dodo siempre está ahí cuando se le necesita. El problema es que, una vez que los niños se dan cuenta de ello… empiezan a necesitarle hasta para las cosas más triviales!",
+                            "thumbnail": "https://i.ytimg.com/vi/0FUjH9ZItP4/hqdefault.jpg",
+                            "title": "Abuelo Ayudante"
                         },
                         {
-                            "episode_number": 18,
-                            "title": "La Planta",
                             "duration": 11,
-                            "thumbnail": "https://i.ytimg.com/vi/0rZLRO74CR8/hqdefault.jpg",
+                            "episode_number": 18,
                             "sources": [
                                 {
-                                    "type": "youtube",
                                     "id": "0rZLRO74CR8",
+                                    "type": "youtube",
                                     "url": "https://www.youtube.com/watch?v=0rZLRO74CR8"
                                 }
                             ],
-                            "synopsis": "A todos los niños les parece de lo más divertido demostrar sus dotes de jardinería y hacerse cargo de una planta muy especial. Por desgracia para cuidar bien de algo es necesario ser constante, algo muy difícil para Bello."
+                            "synopsis": "A todos los niños les parece de lo más divertido demostrar sus dotes de jardinería y hacerse cargo de una planta muy especial. Por desgracia para cuidar bien de algo es necesario ser constante, algo muy difícil para Bello.",
+                            "thumbnail": "https://i.ytimg.com/vi/0rZLRO74CR8/hqdefault.jpg",
+                            "title": "La Planta"
                         },
                         {
-                            "episode_number": 19,
-                            "title": "Repetición, Repetición",
                             "duration": 11,
-                            "thumbnail": "https://i.ytimg.com/vi/rGppFQl_2MU/hqdefault.jpg",
+                            "episode_number": 19,
                             "sources": [
                                 {
-                                    "type": "youtube",
                                     "id": "rGppFQl_2MU",
+                                    "type": "youtube",
                                     "url": "https://www.youtube.com/watch?v=rGppFQl_2MU"
                                 }
                             ],
-                            "synopsis": "Rita aprende un nuevo juego en el que además es bastante buena. El juego de las repeticiones. La niña conseguirá agotar la paciencia de todos sus amigos una y otra vez. Solo les queda una opción para que Rita comprenda lo agotadora que resulta: Enfrentarla con el mejor imitador de la galaxia."
+                            "synopsis": "Rita aprende un nuevo juego en el que además es bastante buena. El juego de las repeticiones. La niña conseguirá agotar la paciencia de todos sus amigos una y otra vez. Solo les queda una opción para que Rita comprenda lo agotadora que resulta: Enfrentarla con el mejor imitador de la galaxia.",
+                            "thumbnail": "https://i.ytimg.com/vi/rGppFQl_2MU/hqdefault.jpg",
+                            "title": "Repetición, Repetición"
                         },
                         {
-                            "episode_number": 20,
-                            "title": "El Juguete Perfecto",
                             "duration": 10,
-                            "thumbnail": "https://i.ytimg.com/vi/aIHQbaLmAIY/hqdefault.jpg",
+                            "episode_number": 20,
                             "sources": [
                                 {
-                                    "type": "youtube",
                                     "id": "aIHQbaLmAIY",
+                                    "type": "youtube",
                                     "url": "https://www.youtube.com/watch?v=aIHQbaLmAIY"
                                 }
                             ],
-                            "synopsis": "Bello y Goomo se embarcan en uno de sus proyectos más ambiciosos: ¡Diseñar el juguete perfecto! Un juguete que sea tan genial como para que nunca te canses de él. Tras desarrollar algunas ideas descubrirán con asombro que ese objeto está mucho más cerca de ellos de lo que habían podido imaginar."
+                            "synopsis": "Bello y Goomo se embarcan en uno de sus proyectos más ambiciosos: ¡Diseñar el juguete perfecto! Un juguete que sea tan genial como para que nunca te canses de él. Tras desarrollar algunas ideas descubrirán con asombro que ese objeto está mucho más cerca de ellos de lo que habían podido imaginar.",
+                            "thumbnail": "https://i.ytimg.com/vi/aIHQbaLmAIY/hqdefault.jpg",
+                            "title": "El Juguete Perfecto"
                         },
                         {
-                            "episode_number": 21,
-                            "title": "De Excursión",
                             "duration": 11,
-                            "thumbnail": "https://i.ytimg.com/vi/Aj51z6TdbTU/hqdefault.jpg",
+                            "episode_number": 21,
                             "sources": [
                                 {
-                                    "type": "youtube",
                                     "id": "Aj51z6TdbTU",
+                                    "type": "youtube",
                                     "url": "https://www.youtube.com/watch?v=Aj51z6TdbTU"
                                 }
                             ],
-                            "synopsis": "Los niños van a hacer su primera excursión sin los reyes. Su falta de organización y dejadez les pondrá pronto en una situación muy difícil. Solo trabajando todos juntos y echando mano de su ingenio tendrán alguna opción de convertir una situación crítica en una acampada aún más divertida."
+                            "synopsis": "Los niños van a hacer su primera excursión sin los reyes. Su falta de organización y dejadez les pondrá pronto en una situación muy difícil. Solo trabajando todos juntos y echando mano de su ingenio tendrán alguna opción de convertir una situación crítica en una acampada aún más divertida.",
+                            "thumbnail": "https://i.ytimg.com/vi/Aj51z6TdbTU/hqdefault.jpg",
+                            "title": "De Excursión"
                         },
                         {
-                            "episode_number": 22,
-                            "title": "Elígeme a mi",
                             "duration": 10,
-                            "thumbnail": "https://i.ytimg.com/vi/ImLGRv5c0zM/hqdefault.jpg",
+                            "episode_number": 22,
                             "sources": [
                                 {
-                                    "type": "youtube",
                                     "id": "ImLGRv5c0zM",
+                                    "type": "youtube",
                                     "url": "https://www.youtube.com/watch?v=ImLGRv5c0zM"
                                 }
                             ],
-                            "synopsis": "Que te elijan en último lugar a la hora de formar un equipo siempre es duro. Pero si además te consideras el mejor jugador y quien te relega a ese puesto vergonzoso es tu mejor amigo… ¡Entonces es mucho peor! Esa es la situación en la que se ve envuelto Bello. Y no lo va a llevar nada bien."
+                            "synopsis": "Que te elijan en último lugar a la hora de formar un equipo siempre es duro. Pero si además te consideras el mejor jugador y quien te relega a ese puesto vergonzoso es tu mejor amigo… ¡Entonces es mucho peor! Esa es la situación en la que se ve envuelto Bello. Y no lo va a llevar nada bien.",
+                            "thumbnail": "https://i.ytimg.com/vi/ImLGRv5c0zM/hqdefault.jpg",
+                            "title": "Elígeme a mi"
                         },
                         {
-                            "episode_number": 23,
-                            "title": "Mi Turno",
                             "duration": 10,
-                            "thumbnail": "https://i.ytimg.com/vi/XN2ZzwatrBE/hqdefault.jpg",
+                            "episode_number": 23,
                             "sources": [
                                 {
-                                    "type": "youtube",
                                     "id": "XN2ZzwatrBE",
+                                    "type": "youtube",
                                     "url": "https://www.youtube.com/watch?v=XN2ZzwatrBE"
                                 }
                             ],
-                            "synopsis": "La Reina muestra a los niños uno de los juguetes favoritos de su infancia: ¡Una cama elástica! Deciden subir por turnos, pero Rita abusa del suyo hasta el punto de que los demás tienen que obligarla a bajar. La inagotable energía e ingenio de la niña se lo pondrá muy difícil a sus amigos."
+                            "synopsis": "La Reina muestra a los niños uno de los juguetes favoritos de su infancia: ¡Una cama elástica! Deciden subir por turnos, pero Rita abusa del suyo hasta el punto de que los demás tienen que obligarla a bajar. La inagotable energía e ingenio de la niña se lo pondrá muy difícil a sus amigos.",
+                            "thumbnail": "https://i.ytimg.com/vi/XN2ZzwatrBE/hqdefault.jpg",
+                            "title": "Mi Turno"
                         },
                         {
-                            "episode_number": 24,
-                            "title": "Jammbo TV",
                             "duration": 10,
-                            "thumbnail": "https://i.ytimg.com/vi/B6ckPOceihQ/hqdefault.jpg",
+                            "episode_number": 24,
                             "sources": [
                                 {
-                                    "type": "youtube",
                                     "id": "B6ckPOceihQ",
+                                    "type": "youtube",
                                     "url": "https://www.youtube.com/watch?v=B6ckPOceihQ"
                                 }
                             ],
-                            "synopsis": "Todo el grupo está en el castillo viendo una emocionante serie de dibujos. Cuando el programa acaba Goomo decide quedarse un poco más delante de la tele ¡Y ese poco más se convierte en días! Sus amigos tendrán que traer de vuelta al Goomo activo y divertido de siempre."
+                            "synopsis": "Todo el grupo está en el castillo viendo una emocionante serie de dibujos. Cuando el programa acaba Goomo decide quedarse un poco más delante de la tele ¡Y ese poco más se convierte en días! Sus amigos tendrán que traer de vuelta al Goomo activo y divertido de siempre.",
+                            "thumbnail": "https://i.ytimg.com/vi/B6ckPOceihQ/hqdefault.jpg",
+                            "title": "Jammbo TV"
                         },
                         {
-                            "episode_number": 25,
-                            "title": "Juntos de la Mano",
                             "duration": 24,
-                            "thumbnail": "https://i.ytimg.com/vi/Sqq2_-7VNEk/hqdefault.jpg",
+                            "episode_number": 25,
                             "sources": [
                                 {
-                                    "type": "youtube",
                                     "id": "Sqq2_-7VNEk",
+                                    "type": "youtube",
                                     "url": "https://www.youtube.com/watch?v=Sqq2_-7VNEk"
                                 }
                             ],
-                            "synopsis": "Bello y Goomo ganan una carrera de relevos. El problema llega cuando descubren que solo hay una medalla. ¿Quién debe llevarse el trofeo? La discusión les llevará a anunciar el fin de su amistad. Pero el resto del grupo les hará ver que una amistad tan especial no puede acabar por algo tan trivial."
+                            "synopsis": "Bello y Goomo ganan una carrera de relevos. El problema llega cuando descubren que solo hay una medalla. ¿Quién debe llevarse el trofeo? La discusión les llevará a anunciar el fin de su amistad. Pero el resto del grupo les hará ver que una amistad tan especial no puede acabar por algo tan trivial.",
+                            "thumbnail": "https://i.ytimg.com/vi/Sqq2_-7VNEk/hqdefault.jpg",
+                            "title": "Juntos de la Mano"
                         }
-                    ]
+                    ],
+                    "season_number": 2,
+                    "title": "Temporada 2"
+                }
+            ]
+        },
+        {
+            "id": "jorge-el-curioso",
+            "title": "Jorge el Curioso",
+            "original_title": "Jorge el Curioso",
+            "studio": "Imagine Entertainment, WGBH y Universal Animation Studios",
+            "release_year": 2006,
+            "genres": [
+                "Animación",
+                "Educativo",
+                "2D"
+            ],
+            "values": [
+                "creatividad",
+                "curiosidad",
+                "resolución de problemas",
+                "naturaleza",
+                "ciencia",
+                "matemáticas",
+                "familia"
+            ],
+            "synopsis": "Jorge es un mono que vive con el hombre del sombrero amarillo (Ted), donde vive alegre y feliz con sus amigos, curioso como siempre con todo lo que pasa a su alrededor, es muy amigable con los demás animales y le encanta jugar con sus amigos (Hundley el perro salchicha, Ñoqui el gato travieso, y Gnocchi el perro que siempre se escapa para poder jugar con él), además de vivir en la ciudad, él tiene amigos en el campo como Señor y Señora Quint, Bill y Señor y Señora Renkins.",
+            "images": {
+                "banner": "https://yt3.googleusercontent.com/A5WxOgFpXlKkU80jGdJO0x2l-gRhaOYwxvQQWsdlanxsYWLxYimSybnkyFYeOfw027-qMD9gKQ=w1707-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+                "logo": "https://yt3.ggpht.com/ytc/AIdro_nCfJ5zS5jr28RoUco9p609rkIyUT5UW6e-ktimx0fJORA=s900-c-k-c0x00ffffff-no-rj"
+            },
+            "seasons": [
+                {
+                    "episode_count": 64,
+                    "episodes": [
+                        {
+                            "duration": 23,
+                            "episode_number": 1,
+                            "sources": [
+                                {
+                                    "id": "Uq0HL0weiog",
+                                    "type": "youtube",
+                                    "url": "https://www.youtube.com/watch?v=Uq0HL0weiog"
+                                }
+                            ],
+                            "synopsis": "Jorge y Steve toman prestado el carrito de Betsy para recoger un paquete, ¡pero ya de camino, Jorge va demasido rápido!",
+                            "thumbnail": "https://i.ytimg.com/vi/Uq0HL0weiog/hqdefault.jpg",
+                            "title": "El viaje de Jorge en una carreta"
+                        },
+                        {
+                            "duration": 23,
+                            "episode_number": 2,
+                            "sources": [
+                                {
+                                    "id": "6EGIz4njBkQ",
+                                    "type": "youtube",
+                                    "url": "https://www.youtube.com/watch?v=6EGIz4njBkQ"
+                                }
+                            ],
+                            "synopsis": "Jorge oye un sonido parecido a unas pisadas que viene del techo de su nuevo departamento y se convence de que su nuevo vecino que vive justo arriba de él tiene un elefante de mascota.",
+                            "thumbnail": "https://i.ytimg.com/vi/6EGIz4njBkQ/hqdefault.jpg",
+                            "title": "Jorge prueba pintar con el dedo"
+                        },
+                        {
+                            "duration": 23,
+                            "episode_number": 3,
+                            "sources": [
+                                {
+                                    "id": "tcFNQRLn9OI",
+                                    "type": "youtube",
+                                    "url": "https://www.youtube.com/watch?v=tcFNQRLn9OI"
+                                }
+                            ],
+                            "synopsis": "Jorge comienza una banda con sus amigos animales. Todo lo que tiene que resolver es cómo hacer que dos perros, un gato y un ave, toquen música juntos.",
+                            "thumbnail": "https://i.ytimg.com/vi/tcFNQRLn9OI/hqdefault.jpg",
+                            "title": "La banda de Jorge formada por animales"
+                        },
+                        {
+                            "duration": 23,
+                            "episode_number": 4,
+                            "sources": [
+                                {
+                                    "id": "89K8sUL8g8M",
+                                    "type": "youtube",
+                                    "url": "https://www.youtube.com/watch?v=89K8sUL8g8M"
+                                }
+                            ],
+                            "synopsis": "Jorge aprende a la mala lo que le pasa a tus huesos cuando uno se cae y se rompe una pierna al pasarle justo eso en el museo mientras explora el esqueleto de un dinosaurio.",
+                            "thumbnail": "https://i.ytimg.com/vi/89K8sUL8g8M/hqdefault.jpg",
+                            "title": "Hundley el niñero de monos"
+                        },
+                        {
+                            "duration": 23,
+                            "episode_number": 5,
+                            "sources": [
+                                {
+                                    "id": "cbaYx_qi5ko",
+                                    "type": "youtube",
+                                    "url": "https://www.youtube.com/watch?v=cbaYx_qi5ko"
+                                }
+                            ],
+                            "synopsis": "Cuando una tormenta eléctrica deja sin energía eléctrica a la van de campismo del portero, Jorge viene al rescate usando sus rudimentarias herramientas para ayudarlos a pasar la noche lluviosa y estar de vuelta en casa con seguridad.",
+                            "thumbnail": "https://i.ytimg.com/vi/cbaYx_qi5ko/hqdefault.jpg",
+                            "title": "Jorge el campista experto"
+                        },
+                        {
+                            "duration": 23,
+                            "episode_number": 6,
+                            "sources": [
+                                {
+                                    "id": "-FYqzs6ofcI",
+                                    "type": "youtube",
+                                    "url": "https://www.youtube.com/watch?v=-FYqzs6ofcI"
+                                }
+                            ],
+                            "synopsis": "Jorge ama a Leslie la vaca, pero ¿acaso ella y sus amigas tienen que seguirse comiendo esas bellas flores silvestres que quiere mostrarle al Hombre del Sombrero Amarillo? Jorge tiene poco tiempo para ingeniárselas para construir un muro lo bastante fuerte como para salvar a las flores del apetito de las vacas.",
+                            "thumbnail": "https://i.ytimg.com/vi/-FYqzs6ofcI/hqdefault.jpg",
+                            "title": "La catástrofe vacuna de Jorge"
+                        },
+                        {
+                            "duration": 23,
+                            "episode_number": 7,
+                            "sources": [
+                                {
+                                    "id": "GOzbfXlfPgI",
+                                    "type": "youtube",
+                                    "url": "https://www.youtube.com/watch?v=GOzbfXlfPgI"
+                                }
+                            ],
+                            "synopsis": "Luego de una tormenta de nieve, Jorge se entera de que nieve tan profunda como esa vuelve complicado cualquier juego, esto es, hasta que aprende lo divertido que puede ser esquiar, deslizarse por un trineo y caminar con zapatos para nieve.",
+                            "thumbnail": "https://i.ytimg.com/vi/GOzbfXlfPgI/hqdefault.jpg",
+                            "title": "El día que Jorge conoció la nieve"
+                        },
+                        {
+                            "duration": 23,
+                            "episode_number": 8,
+                            "sources": [
+                                {
+                                    "id": "JdhrQeQFH6o",
+                                    "type": "youtube",
+                                    "url": "https://www.youtube.com/watch?v=JdhrQeQFH6o"
+                                }
+                            ],
+                            "synopsis": "El Hombre del Sombrero Amarillo y Jorge salen hacia el aeropuerto para el inicio de sus vacaciones.¡Pero su vuelo está demorado!",
+                            "thumbnail": "https://i.ytimg.com/vi/JdhrQeQFH6o/hqdefault.jpg",
+                            "title": "Jorge explora el aeropuerto"
+                        },
+                        {
+                            "duration": 23,
+                            "episode_number": 9,
+                            "sources": [
+                                {
+                                    "id": "89OxP9W1H0M",
+                                    "type": "youtube",
+                                    "url": "https://www.youtube.com/watch?v=89OxP9W1H0M"
+                                }
+                            ],
+                            "synopsis": "Jorge tenía una tarea especial: cuidar de los quintillizos de Quint en su casa mientras su mamá y el Hombre del Sombrero Amarillo preparaban una fiesta sorpresa. Jorge hizo lo mejor que pudo para entretenerlos, pero rápidamente descubrió lo que más les gustaba: ¡las galletas de pescado! Podría mantenerlos en su casa mientras por tiempo indefinido mientras así lo deseara siempre y cuando tuviera galletas para repartir.",
+                            "thumbnail": "https://i.ytimg.com/vi/89OxP9W1H0M/hqdefault.jpg",
+                            "title": "Jorge cuenta las galletas"
+                        },
+                        {
+                            "duration": 23,
+                            "episode_number": 10,
+                            "sources": [
+                                {
+                                    "id": "M7UzSyiMnkM",
+                                    "type": "youtube",
+                                    "url": "https://www.youtube.com/watch?v=M7UzSyiMnkM"
+                                }
+                            ],
+                            "synopsis": "Jorge jugaba con el sombrero amarillo de su amigo cuando, accidentalmente, ¡le hizo un agujero! Su amigo ya no podría usarlo en ese estado, así que Jorge decidió fabricarle uno totalmente nuevo. Intentó con diferentes materiales, pero ninguno parecía adecuado. A fin de cuentas, Jorge pensó en una solución ingeniosa: ¡parchó el sombrero usando algo de pegamento y un brillante calcetín amarillo!",
+                            "thumbnail": "https://i.ytimg.com/vi/M7UzSyiMnkM/hqdefault.jpg",
+                            "title": "Jorge el sombrerero"
+                        },
+                        {
+                            "duration": 23,
+                            "episode_number": 11,
+                            "sources": [
+                                {
+                                    "id": "4WXBb3Vq-H0",
+                                    "type": "youtube",
+                                    "url": "https://www.youtube.com/watch?v=4WXBb3Vq-H0"
+                                }
+                            ],
+                            "synopsis": "Jorge ayudaba al chef Pisghetti a preparar unas deliciosas hamburguesas vegetarianas usando ingredientes frescos de su jardín. Luego de que hicieron las hamburguesas perfectas, llegó la hora de cargarlas al camión. Pero, hubo una confusión y ¡Jorge accidentalmente las subió al camión equivocado y perdió todas las hamburguesas! Preocupado de que el chef se pudiera enterar, Jorge rápidamente decidió hacer su propio lote de hamburguesas para reemplazar las que había perdido. ¿Sabrían tan bien como las otras? ¡Jorge estaba por averiguarlo!",
+                            "thumbnail": "https://i.ytimg.com/vi/4WXBb3Vq-H0/hqdefault.jpg",
+                            "title": "Jorge prepara hamburguesas"
+                        },
+                        {
+                            "duration": 23,
+                            "episode_number": 12,
+                            "sources": [
+                                {
+                                    "id": "0hwPz1a4WY4",
+                                    "type": "youtube",
+                                    "url": "https://www.youtube.com/watch?v=0hwPz1a4WY4"
+                                }
+                            ],
+                            "synopsis": "Jorge caminaba de vuelta a casa con la familia de Steve cuando pasaron por un puesto de dulces. Los dulces eran una tentación así que todos decidieron detenerse y comprar algunos dulces. Pero, cuando Jorge abrió su caja de dulces, se dio cuenta de que había menos dulces de los que había pagado! Resuelto a arreglarlo, regresó al puesto para, de manera amable, pedir más. Sin embargo, no esperaba regresar a casa con muchos más dulces de los que había regateado, ¡junto con una sorpresa o dos!",
+                            "thumbnail": "https://i.ytimg.com/vi/0hwPz1a4WY4/hqdefault.jpg",
+                            "title": "Jorge el mono de los dulces"
+                        },
+                        {
+                            "duration": 23,
+                            "episode_number": 13,
+                            "sources": [
+                                {
+                                    "id": "CAb0-CysHeA",
+                                    "type": "youtube",
+                                    "url": "https://www.youtube.com/watch?v=CAb0-CysHeA"
+                                }
+                            ],
+                            "synopsis": "El balón de soccer de Jorge se ponchó, y ya no podía jugar con él. Realmente quería uno nuevo, pero ya que no contaba con dinero, no estaba seguro sobre qué hacer. Fue entonces que el Hombre del Sombrero Amarillo le contó acerca de cuando era niño y vendía limonada para conseguir dinero. Inspirado, ¡Jorge decidió intentarlo él mismo! Pronto instaló su propio puesto de limonada, listo para empezar a ganar lo suficiente como para comprarse un nuevo y lustroso balón.",
+                            "thumbnail": "https://i.ytimg.com/vi/CAb0-CysHeA/hqdefault.jpg",
+                            "title": "El negocio de venta de limonada de Jorge"
+                        },
+                        {
+                            "duration": 23,
+                            "episode_number": 14,
+                            "sources": [
+                                {
+                                    "id": "dtiCPFUdFAk",
+                                    "type": "youtube",
+                                    "url": "https://www.youtube.com/watch?v=dtiCPFUdFAk"
+                                }
+                            ],
+                            "synopsis": "Jorge amaba observar las estrellas en la apacible campiña, y una noche, ¡decidió contar cada una de las estrellas en el cielo! Cada mañana, salía de la casa y usaba la Osa Mayor como punto de partida, y empezaba a contar. Simplemente seguía, estrella por estrella, hasta que se quedaba dormido bajo las estrellas, solo para volver a salir la noche siguiente, y empezar todo de nuevo, resuelto a monitorearlas a todas.",
+                            "thumbnail": "https://i.ytimg.com/vi/dtiCPFUdFAk/hqdefault.jpg",
+                            "title": "Jorge cuenta las estrellas"
+                        },
+                        {
+                            "duration": 23,
+                            "episode_number": 15,
+                            "sources": [
+                                {
+                                    "id": "mj7DEbTFjB8",
+                                    "type": "youtube",
+                                    "url": "https://www.youtube.com/watch?v=mj7DEbTFjB8"
+                                }
+                            ],
+                            "synopsis": "Jorge se dirigió al estanque en el campo, emocionado por jugar con su bote, pero cuando llegó, ¡su lugar habitual se había vuelto un pequeño arroyo! Sintiendo curiosidad, siguió el agua río arriba y descubrió una presa hecha por castores bloqueando el flujo. Jorge no es de los que se rinden con facilidad, ¡así que decidió construir su propia presa de modo que pudiera volver a poner su bote en acción!",
+                            "thumbnail": "https://i.ytimg.com/vi/mj7DEbTFjB8/hqdefault.jpg",
+                            "title": "Jorge construye una presa"
+                        },
+                        {
+                            "duration": 23,
+                            "episode_number": 16,
+                            "sources": [
+                                {
+                                    "id": "IX9_-cLnuEc",
+                                    "type": "youtube",
+                                    "url": "https://www.youtube.com/watch?v=IX9_-cLnuEc"
+                                }
+                            ],
+                            "synopsis": "¡Jorge y el Hombre del Sombrero Amarillo viajaron a la estación espacial de la profesora Wiseman! Al Hombre del Sombrero Amarillo le encomendaron la muy especial misión de entregarle alimentos a los astronautas, pero el sistema de entregas no estaba a la altura. ¡De modo que dicha encomienda recayó en Jorge y tenía que hacer la entrega él mismo! ¡Con algo de ayuda de parte de la profesora, Jorge estuvo listo para esta aventura fuera de este mundo!",
+                            "thumbnail": "https://i.ytimg.com/vi/IX9_-cLnuEc/hqdefault.jpg",
+                            "title": "La misión espacial de Jorge"
+                        },
+                        {
+                            "duration": 23,
+                            "episode_number": 17,
+                            "sources": [
+                                {
+                                    "id": "BFjs5QMwfAI",
+                                    "type": "youtube",
+                                    "url": "https://www.youtube.com/watch?v=BFjs5QMwfAI"
+                                }
+                            ],
+                            "synopsis": "¡Jorge pasó la mañana siguiente viendo una transmisión de video en vivo por internet de un bebé panda cuando el Hombre del Sombrero Amarillo le dijo que podía ver al panda en persona en el zoológico! Emocionado, Jorge se apresuró y pasó la totalidad del día observando al panda. Quedó tan absorto observándolo que no sintió pasar el tiempo, y antes de que se diera cuenta, ¡el zoológico había cerrado, y se había quedado encerrado!",
+                            "thumbnail": "https://i.ytimg.com/vi/BFjs5QMwfAI/hqdefault.jpg",
+                            "title": "La noche en el zoológico de Jorge"
+                        },
+                        {
+                            "duration": 23,
+                            "episode_number": 18,
+                            "sources": [
+                                {
+                                    "id": "IsAPG_U5m_U",
+                                    "type": "youtube",
+                                    "url": "https://www.youtube.com/watch?v=IsAPG_U5m_U"
+                                }
+                            ],
+                            "synopsis": "Era hora de que el Hombre del Sombrero Amarillo fuera a su chequeo médico anual, ¡y Jorge estaba emocionado de poder ir también! En el consultorio del doctor, Jorge descubrió todo tipo de nuevos dispositivos y máquinas. El doctor incluso le dejó probar el estetoscopio, y Jorge se divirtió de lo lindo escuchando todo tipo de sonidos extraños y poco familiares que nunca antes había oído.",
+                            "thumbnail": "https://i.ytimg.com/vi/IsAPG_U5m_U/hqdefault.jpg",
+                            "title": "Jorge visita al doctor"
+                        },
+                        {
+                            "duration": 23,
+                            "episode_number": 19,
+                            "sources": [
+                                {
+                                    "id": "udqeNBPhCIY",
+                                    "type": "youtube",
+                                    "url": "https://www.youtube.com/watch?v=udqeNBPhCIY"
+                                }
+                            ],
+                            "synopsis": "Luego de un día lluvioso, Jorge salió a jugar y ¡descubrió un estanque cerca de su casa el cual rebosaba con patos! Estaba tan emocionado que pasó todo el día jugando con ellos, e incluso soñó con ellos esa noche. Pero, para la mañana siguiente, el estanque se había encogido, y los patos empezaban a marcharse. Jorge sabía que debía hallar algún modo para que se quedaran.",
+                            "thumbnail": "https://i.ytimg.com/vi/udqeNBPhCIY/hqdefault.jpg",
+                            "title": "Jorge el pato"
+                        },
+                        {
+                            "duration": 23,
+                            "episode_number": 20,
+                            "sources": [
+                                {
+                                    "id": "_xq8OQek_Z0",
+                                    "type": "youtube",
+                                    "url": "https://www.youtube.com/watch?v=_xq8OQek_Z0"
+                                }
+                            ],
+                            "synopsis": "Jorge y Bill están caminado al lado de una laguna cuando ven unos renacuajos. Jorge nunca antes había visto tales criaturas por lo que le pregunta a Bill sobre ellos. Este le explica que son especiales porque se transforman conforme se desarrollan. Jorge decidió recoger algunos para cuidarlos, y algunas semanas después, ¡todos se habían convertido en ranas!",
+                            "thumbnail": "https://i.ytimg.com/vi/_xq8OQek_Z0/hqdefault.jpg",
+                            "title": "Jorge aprende sobre renacuajos"
+                        },
+                        {
+                            "duration": 45,
+                            "episode_number": 21,
+                            "sources": [
+                                {
+                                    "id": "vwhkVZZT00g",
+                                    "type": "youtube",
+                                    "url": "https://www.youtube.com/watch?v=vwhkVZZT00g"
+                                }
+                            ],
+                            "synopsis": "Hogi el hámster huye con una cámara asegurada a su espalda con correas. Usando el video que grabaron, Steve y Jorge tratan de rastrear dónde se encuentra Hogi. Jorge debe avanzar por la ciudad, siguiendo las indicaciones de Steve, quien a su vez, se basa en las direcciones que él ve en cámara.",
+                            "thumbnail": "https://i.ytimg.com/vi/vwhkVZZT00g/hqdefault.jpg",
+                            "title": "Jorge el rastreador que recorre la ciudad"
+                        },
+                        {
+                            "duration": 23,
+                            "episode_number": 22,
+                            "sources": [
+                                {
+                                    "id": "ciMX91ftNOI",
+                                    "type": "youtube",
+                                    "url": "https://www.youtube.com/watch?v=ciMX91ftNOI"
+                                }
+                            ],
+                            "synopsis": "Jorge escucha un ruido extraño en la casa y le pregunta al Hombre del Sombrero Amarillo qué podría ser. Este le explica que es el sonido de un grillo, ¡y necesitan sacarlo de la casa! Jorge se pasa todo el día intentando atrapar al grillo, provocando un gran desorden mientras lo intenta. Pero, sin importar lo que haga, el grillo sigue de vuelta.",
+                            "thumbnail": "https://i.ytimg.com/vi/ciMX91ftNOI/hqdefault.jpg",
+                            "title": "Jorge y el grillo ruidoso"
+                        },
+                        {
+                            "duration": 23,
+                            "episode_number": 23,
+                            "sources": [
+                                {
+                                    "id": "CxyPnGl3oeI",
+                                    "type": "youtube",
+                                    "url": "https://www.youtube.com/watch?v=CxyPnGl3oeI"
+                                }
+                            ],
+                            "synopsis": "Siendo el perro de la recepción, el trabajo de Hundley es mantener todo en orden, sin embargo, cuando Jorge encuentra unos paquetes, la recepción pronto se ve llena de bolas y pelotas de tenis, boliche y de golf, y un montón de cajas vacías.",
+                            "thumbnail": "https://i.ytimg.com/vi/CxyPnGl3oeI/hqdefault.jpg",
+                            "title": "Jorge el mono portero"
+                        },
+                        {
+                            "duration": 23,
+                            "episode_number": 24,
+                            "sources": [
+                                {
+                                    "id": "rObe6lv0RnI",
+                                    "type": "youtube",
+                                    "url": "https://www.youtube.com/watch?v=rObe6lv0RnI"
+                                }
+                            ],
+                            "synopsis": "Es un día perfecto para una caminata y Jorge está explorando los maravillosos olores del mundo. Sigue a donde su nariz le indique que está el mejor olor, ¡y es así que termina en la cocina del chef Pisghetti en la que acepta un empleo!",
+                            "thumbnail": "https://i.ytimg.com/vi/rObe6lv0RnI/hqdefault.jpg",
+                            "title": "Jorge va a donde le dice su nariz"
+                        },
+                        {
+                            "duration": 23,
+                            "episode_number": 25,
+                            "sources": [
+                                {
+                                    "id": "LyGLVrheVFo",
+                                    "type": "youtube",
+                                    "url": "https://www.youtube.com/watch?v=LyGLVrheVFo"
+                                }
+                            ],
+                            "synopsis": "Accidentalmente Jorge descompone el reloj cucú de la profesora Wiseman y el de la librería del pueblo. El relojero del pueblo, el Sr. Reloj, se apresta a ayudar, y juntos arreglan ambos relojes, haciendo que vuelvan a hacer tictac.",
+                            "thumbnail": "https://i.ytimg.com/vi/LyGLVrheVFo/hqdefault.jpg",
+                            "title": "Los inoportunos problemas de Jorge"
+                        },
+                        {
+                            "duration": 23,
+                            "episode_number": 26,
+                            "sources": [
+                                {
+                                    "id": "nfcP_rtCVLM",
+                                    "type": "youtube",
+                                    "url": "https://www.youtube.com/watch?v=nfcP_rtCVLM"
+                                }
+                            ],
+                            "synopsis": "Bill inscribió su barco en el Show de Barcos a Escala, pero cuando Jorge se entera de que el barco de Bill sigue hundiéndose, le fabrica uno nuevo con la esperanza de mantener a flote las esperanzas de Bill de ganar.",
+                            "thumbnail": "https://i.ytimg.com/vi/nfcP_rtCVLM/hqdefault.jpg",
+                            "title": "Jorge construye el mejor barco"
+                        },
+                        {
+                            "duration": 23,
+                            "episode_number": 27,
+                            "sources": [
+                                {
+                                    "id": "TP0FRATLhVU",
+                                    "type": "youtube",
+                                    "url": "https://www.youtube.com/watch?v=TP0FRATLhVU"
+                                }
+                            ],
+                            "synopsis": "¡Jorge está se muere de ganas de comerse unas donas, pero termina ordenando demasiadas! Ahora debe resolver qué hacer con todas esas donas extra antes de que el Hombre del Sombrero Amarillo lo note.",
+                            "thumbnail": "https://i.ytimg.com/vi/TP0FRATLhVU/hqdefault.jpg",
+                            "title": "La sobrecarga de donas de Jorge"
+                        },
+                        {
+                            "duration": 23,
+                            "episode_number": 28,
+                            "sources": [
+                                {
+                                    "id": "OWgg0K5JuMQ",
+                                    "type": "youtube",
+                                    "url": "https://www.youtube.com/watch?v=OWgg0K5JuMQ"
+                                }
+                            ],
+                            "synopsis": "Jorge estaba en el balcón, bosquejando aves, cuando una paloma aterrizó en el barandal al lado de él. La paloma, curiosa acerca del mono, decide quedarse. Jorge, pensando que al ave pudiera gustarle un lugar al que pudiera visitar más a menudo, decidió construir un pequeño árbol para que ahí se posen las aves, de modo que la paloma podría ir y venir a su antojo.",
+                            "thumbnail": "https://i.ytimg.com/vi/OWgg0K5JuMQ/hqdefault.jpg",
+                            "title": "La nueva amiga paloma de Jorge"
+                        },
+                        {
+                            "duration": 23,
+                            "episode_number": 29,
+                            "sources": [
+                                {
+                                    "id": "dxyGxTZDDlg",
+                                    "type": "youtube",
+                                    "url": "https://www.youtube.com/watch?v=dxyGxTZDDlg"
+                                }
+                            ],
+                            "synopsis": "Jorge se sale para sentir el viento y ve a Bill volando un cometa. Ya que nunca ha visto uno antes, Jorge decide probarlo mientras Bill no está, pero antes de que se dé cuenta, ¡el viento cobra fuerza y, en vez de volar el cometa, se ve jalado por el cometa y comienza a surcar los aires junto con él!",
+                            "thumbnail": "https://i.ytimg.com/vi/dxyGxTZDDlg/hqdefault.jpg",
+                            "title": "Jorge, el mono volador"
+                        },
+                        {
+                            "duration": 12,
+                            "episode_number": 30,
+                            "sources": [
+                                {
+                                    "id": "MHQI__sbqu8",
+                                    "type": "youtube",
+                                    "url": "https://www.youtube.com/watch?v=MHQI__sbqu8"
+                                }
+                            ],
+                            "synopsis": "Jorge se asusta con lo que cree que son monstruos, ¡pero solo son sombras!",
+                            "thumbnail": "https://i.ytimg.com/vi/MHQI__sbqu8/hqdefault.jpg",
+                            "title": "Jorge explora una cueva tenebrosa"
+                        },
+                        {
+                            "duration": 11,
+                            "episode_number": 31,
+                            "sources": [
+                                {
+                                    "id": "SRZiiJkkxS0",
+                                    "type": "youtube",
+                                    "url": "https://www.youtube.com/watch?v=SRZiiJkkxS0"
+                                }
+                            ],
+                            "synopsis": "Cuando el bote con el que Bill se inscribe al show de botes a escala se hunde, Jorge decide construir un nuevo bote para su amigo, y luego de un proceso de prueba y error, descubre qué materiales se hunden y cuáles flotan.",
+                            "thumbnail": "https://i.ytimg.com/vi/SRZiiJkkxS0/hqdefault.jpg",
+                            "title": "Construyendo un bote"
+                        },
+                        {
+                            "duration": 11,
+                            "episode_number": 32,
+                            "sources": [
+                                {
+                                    "id": "qWD6D69EK0k",
+                                    "type": "youtube",
+                                    "url": "https://www.youtube.com/watch?v=qWD6D69EK0k"
+                                }
+                            ],
+                            "synopsis": "Para ganar dinero para comprar una nueva pelota de soccer, Jorge decide poner su propio puesto de limonadas.",
+                            "thumbnail": "https://i.ytimg.com/vi/qWD6D69EK0k/hqdefault.jpg",
+                            "title": "La nueva pelota de futbol de Jorge"
+                        },
+                        {
+                            "duration": 11,
+                            "episode_number": 33,
+                            "sources": [
+                                {
+                                    "id": "zge6c56Fi8Y",
+                                    "type": "youtube",
+                                    "url": "https://www.youtube.com/watch?v=zge6c56Fi8Y"
+                                }
+                            ],
+                            "synopsis": "Jorge y Hundley el perro deben regresar todas las pelotas a sus empaques correctos antes de que el dueño llegue para reclamarlas luego de que Jorge las abriera para saber qué había dentro de esos empaques tan intrigantes.",
+                            "thumbnail": "https://i.ytimg.com/vi/zge6c56Fi8Y/hqdefault.jpg",
+                            "title": "Jugando con Jorge y Hundley"
+                        },
+                        {
+                            "duration": 12,
+                            "episode_number": 34,
+                            "sources": [
+                                {
+                                    "id": "XW4dgI8W7n4",
+                                    "type": "youtube",
+                                    "url": "https://www.youtube.com/watch?v=XW4dgI8W7n4"
+                                }
+                            ],
+                            "synopsis": "Jorge debe cuidar a Charkie el perro mas lo que en realidad quiere es jugar futbol. Mientras tanto, Charkie sigue intentando escapar.",
+                            "thumbnail": "https://i.ytimg.com/vi/XW4dgI8W7n4/hqdefault.jpg",
+                            "title": "Jorge juega futbol"
+                        },
+                        {
+                            "duration": 12,
+                            "episode_number": 35,
+                            "sources": [
+                                {
+                                    "id": "TknNcQsqxPk",
+                                    "type": "youtube",
+                                    "url": "https://www.youtube.com/watch?v=TknNcQsqxPk"
+                                }
+                            ],
+                            "synopsis": "Hundley y Jorge se quedan en el callejón posterior sin poder entrar a la casa. Mientras intentan hallar un modo de entrar, se pierden sin remedio.",
+                            "thumbnail": "https://i.ytimg.com/vi/TknNcQsqxPk/hqdefault.jpg",
+                            "title": "Jorge y Hundle se extravían toda la noche"
+                        },
+                        {
+                            "duration": 12,
+                            "episode_number": 36,
+                            "sources": [
+                                {
+                                    "id": "2-72nfxdwA8",
+                                    "type": "youtube",
+                                    "url": "https://www.youtube.com/watch?v=2-72nfxdwA8"
+                                }
+                            ],
+                            "synopsis": "La mayor parte del tiempo, Jorge no le teme a la oscuridad, pero cuando explora una caverna misteriosa, decide que en algunos casos, ¡la oscuridad sí da miedo!",
+                            "thumbnail": "https://i.ytimg.com/vi/2-72nfxdwA8/hqdefault.jpg",
+                            "title": "Jorge y la cueva tenebrosa"
+                        },
+                        {
+                            "duration": 22,
+                            "episode_number": 37,
+                            "sources": [
+                                {
+                                    "id": "omR2fWLkIDY",
+                                    "type": "youtube",
+                                    "url": "https://www.youtube.com/watch?v=omR2fWLkIDY"
+                                }
+                            ],
+                            "synopsis": "Los Asombrosos Malabaristas Zucchini llegan a la ciudad y Jorge se da cuenta de que no hay nada en la vida que desee más que ser acróbata.",
+                            "thumbnail": "https://i.ytimg.com/vi/omR2fWLkIDY/hqdefault.jpg",
+                            "title": "Aprende el equilibrio"
+                        },
+                        {
+                            "duration": 22,
+                            "episode_number": 38,
+                            "sources": [
+                                {
+                                    "id": "bZ79cZlKpxo",
+                                    "type": "youtube",
+                                    "url": "https://www.youtube.com/watch?v=bZ79cZlKpxo"
+                                }
+                            ],
+                            "synopsis": "Jorge y Steve toman prestada la carreta de Betsy para recoger un paquete.",
+                            "thumbnail": "https://i.ytimg.com/vi/bZ79cZlKpxo/hqdefault.jpg",
+                            "title": "Jorge repara la carreta"
+                        },
+                        {
+                            "duration": 22,
+                            "episode_number": 39,
+                            "sources": [
+                                {
+                                    "id": "F2M_p7bst0g",
+                                    "type": "youtube",
+                                    "url": "https://www.youtube.com/watch?v=F2M_p7bst0g"
+                                }
+                            ],
+                            "synopsis": "Jorge oye un ruido sordo fuerte que viene del techo de su apartamento y se convence de que el nuevo vecino de arriba tiene un elefante como mascota.",
+                            "thumbnail": "https://i.ytimg.com/vi/F2M_p7bst0g/hqdefault.jpg",
+                            "title": "El elefante del vecino"
+                        },
+                        {
+                            "duration": 22,
+                            "episode_number": 40,
+                            "sources": [
+                                {
+                                    "id": "lOK_RseBcIA",
+                                    "type": "youtube",
+                                    "url": "https://www.youtube.com/watch?v=lOK_RseBcIA"
+                                }
+                            ],
+                            "synopsis": "Jorge aprende a golpes sobre los huesos cuando se cae y se rompe la pierna en el museo mientras explora el esqueleto de un dinosaurio.",
+                            "thumbnail": "https://i.ytimg.com/vi/lOK_RseBcIA/hqdefault.jpg",
+                            "title": "Fractura una pierna"
+                        },
+                        {
+                            "duration": 22,
+                            "episode_number": 41,
+                            "sources": [
+                                {
+                                    "id": "e36l73TAMok",
+                                    "type": "youtube",
+                                    "url": "https://www.youtube.com/watch?v=e36l73TAMok"
+                                }
+                            ],
+                            "synopsis": "A Jorge le gusta tanto su primer campamento que quiere ir a otro lo más pronto posible.",
+                            "thumbnail": "https://i.ytimg.com/vi/e36l73TAMok/hqdefault.jpg",
+                            "title": "Acampando con Hundley"
+                        },
+                        {
+                            "duration": 22,
+                            "episode_number": 42,
+                            "sources": [
+                                {
+                                    "id": "NRn-034ZY9s",
+                                    "type": "youtube",
+                                    "url": "https://www.youtube.com/watch?v=NRn-034ZY9s"
+                                }
+                            ],
+                            "synopsis": "Jorge adora a la vaca Leslie, pero ¿ella y sus amigas tienen que seguir comiendo todas esas flores silvestres que él quiere mostrarle a Ted?",
+                            "thumbnail": "https://i.ytimg.com/vi/NRn-034ZY9s/hqdefault.jpg",
+                            "title": "¡Fuera vacas!"
+                        },
+                        {
+                            "duration": 22,
+                            "episode_number": 43,
+                            "sources": [
+                                {
+                                    "id": "0XQTrUdr6Rs",
+                                    "type": "youtube",
+                                    "url": "https://www.youtube.com/watch?v=0XQTrUdr6Rs"
+                                }
+                            ],
+                            "synopsis": "Ted y Jorge se van al aeropuerto para irse de vacaciones. Cuando llegan, descubren que todos los vuelos están demorados.",
+                            "thumbnail": "https://i.ytimg.com/vi/0XQTrUdr6Rs/hqdefault.jpg",
+                            "title": "Jorge se va de vacaciones"
+                        },
+                        {
+                            "duration": 22,
+                            "episode_number": 44,
+                            "sources": [
+                                {
+                                    "id": "VykJR3SGH3k",
+                                    "type": "youtube",
+                                    "url": "https://www.youtube.com/watch?v=VykJR3SGH3k"
+                                }
+                            ],
+                            "synopsis": "Es el cumpleaños del Sr. Quint y todos ayudan con los preparativos de su fiesta sorpresa.",
+                            "thumbnail": "https://i.ytimg.com/vi/VykJR3SGH3k/hqdefault.jpg",
+                            "title": "Sorpresa para los Quint"
+                        },
+                        {
+                            "duration": 22,
+                            "episode_number": 45,
+                            "sources": [
+                                {
+                                    "id": "QSgFwB_AwDs",
+                                    "type": "youtube",
+                                    "url": "https://www.youtube.com/watch?v=QSgFwB_AwDs"
+                                }
+                            ],
+                            "synopsis": "El sombrero amarillo regresa de la tintorería tan hermoso y limpio que a Jorge le dan ganas de mostrárselo a la paloma Brújula.",
+                            "thumbnail": "https://i.ytimg.com/vi/QSgFwB_AwDs/hqdefault.jpg",
+                            "title": "Sombrero amarillo"
+                        },
+                        {
+                            "duration": 22,
+                            "episode_number": 46,
+                            "sources": [
+                                {
+                                    "id": "8J8Gq5tXJTs",
+                                    "type": "youtube",
+                                    "url": "https://www.youtube.com/watch?v=8J8Gq5tXJTs"
+                                }
+                            ],
+                            "synopsis": "Jorge pierde accidentalmente una tanda de la nueva creación del chef Pisghetti",
+                            "thumbnail": "https://i.ytimg.com/vi/8J8Gq5tXJTs/hqdefault.jpg",
+                            "title": "Sobre las hamburguesas"
+                        },
+                        {
+                            "duration": 22,
+                            "episode_number": 47,
+                            "sources": [
+                                {
+                                    "id": "3uL8DUtI5-Y",
+                                    "type": "youtube",
+                                    "url": "https://www.youtube.com/watch?v=3uL8DUtI5-Y"
+                                }
+                            ],
+                            "synopsis": "Comer golosinas es fácil, pero ¡contarlas y organizarlas es mucho más difícil!",
+                            "thumbnail": "https://i.ytimg.com/vi/3uL8DUtI5-Y/hqdefault.jpg",
+                            "title": "Jorge vende chocolates"
+                        },
+                        {
+                            "duration": 22,
+                            "episode_number": 48,
+                            "sources": [
+                                {
+                                    "id": "yXKBaPJS-j4",
+                                    "type": "youtube",
+                                    "url": "https://www.youtube.com/watch?v=yXKBaPJS-j4"
+                                }
+                            ],
+                            "synopsis": "Para ganar dinero para una pelota de fútbol nueva, Jorge decide poner un puesto de limonada.",
+                            "thumbnail": "https://i.ytimg.com/vi/yXKBaPJS-j4/hqdefault.jpg",
+                            "title": "Jorge pone un puesto"
+                        },
+                        {
+                            "duration": 22,
+                            "episode_number": 49,
+                            "sources": [
+                                {
+                                    "id": "M482mbS4jls",
+                                    "type": "youtube",
+                                    "url": "https://www.youtube.com/watch?v=M482mbS4jls"
+                                }
+                            ],
+                            "synopsis": "Lo más difícil de contar todas las estrellas del cielo es mantenerse despierto el tiempo suficiente, pero Jorge está decidido.",
+                            "thumbnail": "https://i.ytimg.com/vi/M482mbS4jls/hqdefault.jpg",
+                            "title": "Cuenta las estrellas"
+                        },
+                        {
+                            "duration": 22,
+                            "episode_number": 50,
+                            "sources": [
+                                {
+                                    "id": "cyZQSmCrTM0",
+                                    "type": "youtube",
+                                    "url": "https://www.youtube.com/watch?v=cyZQSmCrTM0"
+                                }
+                            ],
+                            "synopsis": "Jorge conoce a una familia de castores cuando nota el impacto que tiene su presa sobre su estanque favorito.",
+                            "thumbnail": "https://i.ytimg.com/vi/cyZQSmCrTM0/hqdefault.jpg",
+                            "title": "Constructores de presas"
+                        },
+                        {
+                            "duration": 22,
+                            "episode_number": 51,
+                            "sources": [
+                                {
+                                    "id": "A0s7JMHBHfE",
+                                    "type": "youtube",
+                                    "url": "https://www.youtube.com/watch?v=A0s7JMHBHfE"
+                                }
+                            ],
+                            "synopsis": "Se acabó el suministro de alimentos de la Estación Espacial Internacional y Jorge es el único con la aptitud necesaria para volar el cohete y entregar las provisiones.",
+                            "thumbnail": "https://i.ytimg.com/vi/A0s7JMHBHfE/hqdefault.jpg",
+                            "title": "Un paseo en cohete"
+                        },
+                        {
+                            "duration": 22,
+                            "episode_number": 52,
+                            "sources": [
+                                {
+                                    "id": "mamMJSzE1Nc",
+                                    "type": "youtube",
+                                    "url": "https://www.youtube.com/watch?v=mamMJSzE1Nc"
+                                }
+                            ],
+                            "synopsis": "Jorge está tan embelesado con el nuevo pandita adorable del zoológico que se queda después de la hora del cierre y termina encerrado.",
+                            "thumbnail": "https://i.ytimg.com/vi/mamMJSzE1Nc/hqdefault.jpg",
+                            "title": "Una noche en el zoológico"
+                        },
+                        {
+                            "duration": 22,
+                            "episode_number": 53,
+                            "sources": [
+                                {
+                                    "id": "5_mRoeItnRA",
+                                    "type": "youtube",
+                                    "url": "https://www.youtube.com/watch?v=5_mRoeItnRA"
+                                }
+                            ],
+                            "synopsis": "Cuando Jorge acompaña a Ted al consultorio para su chequeo anual, descubre que tener un estetoscopio a la mano es muy útil.",
+                            "thumbnail": "https://i.ytimg.com/vi/5_mRoeItnRA/hqdefault.jpg",
+                            "title": "Doctor mono"
+                        },
+                        {
+                            "duration": 22,
+                            "episode_number": 54,
+                            "sources": [
+                                {
+                                    "id": "Nsb4AdA0I8A",
+                                    "type": "youtube",
+                                    "url": "https://www.youtube.com/watch?v=Nsb4AdA0I8A"
+                                }
+                            ],
+                            "synopsis": "Después de una lluvia copiosa, Jorge se pone contentísimo cuando descubre a unos patos nadando en un charco grande.",
+                            "thumbnail": "https://i.ytimg.com/vi/Nsb4AdA0I8A/hqdefault.jpg",
+                            "title": "Agua para los patos"
+                        },
+                        {
+                            "duration": 22,
+                            "episode_number": 55,
+                            "sources": [
+                                {
+                                    "id": "tzw3l5L94Sg",
+                                    "type": "youtube",
+                                    "url": "https://www.youtube.com/watch?v=tzw3l5L94Sg"
+                                }
+                            ],
+                            "synopsis": "Jorge se emociona mucho cuando Bill le pide que cuide a sus renacuajos.",
+                            "thumbnail": "https://i.ytimg.com/vi/tzw3l5L94Sg/hqdefault.jpg",
+                            "title": "Descubre los renacuajos"
+                        },
+                        {
+                            "duration": 22,
+                            "episode_number": 56,
+                            "sources": [
+                                {
+                                    "id": "3Nsy_oDMYc4",
+                                    "type": "youtube",
+                                    "url": "https://www.youtube.com/watch?v=3Nsy_oDMYc4"
+                                }
+                            ],
+                            "synopsis": "¡Es el día de la Exposición de Perros!",
+                            "thumbnail": "https://i.ytimg.com/vi/3Nsy_oDMYc4/hqdefault.jpg",
+                            "title": "Jorge cuenta los perros"
+                        },
+                        {
+                            "duration": 22,
+                            "episode_number": 57,
+                            "sources": [
+                                {
+                                    "id": "Rr7FIsb55VM",
+                                    "type": "youtube",
+                                    "url": "https://www.youtube.com/watch?v=Rr7FIsb55VM"
+                                }
+                            ],
+                            "synopsis": "Mientras trata de grabar distintos ruidos de animales en el campo, Jorge descubre algunas cosas asombrosas de la dinámica del sonido.",
+                            "thumbnail": "https://i.ytimg.com/vi/Rr7FIsb55VM/hqdefault.jpg",
+                            "title": "El Sonido Invisible"
+                        },
+                        {
+                            "duration": 22,
+                            "episode_number": 58,
+                            "sources": [
+                                {
+                                    "id": "tbFtCWV6Fd8",
+                                    "type": "youtube",
+                                    "url": "https://www.youtube.com/watch?v=tbFtCWV6Fd8"
+                                }
+                            ],
+                            "synopsis": "Como perro del vestíbulo, la tarea de Hundley es mantener todo en orden.",
+                            "thumbnail": "https://i.ytimg.com/vi/tbFtCWV6Fd8/hqdefault.jpg",
+                            "title": "Jorge el curioso el portero"
+                        },
+                        {
+                            "duration": 22,
+                            "episode_number": 59,
+                            "sources": [
+                                {
+                                    "id": "_lMIvx57fLU",
+                                    "type": "youtube",
+                                    "url": "https://www.youtube.com/watch?v=_lMIvx57fLU"
+                                }
+                            ],
+                            "synopsis": "Jorge le hace caso a su nariz y olfatea un rastro hasta el restaurante del chef Pisghetti.",
+                            "thumbnail": "https://i.ytimg.com/vi/_lMIvx57fLU/hqdefault.jpg",
+                            "title": "Jorge tiene trabajo"
+                        },
+                        {
+                            "duration": 22,
+                            "episode_number": 60,
+                            "sources": [
+                                {
+                                    "id": "lyRIKfHcLxo",
+                                    "type": "youtube",
+                                    "url": "https://www.youtube.com/watch?v=lyRIKfHcLxo"
+                                }
+                            ],
+                            "synopsis": "Después de averiar accidentalmente el reloj cucú de la profesora Wiseman, Jorge decide explorar el interior del enorme reloj de la biblioteca para ver cómo funciona.",
+                            "thumbnail": "https://i.ytimg.com/vi/lyRIKfHcLxo/hqdefault.jpg",
+                            "title": "A tiempo"
+                        },
+                        {
+                            "duration": 22,
+                            "episode_number": 61,
+                            "sources": [
+                                {
+                                    "id": "ZqqY7hJMdcY",
+                                    "type": "youtube",
+                                    "url": "https://www.youtube.com/watch?v=ZqqY7hJMdcY"
+                                }
+                            ],
+                            "synopsis": "Una mañana con viento en la casa de campo lleva a Jorge a experimentar con la aerodinámica.",
+                            "thumbnail": "https://i.ytimg.com/vi/ZqqY7hJMdcY/hqdefault.jpg",
+                            "title": "Vuela un papalote"
+                        },
+                        {
+                            "duration": 22,
+                            "episode_number": 62,
+                            "sources": [
+                                {
+                                    "id": "TZqRHCoICvQ",
+                                    "type": "youtube",
+                                    "url": "https://www.youtube.com/watch?v=TZqRHCoICvQ"
+                                }
+                            ],
+                            "synopsis": "",
+                            "thumbnail": "https://i.ytimg.com/vi/TZqRHCoICvQ/hqdefault.jpg",
+                            "title": "¿Cómo hacer un barco que flote?"
+                        },
+                        {
+                            "duration": 22,
+                            "episode_number": 63,
+                            "sources": [
+                                {
+                                    "id": "VUZNiJJKarw",
+                                    "type": "youtube",
+                                    "url": "https://www.youtube.com/watch?v=VUZNiJJKarw"
+                                }
+                            ],
+                            "synopsis": "Cuando Jorge descubre el significado y el poder del cero, está listo para poner a prueba su conocimiento.",
+                            "thumbnail": "https://i.ytimg.com/vi/VUZNiJJKarw/hqdefault.jpg",
+                            "title": "Ceros para las rosquillas"
+                        },
+                        {
+                            "duration": 22,
+                            "episode_number": 64,
+                            "sources": [
+                                {
+                                    "id": "Id0YG6DO3Qc",
+                                    "type": "youtube",
+                                    "url": "https://www.youtube.com/watch?v=Id0YG6DO3Qc"
+                                }
+                            ],
+                            "synopsis": "Jorge decide hacerle a Brújula, una paloma mensajera que a veces tiene dificultades para orientarse, un refugio en su balcón.",
+                            "thumbnail": "https://i.ytimg.com/vi/Id0YG6DO3Qc/hqdefault.jpg",
+                            "title": "El palomar de Jorge"
+                        }
+                    ],
+                    "season_number": 1,
+                    "title": "Temporada 1"
                 }
             ]
         }
