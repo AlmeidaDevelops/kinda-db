@@ -11,6 +11,13 @@
                 "Musical",
                 "3D"
             ],
+            "values": [
+                "amistad",
+                "creatividad",
+                "música",
+                "trabajo en equipo",
+                "resolución de problemas"
+            ],
             "synopsis": "Jelly Jamm es una serie creada sobre cuatro pilares: música, creatividad, diversión y amistad. La música juega un papel muy importante en Jelly Jamm. De hecho la banda sonora de la serie de dibujos animados cuenta con artistas del panorama indie como Guille Milkyway, de la Casa Azul y el grupo mexicano, Los Liquits.",
             "images": {
                 "banner": "https://yt3.googleusercontent.com/cH_-8VZ9tZwIZfxlKClMrHS8D_MFb5vYf_Yd_Oh7Uf0VD68GUEQr4miGdmjAI2h--I38VRhfJCk=s2120-no-rj-mo",
@@ -26,7 +33,7 @@
                             "episode_number": 2,
                             "title": "La fiesta de Mina",
                             "duration": 12,
-                            "thumbnail": "https://i.ytimg.com/vi/ACB9_cWZiBY/sddefault.jpg",
+                            "thumbnail": "https://i.ytimg.com/vi/ACB9_cWZiBY/hqdefault.jpg",
                             "sources": [
                                 {
                                     "type": "youtube",
@@ -40,7 +47,7 @@
                             "episode_number": 3,
                             "title": "Mamá Mina",
                             "duration": 12,
-                            "thumbnail": "https://i.ytimg.com/vi/yO_RuuzTHOw/sddefault.jpg",
+                            "thumbnail": "https://i.ytimg.com/vi/yO_RuuzTHOw/hqdefault.jpg",
                             "sources": [
                                 {
                                     "type": "youtube",
@@ -54,7 +61,7 @@
                             "episode_number": 4,
                             "title": "Promesas, promesas",
                             "duration": 12,
-                            "thumbnail": "https://i.ytimg.com/vi/V3wPbLXRUz8/sddefault.jpg",
+                            "thumbnail": "https://i.ytimg.com/vi/V3wPbLXRUz8/hqdefault.jpg",
                             "sources": [
                                 {
                                     "type": "youtube",
@@ -68,7 +75,7 @@
                             "episode_number": 5,
                             "title": "La liga Jelly Jamm",
                             "duration": 11,
-                            "thumbnail": "https://i.ytimg.com/vi/4GqLNFwLzJk/sddefault.jpg",
+                            "thumbnail": "https://i.ytimg.com/vi/4GqLNFwLzJk/hqdefault.jpg",
                             "sources": [
                                 {
                                     "type": "youtube",
@@ -82,7 +89,7 @@
                             "episode_number": 6,
                             "title": "Mejores amigos",
                             "duration": 12,
-                            "thumbnail": "https://i.ytimg.com/vi/gZlrcVQ6cPI/sddefault.jpg",
+                            "thumbnail": "https://i.ytimg.com/vi/gZlrcVQ6cPI/hqdefault.jpg",
                             "sources": [
                                 {
                                     "type": "youtube",
@@ -96,7 +103,7 @@
                             "episode_number": 7,
                             "title": "El Rey y Rita",
                             "duration": 11,
-                            "thumbnail": "https://i.ytimg.com/vi/AXD7yHTqOLw/sddefault.jpg",
+                            "thumbnail": "https://i.ytimg.com/vi/AXD7yHTqOLw/hqdefault.jpg",
                             "sources": [
                                 {
                                     "type": "youtube",
@@ -110,7 +117,7 @@
                             "episode_number": 8,
                             "title": "El Dodo de Rita",
                             "duration": 11,
-                            "thumbnail": "https://i.ytimg.com/vi/3esm2bVwOFo/sddefault.jpg",
+                            "thumbnail": "https://i.ytimg.com/vi/3esm2bVwOFo/hqdefault.jpg",
                             "sources": [
                                 {
                                     "type": "youtube",
@@ -124,7 +131,7 @@
                             "episode_number": 9,
                             "title": "¿Dónde está la música",
                             "duration": 12,
-                            "thumbnail": "https://i.ytimg.com/vi/_KZYIZPhopQ/sddefault.jpg",
+                            "thumbnail": "https://i.ytimg.com/vi/_KZYIZPhopQ/hqdefault.jpg",
                             "sources": [
                                 {
                                     "type": "youtube",
@@ -138,7 +145,7 @@
                             "episode_number": 10,
                             "title": "Miedo a las flores",
                             "duration": 11,
-                            "thumbnail": "https://i.ytimg.com/vi/V4dxFIU5SJY/sddefault.jpg",
+                            "thumbnail": "https://i.ytimg.com/vi/V4dxFIU5SJY/hqdefault.jpg",
                             "sources": [
                                 {
                                     "type": "youtube",
@@ -152,7 +159,7 @@
                             "episode_number": 11,
                             "title": "A bailar",
                             "duration": 12,
-                            "thumbnail": "https://i.ytimg.com/vi/gCtPWlaT0VU/sddefault.jpg",
+                            "thumbnail": "https://i.ytimg.com/vi/gCtPWlaT0VU/hqdefault.jpg",
                             "sources": [
                                 {
                                     "type": "youtube",
@@ -166,7 +173,7 @@
                             "episode_number": 12,
                             "title": "Visita real",
                             "duration": 14,
-                            "thumbnail": "https://i.ytimg.com/vi/3w-Rkw8JCBo/sddefault.jpg",
+                            "thumbnail": "https://i.ytimg.com/vi/3w-Rkw8JCBo/hqdefault.jpg",
                             "sources": [
                                 {
                                     "type": "youtube",
@@ -180,7 +187,7 @@
                             "episode_number": 13,
                             "title": "El misterio de los árboles",
                             "duration": 11,
-                            "thumbnail": "https://i.ytimg.com/vi/auvUWfbI5OQ/sddefault.jpg",
+                            "thumbnail": "https://i.ytimg.com/vi/auvUWfbI5OQ/hqdefault.jpg",
                             "sources": [
                                 {
                                     "type": "youtube",
@@ -194,7 +201,7 @@
                             "episode_number": 14,
                             "title": "El inventor",
                             "duration": 11,
-                            "thumbnail": "https://i.ytimg.com/vi/cZMyEcnIDK4/sddefault.jpg",
+                            "thumbnail": "https://i.ytimg.com/vi/cZMyEcnIDK4/hqdefault.jpg",
                             "sources": [
                                 {
                                     "type": "youtube",
@@ -208,7 +215,7 @@
                             "episode_number": 15,
                             "title": "Detectives en acción",
                             "duration": 13,
-                            "thumbnail": "https://i.ytimg.com/vi/EdFMrKPyTzg/sddefault.jpg",
+                            "thumbnail": "https://i.ytimg.com/vi/EdFMrKPyTzg/hqdefault.jpg",
                             "sources": [
                                 {
                                     "type": "youtube",
@@ -222,7 +229,7 @@
                             "episode_number": 16,
                             "title": "Princesa está perdida",
                             "duration": 11,
-                            "thumbnail": "https://i.ytimg.com/vi/eqtwsuzeAAs/sddefault.jpg",
+                            "thumbnail": "https://i.ytimg.com/vi/eqtwsuzeAAs/hqdefault.jpg",
                             "sources": [
                                 {
                                     "type": "youtube",
@@ -236,7 +243,7 @@
                             "episode_number": 17,
                             "title": "La reina Rita",
                             "duration": 12,
-                            "thumbnail": "https://i.ytimg.com/vi/b8nEHbwVL5E/sddefault.jpg",
+                            "thumbnail": "https://i.ytimg.com/vi/b8nEHbwVL5E/hqdefault.jpg",
                             "sources": [
                                 {
                                     "type": "youtube",
@@ -250,7 +257,7 @@
                             "episode_number": 18,
                             "title": "Cuentos de miedo",
                             "duration": 11,
-                            "thumbnail": "https://i.ytimg.com/vi/91TB-1W1k6Y/sddefault.jpg",
+                            "thumbnail": "https://i.ytimg.com/vi/91TB-1W1k6Y/hqdefault.jpg",
                             "sources": [
                                 {
                                     "type": "youtube",
@@ -264,7 +271,7 @@
                             "episode_number": 19,
                             "title": "No despiertes al Dodo",
                             "duration": 12,
-                            "thumbnail": "https://i.ytimg.com/vi/6Yeg93xONC0/sddefault.jpg",
+                            "thumbnail": "https://i.ytimg.com/vi/6Yeg93xONC0/hqdefault.jpg",
                             "sources": [
                                 {
                                     "type": "youtube",
@@ -278,7 +285,7 @@
                             "episode_number": 20,
                             "title": "El columpio de Mina",
                             "duration": 11,
-                            "thumbnail": "https://i.ytimg.com/vi/cgsDys27rHk/sddefault.jpg",
+                            "thumbnail": "https://i.ytimg.com/vi/cgsDys27rHk/hqdefault.jpg",
                             "sources": [
                                 {
                                     "type": "youtube",
@@ -286,13 +293,13 @@
                                     "url": "https://www.youtube.com/watch?v=cgsDys27rHk"
                                 }
                             ],
-                            "synopsis": "Tras cometer un error Bello se escuda en una historia muy poco verosimil. Mina, enfadada con él, le someterá a una dura prueba: El Caramelo De La Verdad. Un caramelo que hace flotar a aquel que miente. Bello no puede negarse y se toma el caramelo, momento a partir del cual el chico entrará en una espiral de mentiras y vertiginosas alturas."
+                            "synopsis": "Mina intenta contentar al Rey fabricando el columpio más asombroso que se ha visto en la historia de Jammbo. Por desgracia la pequeña científica descubrirá demasiado tarde que la tecnología, por muy avanzada que sea, no puede sustituir la fuerza del trabajo en equipo y la amistad."
                         },
                         {
                             "episode_number": 21,
                             "title": "El aprendiz",
                             "duration": 11,
-                            "thumbnail": "https://i.ytimg.com/vi/M7xxazTnPf4/sddefault.jpg",
+                            "thumbnail": "https://i.ytimg.com/vi/M7xxazTnPf4/hqdefault.jpg",
                             "sources": [
                                 {
                                     "type": "youtube",
@@ -306,7 +313,7 @@
                             "episode_number": 22,
                             "title": "Rita siempre gana",
                             "duration": 11,
-                            "thumbnail": "https://i.ytimg.com/vi/-I9RXqgVXvE/sddefault.jpg",
+                            "thumbnail": "https://i.ytimg.com/vi/-I9RXqgVXvE/hqdefault.jpg",
                             "sources": [
                                 {
                                     "type": "youtube",
@@ -320,7 +327,7 @@
                             "episode_number": 23,
                             "title": "El rescate de Jammbo",
                             "duration": 11,
-                            "thumbnail": "https://i.ytimg.com/vi/kMqI5smt8PA/sddefault.jpg",
+                            "thumbnail": "https://i.ytimg.com/vi/kMqI5smt8PA/hqdefault.jpg",
                             "sources": [
                                 {
                                     "type": "youtube",
@@ -334,7 +341,7 @@
                             "episode_number": 24,
                             "title": "Mina es invisible",
                             "duration": 11,
-                            "thumbnail": "https://i.ytimg.com/vi/VZdhH035om4/sddefault.jpg",
+                            "thumbnail": "https://i.ytimg.com/vi/VZdhH035om4/hqdefault.jpg",
                             "sources": [
                                 {
                                     "type": "youtube",
@@ -348,7 +355,7 @@
                             "episode_number": 25,
                             "title": "El viaje de aurora",
                             "duration": 11,
-                            "thumbnail": "https://i.ytimg.com/vi/MX6JNxkOgiA/sddefault.jpg",
+                            "thumbnail": "https://i.ytimg.com/vi/MX6JNxkOgiA/hqdefault.jpg",
                             "sources": [
                                 {
                                     "type": "youtube",
@@ -362,7 +369,7 @@
                             "episode_number": 26,
                             "title": "El castillo embrujado",
                             "duration": 11,
-                            "thumbnail": "https://i.ytimg.com/vi/dpq4POXJkQ0/sddefault.jpg",
+                            "thumbnail": "https://i.ytimg.com/vi/dpq4POXJkQ0/hqdefault.jpg",
                             "sources": [
                                 {
                                     "type": "youtube",
@@ -376,7 +383,7 @@
                             "episode_number": 27,
                             "title": "El juguete del rey",
                             "duration": 14,
-                            "thumbnail": "https://i.ytimg.com/vi/YT__5yXyW5c/sddefault.jpg",
+                            "thumbnail": "https://i.ytimg.com/vi/YT__5yXyW5c/hqdefault.jpg",
                             "sources": [
                                 {
                                     "type": "youtube",
@@ -390,7 +397,7 @@
                             "episode_number": 28,
                             "title": "El cumpleaños de la reina",
                             "duration": 11,
-                            "thumbnail": "https://i.ytimg.com/vi/-kXyMiutYE8/sddefault.jpg",
+                            "thumbnail": "https://i.ytimg.com/vi/-kXyMiutYE8/hqdefault.jpg",
                             "sources": [
                                 {
                                     "type": "youtube",
@@ -404,7 +411,7 @@
                             "episode_number": 29,
                             "title": "Mi pequeña reina",
                             "duration": 11,
-                            "thumbnail": "https://i.ytimg.com/vi/4uwZTsPvtVc/sddefault.jpg",
+                            "thumbnail": "https://i.ytimg.com/vi/4uwZTsPvtVc/hqdefault.jpg",
                             "sources": [
                                 {
                                     "type": "youtube",
@@ -418,7 +425,7 @@
                             "episode_number": 30,
                             "title": "La fiesta sorpresa",
                             "duration": 12,
-                            "thumbnail": "https://i.ytimg.com/vi/iGnGIUnU2sc/sddefault.jpg",
+                            "thumbnail": "https://i.ytimg.com/vi/iGnGIUnU2sc/hqdefault.jpg",
                             "sources": [
                                 {
                                     "type": "youtube",
@@ -432,7 +439,7 @@
                             "episode_number": 31,
                             "title": "La mejor aventura",
                             "duration": 11,
-                            "thumbnail": "https://i.ytimg.com/vi/H4GyAdkUczQ/sddefault.jpg",
+                            "thumbnail": "https://i.ytimg.com/vi/H4GyAdkUczQ/hqdefault.jpg",
                             "sources": [
                                 {
                                     "type": "youtube",
@@ -446,7 +453,7 @@
                             "episode_number": 32,
                             "title": "La fórmula de Rita",
                             "duration": 11,
-                            "thumbnail": "https://i.ytimg.com/vi/POX503MYqAg/sddefault.jpg",
+                            "thumbnail": "https://i.ytimg.com/vi/POX503MYqAg/hqdefault.jpg",
                             "sources": [
                                 {
                                     "type": "youtube",
@@ -460,7 +467,7 @@
                             "episode_number": 33,
                             "title": "El pianista",
                             "duration": 14,
-                            "thumbnail": "https://i.ytimg.com/vi/0ozRR1PQ4OE/sddefault.jpg",
+                            "thumbnail": "https://i.ytimg.com/vi/0ozRR1PQ4OE/hqdefault.jpg",
                             "sources": [
                                 {
                                     "type": "youtube",
@@ -474,7 +481,7 @@
                             "episode_number": 34,
                             "title": "El superhéroe",
                             "duration": 11,
-                            "thumbnail": "https://i.ytimg.com/vi/-wKo-_Cs6bg/sddefault.jpg",
+                            "thumbnail": "https://i.ytimg.com/vi/-wKo-_Cs6bg/hqdefault.jpg",
                             "sources": [
                                 {
                                     "type": "youtube",
@@ -488,7 +495,7 @@
                             "episode_number": 35,
                             "title": "Un mundo color de rosa",
                             "duration": 11,
-                            "thumbnail": "https://i.ytimg.com/vi/qzsX6wcJwgA/sddefault.jpg",
+                            "thumbnail": "https://i.ytimg.com/vi/qzsX6wcJwgA/hqdefault.jpg",
                             "sources": [
                                 {
                                     "type": "youtube",
@@ -502,7 +509,7 @@
                             "episode_number": 36,
                             "title": "Naturaleza Salvaje",
                             "duration": 11,
-                            "thumbnail": "https://i.ytimg.com/vi/niIzQfUpUNg/sddefault.jpg",
+                            "thumbnail": "https://i.ytimg.com/vi/niIzQfUpUNg/hqdefault.jpg",
                             "sources": [
                                 {
                                     "type": "youtube",
@@ -510,13 +517,13 @@
                                     "url": "https://www.youtube.com/watch?v=niIzQfUpUNg"
                                 }
                             ],
-                            "synopsis": ""
+                            "synopsis": "Qué es el Medio Ambiente, Por qué debemos cuidar de él. En este episodio, Rita y Goomo junto a los simpáticos dodos enseñarán a los niños la importancia de cuidar y respetar el Medio Ambiente."
                         },
                         {
                             "episode_number": 37,
                             "title": "Sonidos Divertidos",
                             "duration": 11,
-                            "thumbnail": "https://i.ytimg.com/vi/zPxbLI4ieKs/sddefault.jpg",
+                            "thumbnail": "https://i.ytimg.com/vi/zPxbLI4ieKs/hqdefault.jpg",
                             "sources": [
                                 {
                                     "type": "youtube",
@@ -530,7 +537,7 @@
                             "episode_number": 38,
                             "title": "El parche pirata",
                             "duration": 11,
-                            "thumbnail": "https://i.ytimg.com/vi/2856rM7dbRg/sddefault.jpg",
+                            "thumbnail": "https://i.ytimg.com/vi/2856rM7dbRg/hqdefault.jpg",
                             "sources": [
                                 {
                                     "type": "youtube",
@@ -544,7 +551,7 @@
                             "episode_number": 39,
                             "title": "Los zapatos Magicos",
                             "duration": 12,
-                            "thumbnail": "https://i.ytimg.com/vi/gazqAGJH1TI/sddefault.jpg",
+                            "thumbnail": "https://i.ytimg.com/vi/gazqAGJH1TI/hqdefault.jpg",
                             "sources": [
                                 {
                                     "type": "youtube",
@@ -558,7 +565,7 @@
                             "episode_number": 40,
                             "title": "Agente Mina",
                             "duration": 12,
-                            "thumbnail": "https://i.ytimg.com/vi/bYTa_yhSZek/sddefault.jpg",
+                            "thumbnail": "https://i.ytimg.com/vi/bYTa_yhSZek/hqdefault.jpg",
                             "sources": [
                                 {
                                     "type": "youtube",
@@ -572,7 +579,7 @@
                             "episode_number": 41,
                             "title": "Colores Divertidos",
                             "duration": 11,
-                            "thumbnail": "https://i.ytimg.com/vi/5tT7QZRAkwI/sddefault.jpg",
+                            "thumbnail": "https://i.ytimg.com/vi/5tT7QZRAkwI/hqdefault.jpg",
                             "sources": [
                                 {
                                     "type": "youtube",
@@ -586,7 +593,7 @@
                             "episode_number": 42,
                             "title": "La bañera voladora",
                             "duration": 12,
-                            "thumbnail": "https://i.ytimg.com/vi/WTBPrR5l_Nc/sddefault.jpg",
+                            "thumbnail": "https://i.ytimg.com/vi/WTBPrR5l_Nc/hqdefault.jpg",
                             "sources": [
                                 {
                                     "type": "youtube",
@@ -600,7 +607,7 @@
                             "episode_number": 43,
                             "title": "El alguacil regañón",
                             "duration": 12,
-                            "thumbnail": "https://i.ytimg.com/vi/42Wkyqm9uss/sddefault.jpg",
+                            "thumbnail": "https://i.ytimg.com/vi/42Wkyqm9uss/hqdefault.jpg",
                             "sources": [
                                 {
                                     "type": "youtube",
@@ -614,7 +621,7 @@
                             "episode_number": 44,
                             "title": "El rey está herido",
                             "duration": 11,
-                            "thumbnail": "https://i.ytimg.com/vi/GW-lPFCVQnQ/sddefault.jpg",
+                            "thumbnail": "https://i.ytimg.com/vi/GW-lPFCVQnQ/hqdefault.jpg",
                             "sources": [
                                 {
                                     "type": "youtube",
@@ -628,7 +635,7 @@
                             "episode_number": 45,
                             "title": "El concurso de baile",
                             "duration": 12,
-                            "thumbnail": "https://i.ytimg.com/vi/jIVcgC5ojPU/sddefault.jpg",
+                            "thumbnail": "https://i.ytimg.com/vi/jIVcgC5ojPU/hqdefault.jpg",
                             "sources": [
                                 {
                                     "type": "youtube",
@@ -642,7 +649,7 @@
                             "episode_number": 46,
                             "title": "El dibujo de Rita",
                             "duration": 12,
-                            "thumbnail": "https://i.ytimg.com/vi/VLDMe89dQ5Q/sddefault.jpg",
+                            "thumbnail": "https://i.ytimg.com/vi/VLDMe89dQ5Q/hqdefault.jpg",
                             "sources": [
                                 {
                                     "type": "youtube",
@@ -656,7 +663,7 @@
                             "episode_number": 47,
                             "title": "El dodo blanco",
                             "duration": 12,
-                            "thumbnail": "https://i.ytimg.com/vi/yeKlApo63Vo/sddefault.jpg",
+                            "thumbnail": "https://i.ytimg.com/vi/yeKlApo63Vo/hqdefault.jpg",
                             "sources": [
                                 {
                                     "type": "youtube",
@@ -670,7 +677,7 @@
                             "episode_number": 48,
                             "title": "Preguntas, Preguntas",
                             "duration": 11,
-                            "thumbnail": "https://i.ytimg.com/vi/lMlTUG1rxbs/sddefault.jpg",
+                            "thumbnail": "https://i.ytimg.com/vi/lMlTUG1rxbs/hqdefault.jpg",
                             "sources": [
                                 {
                                     "type": "youtube",
@@ -684,7 +691,7 @@
                             "episode_number": 49,
                             "title": "Super Velocidad",
                             "duration": 12,
-                            "thumbnail": "https://i.ytimg.com/vi/S5XTkN4TfBk/sddefault.jpg",
+                            "thumbnail": "https://i.ytimg.com/vi/S5XTkN4TfBk/hqdefault.jpg",
                             "sources": [
                                 {
                                     "type": "youtube",
@@ -692,13 +699,13 @@
                                     "url": "https://www.youtube.com/watch?v=S5XTkN4TfBk"
                                 }
                             ],
-                            "synopsis": ""
+                            "synopsis": "En este episodio Bello y Goomo se esfuerzan para llegar a ser superhéroes con el duro entrenamiento de Mina... pero a Bello le parece demasiado esfuerzo. ¿Terminará el entrenamiento y llegará a ser un superhéroe?"
                         },
                         {
                             "episode_number": 50,
                             "title": "¡Miradme!",
                             "duration": 11,
-                            "thumbnail": "https://i.ytimg.com/vi/MIkwIVmJ_nY/sddefault.jpg",
+                            "thumbnail": "https://i.ytimg.com/vi/MIkwIVmJ_nY/hqdefault.jpg",
                             "sources": [
                                 {
                                     "type": "youtube",
@@ -712,7 +719,7 @@
                             "episode_number": 51,
                             "title": "La Sorpresa",
                             "duration": 11,
-                            "thumbnail": "https://i.ytimg.com/vi/WDrqqF25H-E/sddefault.jpg",
+                            "thumbnail": "https://i.ytimg.com/vi/WDrqqF25H-E/hqdefault.jpg",
                             "sources": [
                                 {
                                     "type": "youtube",
@@ -726,7 +733,7 @@
                             "episode_number": 52,
                             "title": "La clase de baile",
                             "duration": 14,
-                            "thumbnail": "https://i.ytimg.com/vi/Y87vvSMqQwE/sddefault.jpg",
+                            "thumbnail": "https://i.ytimg.com/vi/Y87vvSMqQwE/hqdefault.jpg",
                             "sources": [
                                 {
                                     "type": "youtube",
@@ -747,7 +754,7 @@
                             "episode_number": 1,
                             "title": "Todos los Clones del Rey",
                             "duration": 11,
-                            "thumbnail": "https://i.ytimg.com/vi/R4dG8fypF1U/sddefault.jpg",
+                            "thumbnail": "https://i.ytimg.com/vi/R4dG8fypF1U/hqdefault.jpg",
                             "sources": [
                                 {
                                     "type": "youtube",
@@ -761,7 +768,7 @@
                             "episode_number": 2,
                             "title": "El Abuelo Dodo",
                             "duration": 11,
-                            "thumbnail": "https://i.ytimg.com/vi/Vyd8ZRLL0f4/sddefault.jpg",
+                            "thumbnail": "https://i.ytimg.com/vi/Vyd8ZRLL0f4/hqdefault.jpg",
                             "sources": [
                                 {
                                     "type": "youtube",
@@ -775,7 +782,7 @@
                             "episode_number": 3,
                             "title": "Un Día en las Carreras",
                             "duration": 11,
-                            "thumbnail": "https://i.ytimg.com/vi/2mQzsQgrJzQ/sddefault.jpg",
+                            "thumbnail": "https://i.ytimg.com/vi/2mQzsQgrJzQ/hqdefault.jpg",
                             "sources": [
                                 {
                                     "type": "youtube",
@@ -789,7 +796,7 @@
                             "episode_number": 4,
                             "title": "Las Zapatillas Blancas",
                             "duration": 11,
-                            "thumbnail": "https://i.ytimg.com/vi/vCZhZ42ZsI0/sddefault.jpg",
+                            "thumbnail": "https://i.ytimg.com/vi/vCZhZ42ZsI0/hqdefault.jpg",
                             "sources": [
                                 {
                                     "type": "youtube",
@@ -803,7 +810,7 @@
                             "episode_number": 5,
                             "title": "El Dodo Perdido",
                             "duration": 11,
-                            "thumbnail": "https://i.ytimg.com/vi/LQ7EKx_F_AE/sddefault.jpg",
+                            "thumbnail": "https://i.ytimg.com/vi/LQ7EKx_F_AE/hqdefault.jpg",
                             "sources": [
                                 {
                                     "type": "youtube",
@@ -817,7 +824,7 @@
                             "episode_number": 6,
                             "title": "El Dodo Mariposa",
                             "duration": 11,
-                            "thumbnail": "https://i.ytimg.com/vi/QC7HdVtKi1c/sddefault.jpg",
+                            "thumbnail": "https://i.ytimg.com/vi/QC7HdVtKi1c/hqdefault.jpg",
                             "sources": [
                                 {
                                     "type": "youtube",
@@ -831,7 +838,7 @@
                             "episode_number": 7,
                             "title": "El Cuento",
                             "duration": 11,
-                            "thumbnail": "https://i.ytimg.com/vi/G9GKMM3tt40/sddefault.jpg",
+                            "thumbnail": "https://i.ytimg.com/vi/G9GKMM3tt40/hqdefault.jpg",
                             "sources": [
                                 {
                                     "type": "youtube",
@@ -845,7 +852,7 @@
                             "episode_number": 8,
                             "title": "Hogar Rodante Hogar",
                             "duration": 11,
-                            "thumbnail": "https://i.ytimg.com/vi/6kho9cSskqw/sddefault.jpg",
+                            "thumbnail": "https://i.ytimg.com/vi/6kho9cSskqw/hqdefault.jpg",
                             "sources": [
                                 {
                                     "type": "youtube",
@@ -859,7 +866,7 @@
                             "episode_number": 9,
                             "title": "El Hombre que Podía Reinar",
                             "duration": 12,
-                            "thumbnail": "https://i.ytimg.com/vi/Lj7CsgpGvxY/sddefault.jpg",
+                            "thumbnail": "https://i.ytimg.com/vi/Lj7CsgpGvxY/hqdefault.jpg",
                             "sources": [
                                 {
                                     "type": "youtube",
@@ -873,7 +880,7 @@
                             "episode_number": 10,
                             "title": "El Monstruo del Aburrimiento",
                             "duration": 11,
-                            "thumbnail": "https://i.ytimg.com/vi/jCSAI_MvMKs/sddefault.jpg",
+                            "thumbnail": "https://i.ytimg.com/vi/jCSAI_MvMKs/hqdefault.jpg",
                             "sources": [
                                 {
                                     "type": "youtube",
@@ -887,7 +894,7 @@
                             "episode_number": 11,
                             "title": "El Regalo es el Regalo",
                             "duration": 11,
-                            "thumbnail": "https://i.ytimg.com/vi/978dQekHP-I/sddefault.jpg",
+                            "thumbnail": "https://i.ytimg.com/vi/978dQekHP-I/hqdefault.jpg",
                             "sources": [
                                 {
                                     "type": "youtube",
@@ -901,7 +908,7 @@
                             "episode_number": 12,
                             "title": "Doble Bello",
                             "duration": 10,
-                            "thumbnail": "https://i.ytimg.com/vi/RBh8opBIyco/sddefault.jpg",
+                            "thumbnail": "https://i.ytimg.com/vi/RBh8opBIyco/hqdefault.jpg",
                             "sources": [
                                 {
                                     "type": "youtube",
@@ -915,7 +922,7 @@
                             "episode_number": 13,
                             "title": "La Caída del Hombre Jammbo",
                             "duration": 11,
-                            "thumbnail": "https://i.ytimg.com/vi/RnTMtgNF88U/sddefault.jpg",
+                            "thumbnail": "https://i.ytimg.com/vi/RnTMtgNF88U/hqdefault.jpg",
                             "sources": [
                                 {
                                     "type": "youtube",
@@ -929,7 +936,7 @@
                             "episode_number": 14,
                             "title": "El Señor Profesor",
                             "duration": 12,
-                            "thumbnail": "https://i.ytimg.com/vi/gv-t3rnKp_0/sddefault.jpg",
+                            "thumbnail": "https://i.ytimg.com/vi/gv-t3rnKp_0/hqdefault.jpg",
                             "sources": [
                                 {
                                     "type": "youtube",
@@ -943,7 +950,7 @@
                             "episode_number": 15,
                             "title": "La Sonrisa de Princesa",
                             "duration": 11,
-                            "thumbnail": "https://i.ytimg.com/vi/6xY7BbprToM/sddefault.jpg",
+                            "thumbnail": "https://i.ytimg.com/vi/6xY7BbprToM/hqdefault.jpg",
                             "sources": [
                                 {
                                     "type": "youtube",
@@ -957,7 +964,7 @@
                             "episode_number": 16,
                             "title": "La Pegatina",
                             "duration": 11,
-                            "thumbnail": "https://i.ytimg.com/vi/5f9KSE9Ugmc/sddefault.jpg",
+                            "thumbnail": "https://i.ytimg.com/vi/5f9KSE9Ugmc/hqdefault.jpg",
                             "sources": [
                                 {
                                     "type": "youtube",
@@ -971,7 +978,7 @@
                             "episode_number": 17,
                             "title": "Abuelo Ayudante",
                             "duration": 11,
-                            "thumbnail": "https://i.ytimg.com/vi/0FUjH9ZItP4/sddefault.jpg",
+                            "thumbnail": "https://i.ytimg.com/vi/0FUjH9ZItP4/hqdefault.jpg",
                             "sources": [
                                 {
                                     "type": "youtube",
@@ -985,7 +992,7 @@
                             "episode_number": 18,
                             "title": "La Planta",
                             "duration": 11,
-                            "thumbnail": "https://i.ytimg.com/vi/0rZLRO74CR8/sddefault.jpg",
+                            "thumbnail": "https://i.ytimg.com/vi/0rZLRO74CR8/hqdefault.jpg",
                             "sources": [
                                 {
                                     "type": "youtube",
@@ -999,7 +1006,7 @@
                             "episode_number": 19,
                             "title": "Repetición, Repetición",
                             "duration": 11,
-                            "thumbnail": "https://i.ytimg.com/vi/rGppFQl_2MU/sddefault.jpg",
+                            "thumbnail": "https://i.ytimg.com/vi/rGppFQl_2MU/hqdefault.jpg",
                             "sources": [
                                 {
                                     "type": "youtube",
@@ -1013,7 +1020,7 @@
                             "episode_number": 20,
                             "title": "El Juguete Perfecto",
                             "duration": 10,
-                            "thumbnail": "https://i.ytimg.com/vi/aIHQbaLmAIY/sddefault.jpg",
+                            "thumbnail": "https://i.ytimg.com/vi/aIHQbaLmAIY/hqdefault.jpg",
                             "sources": [
                                 {
                                     "type": "youtube",
@@ -1027,7 +1034,7 @@
                             "episode_number": 21,
                             "title": "De Excursión",
                             "duration": 11,
-                            "thumbnail": "https://i.ytimg.com/vi/Aj51z6TdbTU/sddefault.jpg",
+                            "thumbnail": "https://i.ytimg.com/vi/Aj51z6TdbTU/hqdefault.jpg",
                             "sources": [
                                 {
                                     "type": "youtube",
@@ -1041,7 +1048,7 @@
                             "episode_number": 22,
                             "title": "Elígeme a mi",
                             "duration": 10,
-                            "thumbnail": "https://i.ytimg.com/vi/ImLGRv5c0zM/sddefault.jpg",
+                            "thumbnail": "https://i.ytimg.com/vi/ImLGRv5c0zM/hqdefault.jpg",
                             "sources": [
                                 {
                                     "type": "youtube",
@@ -1055,7 +1062,7 @@
                             "episode_number": 23,
                             "title": "Mi Turno",
                             "duration": 10,
-                            "thumbnail": "https://i.ytimg.com/vi/XN2ZzwatrBE/sddefault.jpg",
+                            "thumbnail": "https://i.ytimg.com/vi/XN2ZzwatrBE/hqdefault.jpg",
                             "sources": [
                                 {
                                     "type": "youtube",
@@ -1069,7 +1076,7 @@
                             "episode_number": 24,
                             "title": "Jammbo TV",
                             "duration": 10,
-                            "thumbnail": "https://i.ytimg.com/vi/B6ckPOceihQ/sddefault.jpg",
+                            "thumbnail": "https://i.ytimg.com/vi/B6ckPOceihQ/hqdefault.jpg",
                             "sources": [
                                 {
                                     "type": "youtube",
@@ -1083,7 +1090,7 @@
                             "episode_number": 25,
                             "title": "Juntos de la Mano",
                             "duration": 24,
-                            "thumbnail": "https://i.ytimg.com/vi/Sqq2_-7VNEk/sddefault.jpg",
+                            "thumbnail": "https://i.ytimg.com/vi/Sqq2_-7VNEk/hqdefault.jpg",
                             "sources": [
                                 {
                                     "type": "youtube",

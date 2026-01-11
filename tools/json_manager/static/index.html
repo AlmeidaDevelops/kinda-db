@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Series JSON Manager</title>
+    <link rel="stylesheet" href="/static/styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <h1>🎬 Series JSON Manager</h1>
+      <div class="header-actions">
+        <button class="btn btn-secondary" onclick="openImportModal()">
+          📥 Importar
+        </button>
+        <button class="btn btn-primary" onclick="saveToFile()">
+          💾 Guardar JSON
+        </button>
+      </div>
+    </header>
+
+    <div class="main-container">
+      <!-- Sidebar -->
+      <aside class="sidebar">
+        <h2>Series</h2>
+        <div class="series-list" id="seriesList">
+          <!-- Series items will be loaded here -->
+        </div>
+        <button
+          class="btn btn-secondary"
+          style="width: 100%; margin-top: 1rem"
+          onclick="openNewSeriesModal()"
+        >
+          + Nueva Serie
+        </button>
+      </aside>
+
+      <!-- Content -->
+      <main class="content" id="mainContent">
+        <div class="empty-state">
+          <h3>Selecciona una serie</h3>
+          <p>O crea una nueva para comenzar</p>
+        </div>
+      </main>
+    </div>
+
+    <!-- Import Modal -->
+    <div class="modal-overlay" id="importModal">
+      <div class="modal">
+        <div class="modal-header">
+          <h2>📥 Importar desde YouTube</h2>
+          <button class="btn-icon" onclick="closeModal('importModal')">
+            ✕
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="form-group">
+            <label>URL de Playlist (para agregar temporada)</label>
+            <input
+              type="text"
+              id="playlistUrl"
+              placeholder="https://www.youtube.com/playlist?list=..."
+            />
+          </div>
+          <div class="form-group">
+            <label>Agregar a serie</label>
+            <select id="targetSeries">
+              <option value="">-- Selecciona una serie --</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label>Número de temporada</label>
+            <input type="number" id="seasonNumber" value="1" min="1" />
+          </div>
+          <div class="form-group">
+            <label style="display: flex; align-items: center; gap: 0.5rem; cursor: pointer;">
+              <input type="checkbox" id="getDescriptions" checked style="width: auto;">
+              📝 Importar descripciones como sinopsis (más lento pero incluye sinopsis automáticas)
+            </label>
+          </div>
+          <div id="importPreview"></div>
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-secondary" onclick="previewPlaylist()">
+            👁 Vista Previa
+          </button>
+          <button class="btn btn-primary" onclick="importPlaylist()">
+            Importar
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- New Series Modal -->
+    <div class="modal-overlay" id="newSeriesModal">
+      <div class="modal">
+        <div class="modal-header">
+          <h2>✨ Nueva Serie</h2>
+          <button class="btn-icon" onclick="closeModal('newSeriesModal')">
+            ✕
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="form-group">
+            <label>URL del Canal de YouTube (opcional)</label>
+            <input
+              type="text"
+              id="channelUrl"
+              placeholder="https://www.youtube.com/@canal"
+            />
+            <button
+              class="btn btn-secondary btn-small"
+              style="margin-top: 0.5rem"
+              onclick="fetchChannelInfo()"
+            >
+              Obtener info del canal
+            </button>
+          </div>
+          <hr style="border-color: var(--border); margin: 1rem 0" />
+          <div class="form-group">
+            <label>ID (slug único)</label>
+            <input
+              type="text"
+              id="newSeriesId"
+              placeholder="nombre-de-la-serie"
+            />
+          </div>
+          <div class="form-group">
+            <label>Título</label>
+            <input
+              type="text"
+              id="newSeriesTitle"
+              placeholder="Nombre de la Serie"
+            />
+          </div>
+          <div class="form-group">
+            <label>Estudio</label>
+            <input
+              type="text"
+              id="newSeriesStudio"
+              placeholder="Nombre del estudio"
+            />
+          </div>
+          <div class="form-group">
+            <label>Año de lanzamiento</label>
+            <input
+              type="number"
+              id="newSeriesYear"
+              placeholder="2020"
+              min="1900"
+              max="2100"
+            />
+          </div>
+          <div class="form-group">
+            <label>Géneros (selecciona varios)</label>
+            <div id="genresCheckboxes" class="checkbox-grid">
+              <label><input type="checkbox" value="Animación" checked> 🎬 Animación</label>
+              <label><input type="checkbox" value="Comedia"> 😂 Comedia</label>
+              <label><input type="checkbox" value="Aventura"> 🗺️ Aventura</label>
+              <label><input type="checkbox" value="Educativo"> 📖 Educativo</label>
+              <label><input type="checkbox" value="Musical"> 🎵 Musical</label>
+              <label><input type="checkbox" value="Fantasía"> ✨ Fantasía</label>
+              <label><input type="checkbox" value="Acción"> 💥 Acción</label>
+              <label><input type="checkbox" value="Ciencia ficción"> 🚀 Ciencia ficción</label>
+              <label><input type="checkbox" value="Misterio"> 🔎 Misterio</label>
+              <label><input type="checkbox" value="Naturaleza"> 🌿 Naturaleza</label>
+              <label><input type="checkbox" value="Deportes"> ⚽ Deportes</label>
+              <label><input type="checkbox" value="Arte"> 🎨 Arte</label>
+              <label><input type="checkbox" value="3D"> 🎮 3D</label>
+              <label><input type="checkbox" value="2D"> ✏️ 2D</label>
+              <label><input type="checkbox" value="Stop Motion"> 🧸 Stop Motion</label>
+            </div>
+          </div>
+          <div class="form-group">
+            <label>Valores educativos (selecciona varios)</label>
+            <div id="valuesCheckboxes" class="checkbox-grid">
+              <label><input type="checkbox" value="amistad"> 🤝 Amistad</label>
+              <label><input type="checkbox" value="creatividad"> 🎨 Creatividad</label>
+              <label><input type="checkbox" value="trabajo en equipo"> 👥 Trabajo en equipo</label>
+              <label><input type="checkbox" value="honestidad"> ✨ Honestidad</label>
+              <label><input type="checkbox" value="respeto"> 🙏 Respeto</label>
+              <label><input type="checkbox" value="responsabilidad"> 📋 Responsabilidad</label>
+              <label><input type="checkbox" value="empatía"> ❤️ Empatía</label>
+              <label><input type="checkbox" value="perseverancia"> 💪 Perseverancia</label>
+              <label><input type="checkbox" value="curiosidad"> 🔍 Curiosidad</label>
+              <label><input type="checkbox" value="resolución de problemas"> 🧩 Resolución de problemas</label>
+              <label><input type="checkbox" value="música"> 🎵 Música</label>
+              <label><input type="checkbox" value="naturaleza"> 🌿 Naturaleza</label>
+              <label><input type="checkbox" value="ciencia"> 🔬 Ciencia</label>
+              <label><input type="checkbox" value="matemáticas"> 🔢 Matemáticas</label>
+              <label><input type="checkbox" value="lectura"> 📚 Lectura</label>
+              <label><input type="checkbox" value="arte"> 🖼️ Arte</label>
+              <label><input type="checkbox" value="deportes"> ⚽ Deportes</label>
+              <label><input type="checkbox" value="familia"> 👨‍👩‍👧‍👦 Familia</label>
+            </div>
+          </div>
+          <div class="form-group">
+            <label>Sinopsis</label>
+            <textarea
+              id="newSeriesSynopsis"
+              placeholder="Descripción de la serie..."
+            ></textarea>
+          </div>
+          <div class="form-group">
+            <label>URL del Logo</label>
+            <input type="text" id="newSeriesLogo" placeholder="https://..." />
+          </div>
+          <div class="form-group">
+            <label>URL del Banner</label>
+            <input type="text" id="newSeriesBanner" placeholder="https://..." />
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button
+            class="btn btn-secondary"
+            onclick="closeModal('newSeriesModal')"
+          >
+            Cancelar
+          </button>
+          <button class="btn btn-primary" onclick="createNewSeries()">
+            Crear Serie
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Edit Episode Modal -->
+    <div class="modal-overlay" id="editEpisodeModal">
+      <div class="modal">
+        <div class="modal-header">
+          <h2>✏️ Editar Episodio</h2>
+          <button class="btn-icon" onclick="closeModal('editEpisodeModal')">
+            ✕
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="form-group">
+            <label>Título</label>
+            <div style="display: flex; gap: 0.5rem">
+              <input type="text" id="editEpisodeTitle" style="flex: 1" />
+              <button
+                class="btn btn-secondary btn-small"
+                onclick="cleanCurrentTitle()"
+              >
+                🧹 Limpiar
+              </button>
+            </div>
+          </div>
+          <div class="form-group">
+            <label>Sinopsis</label>
+            <textarea id="editEpisodeSynopsis" rows="5"></textarea>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button
+            class="btn btn-secondary"
+            onclick="closeModal('editEpisodeModal')"
+          >
+            Cancelar
+          </button>
+          <button class="btn btn-primary" onclick="saveEpisodeEdit()">
+            Guardar
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Toast Container -->
+    <div class="toast-container" id="toastContainer"></div>
+
+    <script src="/static/app.js"></script>
+  </body>
+</html>
