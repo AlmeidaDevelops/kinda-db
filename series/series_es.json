@@ -2034,6 +2034,636 @@
                     "title": "Temporada 1"
                 }
             ]
+        },
+        {
+            "id": "los-octonautas",
+            "title": "Los Octonautas",
+            "original_title": "Los Octonautas",
+            "studio": "Chorion, Brown Bag Films, Mainframe Studios y CCTV",
+            "release_year": 2010,
+            "genres": [
+                "Animación",
+                "Aventura",
+                "Educativo",
+                "Naturaleza",
+                "3D"
+            ],
+            "values": [
+                "trabajo en equipo",
+                "respeto",
+                "responsabilidad",
+                "curiosidad",
+                "resolución de problemas",
+                "naturaleza",
+                "ciencia"
+            ],
+            "synopsis": "Los Octonautas son los ocho miembros del peculiar y valiente equipo de héroes que se sumergen siempre que hay problemas bajo el mar.\nEquipados con una flota de vehículos acuáticos, llamados Gups, su misión es explorar nuevos mundos submarinos, rescatar asombrosas criaturas marinas y proteger el océano antes de regresar a su casa, el Octopod.",
+            "images": {
+                "banner": "https://yt3.googleusercontent.com/mTqmdiTLGgNS3PUShJwEj6p9pDnue6MZP5A4xes32QTASKfYBIF_vrxYHS4qyyPoiGzFex3RlQ=w1060-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+                "logo": "https://yt3.ggpht.com/ytc/AIdro_lJaOTNjOOptKYIGTjEd8Uv3xdgTTJNGh0ILBOA7QRDcg=s900-c-k-c0x00ffffff-no-rj"
+            },
+            "seasons": []
+        },
+        {
+            "id": "mecanimales",
+            "title": "Animales Mecanimales",
+            "original_title": "Mecanimales",
+            "studio": "WildBrain",
+            "release_year": 2008,
+            "genres": [
+                "Animación",
+                "Aventura",
+                "Educativo",
+                "Ciencia ficción",
+                "3D"
+            ],
+            "values": [
+                "amistad",
+                "trabajo en equipo",
+                "perseverancia",
+                "resolución de problemas"
+            ],
+            "synopsis": "Los Mecanimales Rex, Unicornio, Komodo, Sasquatch y Maus aman explorar mundos fantásticos, hacer amigos y vivir maravillosas aventuras.",
+            "images": {
+                "banner": "https://yt3.googleusercontent.com/wqbm_hxHoT5Q5e0bkwgvXdcFqiQ3tG3RfGtAVSZztmTbs2X3Tz6PjS30hOr7hXF57y0Q58DQ2Q=w1060-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+                "logo": "https://yt3.ggpht.com/ytc/AIdro_nrv-aReWefvhdu6A2uER-n_uNQrvnTYBwi3wL1natJ2A=s900-c-k-c0x00ffffff-no-rj"
+            },
+            "seasons": [
+                {
+                    "episode_count": 20,
+                    "episodes": [
+                        {
+                            "duration": 11,
+                            "episode_number": 1,
+                            "sources": [
+                                {
+                                    "type": "youtube",
+                                    "id": "Hd5E4BOQjUQ",
+                                    "url": "https://www.youtube.com/watch?v=Hd5E4BOQjUQ"
+                                }
+                            ],
+                            "synopsis": "",
+                            "thumbnail": "https://i.ytimg.com/vi/Hd5E4BOQjUQ/hqdefault.jpg",
+                            "title": "El turbo-frijol"
+                        },
+                        {
+                            "episode_number": 2,
+                            "title": "La isla de los conejos",
+                            "duration": 12,
+                            "thumbnail": "https://i.ytimg.com/vi/YLo2depqHkI/hqdefault.jpg",
+                            "sources": [
+                                {
+                                    "type": "youtube",
+                                    "id": "YLo2depqHkI",
+                                    "url": "https://www.youtube.com/watch?v=YLo2depqHkI"
+                                }
+                            ],
+                            "synopsis": ""
+                        },
+                        {
+                            "episode_number": 3,
+                            "title": "Vacas en apuros",
+                            "duration": 12,
+                            "thumbnail": "https://i.ytimg.com/vi/XOKLtWGt_W0/hqdefault.jpg",
+                            "sources": [
+                                {
+                                    "type": "youtube",
+                                    "id": "XOKLtWGt_W0",
+                                    "url": "https://www.youtube.com/watch?v=XOKLtWGt_W0"
+                                }
+                            ],
+                            "synopsis": ""
+                        },
+                        {
+                            "episode_number": 4,
+                            "title": "La ballena avión",
+                            "duration": 12,
+                            "thumbnail": "https://i.ytimg.com/vi/9qzQUW8Vtiw/hqdefault.jpg",
+                            "sources": [
+                                {
+                                    "type": "youtube",
+                                    "id": "9qzQUW8Vtiw",
+                                    "url": "https://www.youtube.com/watch?v=9qzQUW8Vtiw"
+                                }
+                            ],
+                            "synopsis": ""
+                        },
+                        {
+                            "episode_number": 5,
+                            "title": "Dinomontaña",
+                            "duration": 12,
+                            "thumbnail": "https://i.ytimg.com/vi/BjGJ9PcJGPs/hqdefault.jpg",
+                            "sources": [
+                                {
+                                    "type": "youtube",
+                                    "id": "BjGJ9PcJGPs",
+                                    "url": "https://www.youtube.com/watch?v=BjGJ9PcJGPs"
+                                }
+                            ],
+                            "synopsis": ""
+                        },
+                        {
+                            "episode_number": 6,
+                            "title": "La isla quiquiriquí",
+                            "duration": 12,
+                            "thumbnail": "https://i.ytimg.com/vi/82RW3_8uAIk/hqdefault.jpg",
+                            "sources": [
+                                {
+                                    "type": "youtube",
+                                    "id": "82RW3_8uAIk",
+                                    "url": "https://www.youtube.com/watch?v=82RW3_8uAIk"
+                                }
+                            ],
+                            "synopsis": ""
+                        },
+                        {
+                            "episode_number": 7,
+                            "title": "La isla de los escarabajos",
+                            "duration": 12,
+                            "thumbnail": "https://i.ytimg.com/vi/Ckd2RfnEzWA/hqdefault.jpg",
+                            "sources": [
+                                {
+                                    "type": "youtube",
+                                    "id": "Ckd2RfnEzWA",
+                                    "url": "https://www.youtube.com/watch?v=Ckd2RfnEzWA"
+                                }
+                            ],
+                            "synopsis": ""
+                        },
+                        {
+                            "episode_number": 8,
+                            "title": "Pingüinos y más pingüinos",
+                            "duration": 12,
+                            "thumbnail": "https://i.ytimg.com/vi/UPd60powkn4/hqdefault.jpg",
+                            "sources": [
+                                {
+                                    "type": "youtube",
+                                    "id": "UPd60powkn4",
+                                    "url": "https://www.youtube.com/watch?v=UPd60powkn4"
+                                }
+                            ],
+                            "synopsis": ""
+                        },
+                        {
+                            "episode_number": 9,
+                            "title": "Tiburones rompecabezas",
+                            "duration": 12,
+                            "thumbnail": "https://i.ytimg.com/vi/Nq7_Lasegko/hqdefault.jpg",
+                            "sources": [
+                                {
+                                    "type": "youtube",
+                                    "id": "Nq7_Lasegko",
+                                    "url": "https://www.youtube.com/watch?v=Nq7_Lasegko"
+                                }
+                            ],
+                            "synopsis": ""
+                        },
+                        {
+                            "episode_number": 10,
+                            "title": "La isla de las campanas",
+                            "duration": 12,
+                            "thumbnail": "https://i.ytimg.com/vi/GuEmGz_BF_o/hqdefault.jpg",
+                            "sources": [
+                                {
+                                    "type": "youtube",
+                                    "id": "GuEmGz_BF_o",
+                                    "url": "https://www.youtube.com/watch?v=GuEmGz_BF_o"
+                                }
+                            ],
+                            "synopsis": ""
+                        },
+                        {
+                            "episode_number": 11,
+                            "title": "El tren elefante",
+                            "duration": 11,
+                            "thumbnail": "https://i.ytimg.com/vi/kxSkWcH5BY4/hqdefault.jpg",
+                            "sources": [
+                                {
+                                    "type": "youtube",
+                                    "id": "kxSkWcH5BY4",
+                                    "url": "https://www.youtube.com/watch?v=kxSkWcH5BY4"
+                                }
+                            ],
+                            "synopsis": ""
+                        },
+                        {
+                            "episode_number": 12,
+                            "title": "El gran juego de pinball",
+                            "duration": 12,
+                            "thumbnail": "https://i.ytimg.com/vi/eLYLkdbdaA4/hqdefault.jpg",
+                            "sources": [
+                                {
+                                    "type": "youtube",
+                                    "id": "eLYLkdbdaA4",
+                                    "url": "https://www.youtube.com/watch?v=eLYLkdbdaA4"
+                                }
+                            ],
+                            "synopsis": ""
+                        },
+                        {
+                            "episode_number": 13,
+                            "title": "La isla jirafi-grúas",
+                            "duration": 12,
+                            "thumbnail": "https://i.ytimg.com/vi/qbB-NOcjeGQ/hqdefault.jpg",
+                            "sources": [
+                                {
+                                    "type": "youtube",
+                                    "id": "qbB-NOcjeGQ",
+                                    "url": "https://www.youtube.com/watch?v=qbB-NOcjeGQ"
+                                }
+                            ],
+                            "synopsis": ""
+                        },
+                        {
+                            "episode_number": 14,
+                            "title": "La isla de los peces voladores",
+                            "duration": 12,
+                            "thumbnail": "https://i.ytimg.com/vi/T_2iEc7Vb30/hqdefault.jpg",
+                            "sources": [
+                                {
+                                    "type": "youtube",
+                                    "id": "T_2iEc7Vb30",
+                                    "url": "https://www.youtube.com/watch?v=T_2iEc7Vb30"
+                                }
+                            ],
+                            "synopsis": ""
+                        },
+                        {
+                            "episode_number": 15,
+                            "title": "Paso de caracol",
+                            "duration": 12,
+                            "thumbnail": "https://i.ytimg.com/vi/PpAHt_0kBSM/hqdefault.jpg",
+                            "sources": [
+                                {
+                                    "type": "youtube",
+                                    "id": "PpAHt_0kBSM",
+                                    "url": "https://www.youtube.com/watch?v=PpAHt_0kBSM"
+                                }
+                            ],
+                            "synopsis": ""
+                        },
+                        {
+                            "episode_number": 16,
+                            "title": "La isla de los murciélagos",
+                            "duration": 12,
+                            "thumbnail": "https://i.ytimg.com/vi/ldyTBtaee2E/hqdefault.jpg",
+                            "sources": [
+                                {
+                                    "type": "youtube",
+                                    "id": "ldyTBtaee2E",
+                                    "url": "https://www.youtube.com/watch?v=ldyTBtaee2E"
+                                }
+                            ],
+                            "synopsis": ""
+                        },
+                        {
+                            "episode_number": 17,
+                            "title": "La isla de los hipos-deslizadores",
+                            "duration": 12,
+                            "thumbnail": "https://i.ytimg.com/vi/K55S33Jjye8/hqdefault.jpg",
+                            "sources": [
+                                {
+                                    "type": "youtube",
+                                    "id": "K55S33Jjye8",
+                                    "url": "https://www.youtube.com/watch?v=K55S33Jjye8"
+                                }
+                            ],
+                            "synopsis": ""
+                        },
+                        {
+                            "episode_number": 18,
+                            "title": "La isla vólcan de los globos",
+                            "duration": 12,
+                            "thumbnail": "https://i.ytimg.com/vi/YuFzhwrUxDg/hqdefault.jpg",
+                            "sources": [
+                                {
+                                    "type": "youtube",
+                                    "id": "YuFzhwrUxDg",
+                                    "url": "https://www.youtube.com/watch?v=YuFzhwrUxDg"
+                                }
+                            ],
+                            "synopsis": ""
+                        },
+                        {
+                            "episode_number": 19,
+                            "title": "La isla mecani-libélulas",
+                            "duration": 12,
+                            "thumbnail": "https://i.ytimg.com/vi/VxETnl56R0M/hqdefault.jpg",
+                            "sources": [
+                                {
+                                    "type": "youtube",
+                                    "id": "VxETnl56R0M",
+                                    "url": "https://www.youtube.com/watch?v=VxETnl56R0M"
+                                }
+                            ],
+                            "synopsis": "yarrr"
+                        },
+                        {
+                            "episode_number": 20,
+                            "title": "La isla mecani-lora",
+                            "duration": 12,
+                            "thumbnail": "https://i.ytimg.com/vi/alPOq_hJtJ0/hqdefault.jpg",
+                            "sources": [
+                                {
+                                    "type": "youtube",
+                                    "id": "alPOq_hJtJ0",
+                                    "url": "https://www.youtube.com/watch?v=alPOq_hJtJ0"
+                                }
+                            ],
+                            "synopsis": "yarrr"
+                        }
+                    ],
+                    "season_number": 1,
+                    "title": "Temporada 1"
+                },
+                {
+                    "season_number": 2,
+                    "title": "Temporada 2",
+                    "episode_count": 20,
+                    "episodes": [
+                        {
+                            "episode_number": 1,
+                            "title": "La isla de las mecani-montaña rusa",
+                            "duration": 12,
+                            "thumbnail": "https://i.ytimg.com/vi/lHo3EBCy8Tk/hqdefault.jpg",
+                            "sources": [
+                                {
+                                    "type": "youtube",
+                                    "id": "lHo3EBCy8Tk",
+                                    "url": "https://www.youtube.com/watch?v=lHo3EBCy8Tk"
+                                }
+                            ],
+                            "synopsis": ""
+                        },
+                        {
+                            "episode_number": 2,
+                            "title": "La isla de los mecani-pandas",
+                            "duration": 12,
+                            "thumbnail": "https://i.ytimg.com/vi/Zzh62AkQe3g/hqdefault.jpg",
+                            "sources": [
+                                {
+                                    "type": "youtube",
+                                    "id": "Zzh62AkQe3g",
+                                    "url": "https://www.youtube.com/watch?v=Zzh62AkQe3g"
+                                }
+                            ],
+                            "synopsis": ""
+                        },
+                        {
+                            "episode_number": 3,
+                            "title": "El reloj cucú",
+                            "duration": 12,
+                            "thumbnail": "https://i.ytimg.com/vi/GBUocDAC5W0/hqdefault.jpg",
+                            "sources": [
+                                {
+                                    "type": "youtube",
+                                    "id": "GBUocDAC5W0",
+                                    "url": "https://www.youtube.com/watch?v=GBUocDAC5W0"
+                                }
+                            ],
+                            "synopsis": ""
+                        },
+                        {
+                            "episode_number": 4,
+                            "title": "La isla de los mecani-reciclador",
+                            "duration": 12,
+                            "thumbnail": "https://i.ytimg.com/vi/lTUdfwWSaEo/hqdefault.jpg",
+                            "sources": [
+                                {
+                                    "type": "youtube",
+                                    "id": "lTUdfwWSaEo",
+                                    "url": "https://www.youtube.com/watch?v=lTUdfwWSaEo"
+                                }
+                            ],
+                            "synopsis": ""
+                        },
+                        {
+                            "episode_number": 5,
+                            "title": "La isla de los mecani-isos",
+                            "duration": 12,
+                            "thumbnail": "https://i.ytimg.com/vi/F1tI_paYESE/hqdefault.jpg",
+                            "sources": [
+                                {
+                                    "type": "youtube",
+                                    "id": "F1tI_paYESE",
+                                    "url": "https://www.youtube.com/watch?v=F1tI_paYESE"
+                                }
+                            ],
+                            "synopsis": ""
+                        },
+                        {
+                            "episode_number": 6,
+                            "title": "La máquina de nubes",
+                            "duration": 12,
+                            "thumbnail": "https://i.ytimg.com/vi/ZK5GhGGhcwQ/hqdefault.jpg",
+                            "sources": [
+                                {
+                                    "type": "youtube",
+                                    "id": "ZK5GhGGhcwQ",
+                                    "url": "https://www.youtube.com/watch?v=ZK5GhGGhcwQ"
+                                }
+                            ],
+                            "synopsis": ""
+                        },
+                        {
+                            "episode_number": 7,
+                            "title": "La isla babuino",
+                            "duration": 12,
+                            "thumbnail": "https://i.ytimg.com/vi/kGiebx5u-C4/hqdefault.jpg",
+                            "sources": [
+                                {
+                                    "type": "youtube",
+                                    "id": "kGiebx5u-C4",
+                                    "url": "https://www.youtube.com/watch?v=kGiebx5u-C4"
+                                }
+                            ],
+                            "synopsis": ""
+                        },
+                        {
+                            "episode_number": 8,
+                            "title": "La isla de los mecani-combinador",
+                            "duration": 12,
+                            "thumbnail": "https://i.ytimg.com/vi/d7r0LiuAYh4/hqdefault.jpg",
+                            "sources": [
+                                {
+                                    "type": "youtube",
+                                    "id": "d7r0LiuAYh4",
+                                    "url": "https://www.youtube.com/watch?v=d7r0LiuAYh4"
+                                }
+                            ],
+                            "synopsis": ""
+                        },
+                        {
+                            "episode_number": 9,
+                            "title": "La isla de los mecani-esquí",
+                            "duration": 12,
+                            "thumbnail": "https://i.ytimg.com/vi/dEbOjX4v7tg/hqdefault.jpg",
+                            "sources": [
+                                {
+                                    "type": "youtube",
+                                    "id": "dEbOjX4v7tg",
+                                    "url": "https://www.youtube.com/watch?v=dEbOjX4v7tg"
+                                }
+                            ],
+                            "synopsis": ""
+                        },
+                        {
+                            "episode_number": 10,
+                            "title": "La isla de los mecani-botes",
+                            "duration": 12,
+                            "thumbnail": "https://i.ytimg.com/vi/BLx-fAIHEQM/hqdefault.jpg",
+                            "sources": [
+                                {
+                                    "type": "youtube",
+                                    "id": "BLx-fAIHEQM",
+                                    "url": "https://www.youtube.com/watch?v=BLx-fAIHEQM"
+                                }
+                            ],
+                            "synopsis": ""
+                        },
+                        {
+                            "episode_number": 11,
+                            "title": "La isla de las mecani-reinas",
+                            "duration": 12,
+                            "thumbnail": "https://i.ytimg.com/vi/9rvF_Mb5B5w/hqdefault.jpg",
+                            "sources": [
+                                {
+                                    "type": "youtube",
+                                    "id": "9rvF_Mb5B5w",
+                                    "url": "https://www.youtube.com/watch?v=9rvF_Mb5B5w"
+                                }
+                            ],
+                            "synopsis": ""
+                        },
+                        {
+                            "episode_number": 12,
+                            "title": "La isla de los mecani-búhos",
+                            "duration": 12,
+                            "thumbnail": "https://i.ytimg.com/vi/inHeW_yojqA/hqdefault.jpg",
+                            "sources": [
+                                {
+                                    "type": "youtube",
+                                    "id": "inHeW_yojqA",
+                                    "url": "https://www.youtube.com/watch?v=inHeW_yojqA"
+                                }
+                            ],
+                            "synopsis": ""
+                        },
+                        {
+                            "episode_number": 13,
+                            "title": "La isla mecani-carreras",
+                            "duration": 12,
+                            "thumbnail": "https://i.ytimg.com/vi/8UgU59982lc/hqdefault.jpg",
+                            "sources": [
+                                {
+                                    "type": "youtube",
+                                    "id": "8UgU59982lc",
+                                    "url": "https://www.youtube.com/watch?v=8UgU59982lc"
+                                }
+                            ],
+                            "synopsis": ""
+                        },
+                        {
+                            "episode_number": 14,
+                            "title": "La isla de los mecani-canguros",
+                            "duration": 12,
+                            "thumbnail": "https://i.ytimg.com/vi/KMRQLVnWRXo/hqdefault.jpg",
+                            "sources": [
+                                {
+                                    "type": "youtube",
+                                    "id": "KMRQLVnWRXo",
+                                    "url": "https://www.youtube.com/watch?v=KMRQLVnWRXo"
+                                }
+                            ],
+                            "synopsis": ""
+                        },
+                        {
+                            "episode_number": 15,
+                            "title": "La isla de los mecani-tulipanes",
+                            "duration": 12,
+                            "thumbnail": "https://i.ytimg.com/vi/aTkEF2jVUxI/hqdefault.jpg",
+                            "sources": [
+                                {
+                                    "type": "youtube",
+                                    "id": "aTkEF2jVUxI",
+                                    "url": "https://www.youtube.com/watch?v=aTkEF2jVUxI"
+                                }
+                            ],
+                            "synopsis": ""
+                        },
+                        {
+                            "episode_number": 16,
+                            "title": "La isla de los mecani-patinajes",
+                            "duration": 12,
+                            "thumbnail": "https://i.ytimg.com/vi/KOlyIAL96Kc/hqdefault.jpg",
+                            "sources": [
+                                {
+                                    "type": "youtube",
+                                    "id": "KOlyIAL96Kc",
+                                    "url": "https://www.youtube.com/watch?v=KOlyIAL96Kc"
+                                }
+                            ],
+                            "synopsis": ""
+                        },
+                        {
+                            "episode_number": 17,
+                            "title": "La isla de los mecani-toros",
+                            "duration": 12,
+                            "thumbnail": "https://i.ytimg.com/vi/BYkWqrhz_tE/hqdefault.jpg",
+                            "sources": [
+                                {
+                                    "type": "youtube",
+                                    "id": "BYkWqrhz_tE",
+                                    "url": "https://www.youtube.com/watch?v=BYkWqrhz_tE"
+                                }
+                            ],
+                            "synopsis": ""
+                        },
+                        {
+                            "episode_number": 18,
+                            "title": "La isla de las mecani-tortugas",
+                            "duration": 12,
+                            "thumbnail": "https://i.ytimg.com/vi/pJbuNGx44II/hqdefault.jpg",
+                            "sources": [
+                                {
+                                    "type": "youtube",
+                                    "id": "pJbuNGx44II",
+                                    "url": "https://www.youtube.com/watch?v=pJbuNGx44II"
+                                }
+                            ],
+                            "synopsis": ""
+                        },
+                        {
+                            "episode_number": 19,
+                            "title": "La isla de las mecani-rocolas",
+                            "duration": 12,
+                            "thumbnail": "https://i.ytimg.com/vi/U_Ge1udFv18/hqdefault.jpg",
+                            "sources": [
+                                {
+                                    "type": "youtube",
+                                    "id": "U_Ge1udFv18",
+                                    "url": "https://www.youtube.com/watch?v=U_Ge1udFv18"
+                                }
+                            ],
+                            "synopsis": ""
+                        },
+                        {
+                            "episode_number": 20,
+                            "title": "La isla de los mecani-circo",
+                            "duration": 12,
+                            "thumbnail": "https://i.ytimg.com/vi/XqM3dTLUvHA/hqdefault.jpg",
+                            "sources": [
+                                {
+                                    "type": "youtube",
+                                    "id": "XqM3dTLUvHA",
+                                    "url": "https://www.youtube.com/watch?v=XqM3dTLUvHA"
+                                }
+                            ],
+                            "synopsis": ""
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }

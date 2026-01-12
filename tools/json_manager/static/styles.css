@@ -299,6 +299,31 @@ body {
   transition: background 0.2s;
 }
 
+/* Episode Order Controls */
+.episode-order-controls {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.btn-order {
+  padding: 0.2rem;
+  font-size: 0.9rem;
+  opacity: 0.6;
+  transition: opacity 0.2s, transform 0.2s;
+}
+
+.btn-order:hover:not(:disabled) {
+  opacity: 1;
+  transform: scale(1.2);
+}
+
+.btn-order:disabled {
+  opacity: 0.2;
+  cursor: not-allowed;
+}
+
 .episode:hover {
   background: var(--bg-tertiary);
 }
@@ -614,21 +639,21 @@ body {
 
 /* Progress Bar */
 .progress-container {
-    width: 100%;
+  width: 100%;
 }
 
 .progress-bar {
-    width: 100%;
-    height: 10px;
-    background: var(--bg-tertiary);
-    border-radius: 5px;
-    overflow: hidden;
-    border: 1px solid var(--border);
+  width: 100%;
+  height: 10px;
+  background: var(--bg-tertiary);
+  border-radius: 5px;
+  overflow: hidden;
+  border: 1px solid var(--border);
 }
 
 .progress-fill {
-    height: 100%;
-    background: var(--accent);
-    width: 0%;
-    transition: width 0.3s ease;
+  height: 100%;
+  background: var(--accent);
+  width: 0%;
+  transition: width 0.3s ease;
 }

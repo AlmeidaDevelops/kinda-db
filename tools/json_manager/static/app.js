@@ -130,10 +130,15 @@ function renderSeriesContent() {
             ${renderSeasons()}
         </div>
 
-        <!-- Add Season Button -->
-        <button class="btn btn-secondary" style="margin-top: 1rem;" onclick="openImportModal()">
-            + Agregar Temporada desde Playlist
-        </button>
+        <!-- Add Season Buttons -->
+        <div class="add-season-buttons" style="margin-top: 1rem; display: flex; gap: 1rem; flex-wrap: wrap;">
+            <button class="btn btn-secondary" onclick="openImportModal()">
+                📥 Agregar desde Playlist
+            </button>
+            <button class="btn btn-secondary" onclick="openManualSeasonModal()">
+                ✏️ Agregar Temporada Manual
+            </button>
+        </div>
     `;
 }
 
@@ -158,10 +163,14 @@ function renderSeasons() {
                 </div>
                 <div class="episodes-list">
                     ${renderEpisodes(season.episodes, seasonIndex)}
-                    <button class="btn btn-secondary btn-small" style="margin-top: 1rem;" 
-                            onclick="cleanAllTitles(${seasonIndex})">
-                        🧹 Limpiar todos los títulos
-                    </button>
+                    <div class="season-actions" style="margin-top: 1rem; display: flex; gap: 0.5rem; flex-wrap: wrap;">
+                        <button class="btn btn-secondary btn-small" onclick="addManualEpisode(${seasonIndex})">
+                            ➕ Agregar Episodio
+                        </button>
+                        <button class="btn btn-secondary btn-small" onclick="cleanAllTitles(${seasonIndex})">
+                            🧹 Limpiar todos los títulos
+                        </button>
+                    </div>
                 </div>
             </div>
         `;
@@ -175,7 +184,15 @@ function renderEpisodes(episodes, seasonIndex) {
 
     return episodes.map((episode, epIndex) => `
         <div class="episode">
-            <div class="episode-number">${episode.episode_number}</div>
+            <div class="episode-order-controls">
+                <button class="btn-icon btn-order" title="Subir" 
+                        onclick="moveEpisode(${seasonIndex}, ${epIndex}, -1)"
+                        ${epIndex === 0 ? 'disabled' : ''}>⬆️</button>
+                <div class="episode-number">${episode.episode_number}</div>
+                <button class="btn-icon btn-order" title="Bajar" 
+                        onclick="moveEpisode(${seasonIndex}, ${epIndex}, 1)"
+                        ${epIndex === episodes.length - 1 ? 'disabled' : ''}>⬇️</button>
+            </div>
             <img class="episode-thumbnail" 
                  src="${episode.thumbnail || 'https://via.placeholder.com/120x68'}" 
                  alt="${episode.title}"
@@ -189,6 +206,7 @@ function renderEpisodes(episodes, seasonIndex) {
                 <button class="btn-icon" title="Editar" onclick="editEpisode(${seasonIndex}, ${epIndex})">✏️</button>
                 <button class="btn-icon" title="Limpiar título" onclick="cleanEpisodeTitle(${seasonIndex}, ${epIndex})">🧹</button>
                 <a href="${episode.sources?.[0]?.url || '#'}" target="_blank" class="btn-icon" title="Ver en YouTube">▶️</a>
+                <button class="btn-icon" title="Eliminar" onclick="deleteEpisode(${seasonIndex}, ${epIndex})">🗑️</button>
             </div>
         </div>
     `).join('');
@@ -230,11 +248,91 @@ function editEpisode(seasonIndex, episodeIndex) {
     const episode = currentSeries.seasons[seasonIndex].episodes[episodeIndex];
     currentEditEpisode = { seasonIndex, episodeIndex, episode };
     
+    // Load all fields
     document.getElementById('editEpisodeTitle').value = episode.title;
     document.getElementById('editEpisodeSynopsis').value = episode.synopsis || '';
+    document.getElementById('editEpisodeDuration').value = episode.duration || 0;
+    document.getElementById('editEpisodeThumbnail').value = episode.thumbnail || '';
+    
+    // Load YouTube URL if exists
+    const youtubeUrl = episode.sources?.find(s => s.type === 'youtube')?.url || '';
+    document.getElementById('editEpisodeYoutubeUrl').value = youtubeUrl;
+    
+    // Show thumbnail preview if exists
+    updateThumbnailPreview(episode.thumbnail);
     
     openModal('editEpisodeModal');
 }
+
+function updateThumbnailPreview(url) {
+    const container = document.getElementById('thumbnailPreviewContainer');
+    const img = document.getElementById('thumbnailPreview');
+    
+    if (url) {
+        img.src = url;
+        container.style.display = 'block';
+    } else {
+        container.style.display = 'none';
+    }
+}
+
+async function fetchVideoData() {
+    const url = document.getElementById('editEpisodeYoutubeUrl').value.trim();
+    if (!url) {
+        showToast('Ingresa una URL de YouTube', true);
+        return;
+    }
+    
+    const btn = document.getElementById('fetchVideoBtn');
+    const originalText = btn.innerHTML;
+    btn.innerHTML = '⏳ Extrayendo...';
+    btn.disabled = true;
+    
+    try {
+        const response = await fetch('/api/import/video', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ url })
+        });
+        const data = await response.json();
+        
+        if (data.error) {
+            showToast('Error: ' + data.error, true);
+            return;
+        }
+        
+        // Fill in all the fields
+        document.getElementById('editEpisodeTitle').value = data.title || '';
+        document.getElementById('editEpisodeDuration').value = Math.round((data.duration || 0) / 60);
+        document.getElementById('editEpisodeThumbnail').value = data.thumbnail || '';
+        document.getElementById('editEpisodeSynopsis').value = data.description || '';
+        
+        // Update thumbnail preview
+        updateThumbnailPreview(data.thumbnail);
+        
+        // Store the video data for saving
+        if (currentEditEpisode) {
+            currentEditEpisode.videoData = data;
+        }
+        
+        showToast('✅ Datos extraídos correctamente');
+    } catch (error) {
+        showToast('Error: ' + error.message, true);
+    } finally {
+        btn.innerHTML = originalText;
+        btn.disabled = false;
+    }
+}
+
+// Add event listener for thumbnail URL changes
+document.addEventListener('DOMContentLoaded', () => {
+    const thumbnailInput = document.getElementById('editEpisodeThumbnail');
+    if (thumbnailInput) {
+        thumbnailInput.addEventListener('input', (e) => {
+            updateThumbnailPreview(e.target.value);
+        });
+    }
+});
 
 async function cleanCurrentTitle() {
     const input = document.getElementById('editEpisodeTitle');
@@ -245,13 +343,44 @@ async function cleanCurrentTitle() {
 async function saveEpisodeEdit() {
     if (!currentEditEpisode) return;
     
-    const { seasonIndex, episodeIndex } = currentEditEpisode;
+    const { seasonIndex, episodeIndex, videoData } = currentEditEpisode;
     const episode = currentSeries.seasons[seasonIndex].episodes[episodeIndex];
     
+    // Save all fields
     episode.title = document.getElementById('editEpisodeTitle').value;
     episode.synopsis = document.getElementById('editEpisodeSynopsis').value;
+    episode.duration = parseInt(document.getElementById('editEpisodeDuration').value) || 0;
+    episode.thumbnail = document.getElementById('editEpisodeThumbnail').value;
+    
+    // Handle YouTube source
+    const youtubeUrl = document.getElementById('editEpisodeYoutubeUrl').value.trim();
+    if (youtubeUrl) {
+        // Extract video ID from URL or use videoData
+        let videoId = videoData?.id || '';
+        if (!videoId) {
+            const match = youtubeUrl.match(/(?:v=|youtu\.be\/)([a-zA-Z0-9_-]{11})/);
+            videoId = match ? match[1] : '';
+        }
+        
+        // Update or add YouTube source
+        if (!episode.sources) episode.sources = [];
+        
+        const youtubeSourceIndex = episode.sources.findIndex(s => s.type === 'youtube');
+        const youtubeSource = {
+            type: 'youtube',
+            id: videoId,
+            url: videoData?.url || youtubeUrl
+        };
+        
+        if (youtubeSourceIndex >= 0) {
+            episode.sources[youtubeSourceIndex] = youtubeSource;
+        } else {
+            episode.sources.push(youtubeSource);
+        }
+    }
     
     closeModal('editEpisodeModal');
+    currentEditEpisode = null;
     renderSeriesContent();
     showToast('Episodio actualizado');
 }
@@ -568,6 +697,120 @@ function openModal(modalId) {
 
 function closeModal(modalId) {
     document.getElementById(modalId).classList.remove('active');
+}
+
+// === Manual Season Functions ===
+
+function openManualSeasonModal() {
+    if (!currentSeries) {
+        showToast('Selecciona una serie primero', true);
+        return;
+    }
+    // Calculate next season number
+    const nextSeason = (currentSeries.seasons?.length || 0) + 1;
+    document.getElementById('manualSeasonNumber').value = nextSeason;
+    document.getElementById('manualSeasonTitle').value = `Temporada ${nextSeason}`;
+    openModal('manualSeasonModal');
+}
+
+function createManualSeason() {
+    if (!currentSeries) return;
+    
+    const seasonNumber = parseInt(document.getElementById('manualSeasonNumber').value);
+    const seasonTitle = document.getElementById('manualSeasonTitle').value.trim() || `Temporada ${seasonNumber}`;
+    
+    const newSeason = {
+        season_number: seasonNumber,
+        title: seasonTitle,
+        episode_count: 0,
+        episodes: []
+    };
+    
+    if (!currentSeries.seasons) {
+        currentSeries.seasons = [];
+    }
+    
+    // Check if season already exists
+    const existingIndex = currentSeries.seasons.findIndex(s => s.season_number === seasonNumber);
+    if (existingIndex >= 0) {
+        if (confirm(`La temporada ${seasonNumber} ya existe. ¿Deseas reemplazarla?`)) {
+            currentSeries.seasons[existingIndex] = newSeason;
+        } else {
+            return;
+        }
+    } else {
+        currentSeries.seasons.push(newSeason);
+        // Sort seasons by number
+        currentSeries.seasons.sort((a, b) => a.season_number - b.season_number);
+    }
+    
+    closeModal('manualSeasonModal');
+    renderSeriesContent();
+    showToast(`Temporada ${seasonNumber} creada`);
+}
+
+// === Episode Ordering Functions ===
+
+function moveEpisode(seasonIndex, episodeIndex, direction) {
+    const episodes = currentSeries.seasons[seasonIndex].episodes;
+    const newIndex = episodeIndex + direction;
+    
+    if (newIndex < 0 || newIndex >= episodes.length) return;
+    
+    // Swap episodes
+    [episodes[episodeIndex], episodes[newIndex]] = [episodes[newIndex], episodes[episodeIndex]];
+    
+    // Update episode numbers
+    renumberEpisodes(seasonIndex);
+    
+    renderSeriesContent();
+    showToast('Episodio movido');
+}
+
+function renumberEpisodes(seasonIndex) {
+    const episodes = currentSeries.seasons[seasonIndex].episodes;
+    episodes.forEach((episode, index) => {
+        episode.episode_number = index + 1;
+    });
+    // Update episode count
+    currentSeries.seasons[seasonIndex].episode_count = episodes.length;
+}
+
+function addManualEpisode(seasonIndex) {
+    const episodes = currentSeries.seasons[seasonIndex].episodes || [];
+    const newEpisodeNumber = episodes.length + 1;
+    
+    const newEpisode = {
+        episode_number: newEpisodeNumber,
+        title: `Episodio ${newEpisodeNumber}`,
+        duration: 0,
+        thumbnail: 'https://via.placeholder.com/120x68?text=Nuevo',
+        sources: [],
+        synopsis: ''
+    };
+    
+    if (!currentSeries.seasons[seasonIndex].episodes) {
+        currentSeries.seasons[seasonIndex].episodes = [];
+    }
+    
+    currentSeries.seasons[seasonIndex].episodes.push(newEpisode);
+    currentSeries.seasons[seasonIndex].episode_count = currentSeries.seasons[seasonIndex].episodes.length;
+    
+    // Open edit modal for the new episode
+    renderSeriesContent();
+    editEpisode(seasonIndex, currentSeries.seasons[seasonIndex].episodes.length - 1);
+    showToast('Episodio creado');
+}
+
+function deleteEpisode(seasonIndex, episodeIndex) {
+    const episode = currentSeries.seasons[seasonIndex].episodes[episodeIndex];
+    if (!confirm(`¿Eliminar el episodio "${episode.title}"?`)) return;
+    
+    currentSeries.seasons[seasonIndex].episodes.splice(episodeIndex, 1);
+    renumberEpisodes(seasonIndex);
+    
+    renderSeriesContent();
+    showToast('Episodio eliminado');
 }
 
 function openImportModal() {

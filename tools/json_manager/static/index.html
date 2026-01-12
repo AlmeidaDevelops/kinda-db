@@ -73,20 +73,48 @@
             <input type="number" id="seasonNumber" value="1" min="1" />
           </div>
           <div class="form-group">
-            <label style="display: flex; align-items: center; gap: 0.5rem; cursor: pointer;">
-              <input type="checkbox" id="getDescriptions" checked style="width: auto;">
-              📝 Importar descripciones como sinopsis (más lento pero incluye sinopsis automáticas)
+            <label
+              style="
+                display: flex;
+                align-items: center;
+                gap: 0.5rem;
+                cursor: pointer;
+              "
+            >
+              <input
+                type="checkbox"
+                id="getDescriptions"
+                checked
+                style="width: auto"
+              />
+              📝 Importar descripciones como sinopsis (más lento pero incluye
+              sinopsis automáticas)
             </label>
           </div>
-          <div id="importProgress" class="progress-container" style="display: none; margin-top: 1rem;">
+          <div
+            id="importProgress"
+            class="progress-container"
+            style="display: none; margin-top: 1rem"
+          >
             <div class="progress-bar">
-                <div id="importProgressBar" class="progress-fill" style="width: 0%"></div>
+              <div
+                id="importProgressBar"
+                class="progress-fill"
+                style="width: 0%"
+              ></div>
             </div>
-            <p id="importProgressText" style="margin-top: 0.5rem; font-size: 0.9rem; color: var(--text-secondary);">
-                Iniciando importación...
+            <p
+              id="importProgressText"
+              style="
+                margin-top: 0.5rem;
+                font-size: 0.9rem;
+                color: var(--text-secondary);
+              "
+            >
+              Iniciando importación...
             </p>
           </div>
-          <div id="importPreview" style="margin-top: 1rem;"></div>
+          <div id="importPreview" style="margin-top: 1rem"></div>
         </div>
         <div class="modal-footer">
           <button class="btn btn-secondary" onclick="previewPlaylist()">
@@ -162,44 +190,111 @@
           <div class="form-group">
             <label>Géneros (selecciona varios)</label>
             <div id="genresCheckboxes" class="checkbox-grid">
-              <label><input type="checkbox" value="Animación" checked> 🎬 Animación</label>
-              <label><input type="checkbox" value="Comedia"> 😂 Comedia</label>
-              <label><input type="checkbox" value="Aventura"> 🗺️ Aventura</label>
-              <label><input type="checkbox" value="Educativo"> 📖 Educativo</label>
-              <label><input type="checkbox" value="Musical"> 🎵 Musical</label>
-              <label><input type="checkbox" value="Fantasía"> ✨ Fantasía</label>
-              <label><input type="checkbox" value="Acción"> 💥 Acción</label>
-              <label><input type="checkbox" value="Ciencia ficción"> 🚀 Ciencia ficción</label>
-              <label><input type="checkbox" value="Misterio"> 🔎 Misterio</label>
-              <label><input type="checkbox" value="Naturaleza"> 🌿 Naturaleza</label>
-              <label><input type="checkbox" value="Deportes"> ⚽ Deportes</label>
-              <label><input type="checkbox" value="Arte"> 🎨 Arte</label>
-              <label><input type="checkbox" value="3D"> 🎮 3D</label>
-              <label><input type="checkbox" value="2D"> ✏️ 2D</label>
-              <label><input type="checkbox" value="Stop Motion"> 🧸 Stop Motion</label>
+              <label
+                ><input type="checkbox" value="Animación" checked /> 🎬
+                Animación</label
+              >
+              <label
+                ><input type="checkbox" value="Comedia" /> 😂 Comedia</label
+              >
+              <label
+                ><input type="checkbox" value="Aventura" /> 🗺️ Aventura</label
+              >
+              <label
+                ><input type="checkbox" value="Educativo" /> 📖 Educativo</label
+              >
+              <label
+                ><input type="checkbox" value="Musical" /> 🎵 Musical</label
+              >
+              <label
+                ><input type="checkbox" value="Fantasía" /> ✨ Fantasía</label
+              >
+              <label><input type="checkbox" value="Acción" /> 💥 Acción</label>
+              <label
+                ><input type="checkbox" value="Ciencia ficción" /> 🚀 Ciencia
+                ficción</label
+              >
+              <label
+                ><input type="checkbox" value="Misterio" /> 🔎 Misterio</label
+              >
+              <label
+                ><input type="checkbox" value="Naturaleza" /> 🌿
+                Naturaleza</label
+              >
+              <label
+                ><input type="checkbox" value="Deportes" /> ⚽ Deportes</label
+              >
+              <label><input type="checkbox" value="Arte" /> 🎨 Arte</label>
+              <label><input type="checkbox" value="3D" /> 🎮 3D</label>
+              <label><input type="checkbox" value="2D" /> ✏️ 2D</label>
+              <label
+                ><input type="checkbox" value="Stop Motion" /> 🧸 Stop
+                Motion</label
+              >
             </div>
           </div>
           <div class="form-group">
             <label>Valores educativos (selecciona varios)</label>
             <div id="valuesCheckboxes" class="checkbox-grid">
-              <label><input type="checkbox" value="amistad"> 🤝 Amistad</label>
-              <label><input type="checkbox" value="creatividad"> 🎨 Creatividad</label>
-              <label><input type="checkbox" value="trabajo en equipo"> 👥 Trabajo en equipo</label>
-              <label><input type="checkbox" value="honestidad"> ✨ Honestidad</label>
-              <label><input type="checkbox" value="respeto"> 🙏 Respeto</label>
-              <label><input type="checkbox" value="responsabilidad"> 📋 Responsabilidad</label>
-              <label><input type="checkbox" value="empatía"> ❤️ Empatía</label>
-              <label><input type="checkbox" value="perseverancia"> 💪 Perseverancia</label>
-              <label><input type="checkbox" value="curiosidad"> 🔍 Curiosidad</label>
-              <label><input type="checkbox" value="resolución de problemas"> 🧩 Resolución de problemas</label>
-              <label><input type="checkbox" value="música"> 🎵 Música</label>
-              <label><input type="checkbox" value="naturaleza"> 🌿 Naturaleza</label>
-              <label><input type="checkbox" value="ciencia"> 🔬 Ciencia</label>
-              <label><input type="checkbox" value="matemáticas"> 🔢 Matemáticas</label>
-              <label><input type="checkbox" value="lectura"> 📚 Lectura</label>
-              <label><input type="checkbox" value="arte"> 🖼️ Arte</label>
-              <label><input type="checkbox" value="deportes"> ⚽ Deportes</label>
-              <label><input type="checkbox" value="familia"> 👨‍👩‍👧‍👦 Familia</label>
+              <label
+                ><input type="checkbox" value="amistad" /> 🤝 Amistad</label
+              >
+              <label
+                ><input type="checkbox" value="creatividad" /> 🎨
+                Creatividad</label
+              >
+              <label
+                ><input type="checkbox" value="trabajo en equipo" /> 👥 Trabajo
+                en equipo</label
+              >
+              <label
+                ><input type="checkbox" value="honestidad" /> ✨
+                Honestidad</label
+              >
+              <label
+                ><input type="checkbox" value="respeto" /> 🙏 Respeto</label
+              >
+              <label
+                ><input type="checkbox" value="responsabilidad" /> 📋
+                Responsabilidad</label
+              >
+              <label
+                ><input type="checkbox" value="empatía" /> ❤️ Empatía</label
+              >
+              <label
+                ><input type="checkbox" value="perseverancia" /> 💪
+                Perseverancia</label
+              >
+              <label
+                ><input type="checkbox" value="curiosidad" /> 🔍
+                Curiosidad</label
+              >
+              <label
+                ><input type="checkbox" value="resolución de problemas" /> 🧩
+                Resolución de problemas</label
+              >
+              <label><input type="checkbox" value="música" /> 🎵 Música</label>
+              <label
+                ><input type="checkbox" value="naturaleza" /> 🌿
+                Naturaleza</label
+              >
+              <label
+                ><input type="checkbox" value="ciencia" /> 🔬 Ciencia</label
+              >
+              <label
+                ><input type="checkbox" value="matemáticas" /> 🔢
+                Matemáticas</label
+              >
+              <label
+                ><input type="checkbox" value="lectura" /> 📚 Lectura</label
+              >
+              <label><input type="checkbox" value="arte" /> 🖼️ Arte</label>
+              <label
+                ><input type="checkbox" value="deportes" /> ⚽ Deportes</label
+              >
+              <label
+                ><input type="checkbox" value="familia" /> 👨‍👩‍👧‍👦 Familia</label
+              >
             </div>
           </div>
           <div class="form-group">
@@ -234,7 +329,7 @@
 
     <!-- Edit Episode Modal -->
     <div class="modal-overlay" id="editEpisodeModal">
-      <div class="modal">
+      <div class="modal" style="max-width: 700px;">
         <div class="modal-header">
           <h2>✏️ Editar Episodio</h2>
           <button class="btn-icon" onclick="closeModal('editEpisodeModal')">
@@ -242,6 +337,22 @@
           </button>
         </div>
         <div class="modal-body">
+          <!-- YouTube URL Import Section -->
+          <div class="form-group" style="background: var(--bg-tertiary); padding: 1rem; border-radius: 8px; margin-bottom: 1.5rem;">
+            <label>🎬 Importar desde YouTube</label>
+            <div style="display: flex; gap: 0.5rem; margin-top: 0.5rem;">
+              <input type="text" id="editEpisodeYoutubeUrl" placeholder="https://www.youtube.com/watch?v=..." style="flex: 1" />
+              <button class="btn btn-primary btn-small" onclick="fetchVideoData()" id="fetchVideoBtn">
+                📥 Extraer datos
+              </button>
+            </div>
+            <p style="font-size: 0.8rem; color: var(--text-secondary); margin-top: 0.5rem;">
+              Pega un enlace de YouTube para extraer automáticamente título, duración, thumbnail y descripción.
+            </p>
+          </div>
+
+          <hr style="border-color: var(--border); margin: 1rem 0" />
+
           <div class="form-group">
             <label>Título</label>
             <div style="display: flex; gap: 0.5rem">
@@ -254,9 +365,27 @@
               </button>
             </div>
           </div>
+
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+            <div class="form-group">
+              <label>Duración (minutos)</label>
+              <input type="number" id="editEpisodeDuration" min="0" />
+            </div>
+            <div class="form-group">
+              <label>URL del Thumbnail</label>
+              <input type="text" id="editEpisodeThumbnail" placeholder="https://..." />
+            </div>
+          </div>
+
           <div class="form-group">
-            <label>Sinopsis</label>
-            <textarea id="editEpisodeSynopsis" rows="5"></textarea>
+            <label>Sinopsis / Descripción</label>
+            <textarea id="editEpisodeSynopsis" rows="6" placeholder="Pega la descripción del video aquí y edítala..."></textarea>
+          </div>
+
+          <!-- Preview thumbnail -->
+          <div class="form-group" id="thumbnailPreviewContainer" style="display: none;">
+            <label>Vista previa del thumbnail</label>
+            <img id="thumbnailPreview" style="max-width: 200px; border-radius: 8px; margin-top: 0.5rem;" />
           </div>
         </div>
         <div class="modal-footer">
@@ -268,6 +397,43 @@
           </button>
           <button class="btn btn-primary" onclick="saveEpisodeEdit()">
             Guardar
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Manual Season Modal -->
+    <div class="modal-overlay" id="manualSeasonModal">
+      <div class="modal">
+        <div class="modal-header">
+          <h2>📅 Nueva Temporada Manual</h2>
+          <button class="btn-icon" onclick="closeModal('manualSeasonModal')">
+            ✕
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="form-group">
+            <label>Número de temporada</label>
+            <input type="number" id="manualSeasonNumber" value="1" min="1" />
+          </div>
+          <div class="form-group">
+            <label>Título de la temporada</label>
+            <input
+              type="text"
+              id="manualSeasonTitle"
+              placeholder="Temporada 1"
+            />
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button
+            class="btn btn-secondary"
+            onclick="closeModal('manualSeasonModal')"
+          >
+            Cancelar
+          </button>
+          <button class="btn btn-primary" onclick="createManualSeason()">
+            Crear Temporada
           </button>
         </div>
       </div>

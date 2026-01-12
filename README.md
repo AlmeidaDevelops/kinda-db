@@ -4,7 +4,7 @@
 
 ## 📖 Overview
 
-This repository serves as the **content layer (database)** for the **Kinda** project. 
+This repository serves as the **content layer (database)** for the **Kinda** project.
 
 Kinda is a digital initiative designed to establish a safe and enriching environment for children's multimedia consumption. Recognizing the reality of the "iPad Kid"—where screen time is often inevitable—this project aims to transform that time into a positive, educational, and safe experience through rigorous human curation rather than algorithmic recommendation.
 
@@ -23,7 +23,8 @@ This repository is designed to be **frontend-agnostic**. It houses the raw data 
 ```text
 /kinda-db
 ├── context/       # Project manifestos, design docs, and detailed specifications.
-└── series/        # JSON datasets containing metadata for animated series.
+├── series/        # JSON datasets containing metadata for animated series.
+└── tools/         # Tools for managing the dataset.
 ```
 
 ## 🔌 Integration
@@ -37,4 +38,4 @@ This dataset is intended to be consumed/fetched by the client-side application o
 
 The **curated dataset and metadata** in this repository are licensed under the **Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)** license. This is a non-profit initiative; you are free to use and adapt this data for non-commercial purposes, provided you give appropriate credit.
 
-*Note: The actual video content referencing external platforms (e.g., YouTube embeds) remains the intellectual property of their respective creators and rights holders. Kinda only organizes access to this publicly available content.*
+_Note: The actual video content referencing external platforms (e.g., YouTube embeds) remains the intellectual property of their respective creators and rights holders. Kinda only organizes access to this publicly available content._

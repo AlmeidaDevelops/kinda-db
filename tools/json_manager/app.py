@@ -240,6 +240,36 @@ def import_playlist_stream():
     return Response(get_youtube_data_stream(url, get_descriptions), mimetype='application/x-ndjson')
 
 
+@app.route('/api/import/video', methods=['POST'])
+def import_single_video():
+    """Importar datos de un solo video de YouTube"""
+    url = request.json.get('url', '')
+    
+    if not url:
+        return jsonify({'error': 'URL requerida'}), 400
+    
+    yt_dlp_cmd = get_yt_dlp_path()
+    try:
+        cmd = [
+            yt_dlp_cmd, '--dump-single-json', '--no-download',
+            '--no-warnings', url
+        ]
+        result = subprocess.run(cmd, capture_output=True, text=True, timeout=30)
+        data = json.loads(result.stdout)
+        
+        video_id = data.get('id', '')
+        return jsonify({
+            'title': data.get('title', ''),
+            'id': video_id,
+            'url': f"https://www.youtube.com/watch?v={video_id}",
+            'duration': data.get('duration', 0),
+            'thumbnail': f"https://i.ytimg.com/vi/{video_id}/hqdefault.jpg",
+            'description': data.get('description', '')
+        })
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+
 @app.route('/api/import/channel', methods=['POST'])
 def import_channel():
     """Importar datos de un canal de YouTube"""
